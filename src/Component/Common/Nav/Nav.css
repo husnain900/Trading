@@ -1,6 +1,6 @@
 .navbar {
     background: linear-gradient(45deg, #010631, #163182, #010631);
-    padding: 16px 0;
+    padding: 18px 0;
 }
 
 
@@ -41,5 +41,49 @@
     font-weight: 300;
     color: white;
     font-family: "League Spartan", sans-serif !important;
-    padding-bottom: 18px;
+    padding: 18px 0;
 }
+
+.nav-link {
+    font-style: normal;
+    color: rgb(255, 255, 255) !important;
+    font-size: 30px !important;
+    line-height: 22px !important;
+    padding: 10px 0 !important;
+    text-decoration: none !important;
+    font-weight: 700;
+}
+
+@media (max-width: 575.98px) {
+    .logo img{
+        width: 136px;
+        height: auto;
+    }
+
+    .navbar {
+        padding: 8px 0;
+    }
+
+    .sidebar {
+        background: #5584FF;
+        padding: 12px;
+    }
+
+    .menu-label {
+        font-size: 24px !important;
+        font-weight: 300;
+        color: white;
+        font-family: "League Spartan", sans-serif !important;
+        padding: 18px 0;
+    }
+
+    .nav-link {
+        font-size: 18px !important;
+        padding: 8px !important;
+        text-decoration: none !important;
+        font-weight: 700;
+    }
+}
+
+/* Medium devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {}

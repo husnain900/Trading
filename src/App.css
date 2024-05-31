@@ -1,5 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=League+Spartan:wght@100..900&display=swap');
 
 body {
-    font-family: "League Spartan", sans-serif;
+    font-family: "League Spartan", sans-serif !important;
 }
+
+a {
+    text-decoration: none !important;
+}
+
+@media (max-width: 575.98px) {}
+
+/* Medium devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/* Large devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* Extra large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* Extra extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}

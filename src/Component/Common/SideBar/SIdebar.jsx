@@ -26,13 +26,13 @@ const Sidebar = ({ isOpen, onClose }) => {
                     <div className="text-end">
                         <Button className="close-btn" onClick={onClose}><FaTimesCircle size={30} className='text-white' /></Button>
                     </div>
-                    <div className="">
+                    <div className="nav-menu">
                         {menuItems.map((item, index) => (
                             item.clickable ? (
                                 <NavLink
                                     key={index}
                                     to={item.path}
-                                    className="py-2 d-flex flex-row "
+                                    className="d-flex flex-row nav-link"
                                     onClick={onClose} // Close sidebar on link click
                                 >
                                     {item.name}

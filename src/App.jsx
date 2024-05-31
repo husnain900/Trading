@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Nav from './Component/Common/Nav/Nav';
 import BrandIdentity from './Component/Common/Nav/Pages/Brand_identity/BrandIdentity';
+import Footer from './Component/Common/Footer/Footer';
 
 
 
@@ -15,9 +16,9 @@ function App() {
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path='/brand-identity' element={<BrandIdentity/>}/>
-     
+        <Route path='/brand-identity' element={<BrandIdentity />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }

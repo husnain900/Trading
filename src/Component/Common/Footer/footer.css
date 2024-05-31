@@ -1,0 +1,40 @@
+.footer .footer-text {
+    font-family: sans-serif !important;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    color: #0E1B36;
+    line-height: 16px;
+
+}
+
+.footer h5 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #0E1B36;
+    font-family: "Alata", sans-serif !important;
+    line-height: 38px;
+}
+
+.bottom-footer p {
+    color: #B7C0D5;
+    font-family: sans-serif !important;
+    font-size: 18px;
+}
+
+@media (max-width: 575.98px) {
+    .footer-logo img {
+        max-width: 200px;
+    }
+
+    .footer h5 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .footer .footer-text {
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+}
