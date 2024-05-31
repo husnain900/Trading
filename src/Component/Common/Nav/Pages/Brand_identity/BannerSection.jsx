@@ -1,5 +1,6 @@
 
 import './BrandIdentity.css';
+
 import { IoCheckmarkCircle } from "react-icons/io5";
 
 
