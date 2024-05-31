@@ -17,7 +17,6 @@ function App() {
         <Route path="/about" element={<Nav />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-
     </Router>
   );
 }
