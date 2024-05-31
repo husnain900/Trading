@@ -1,6 +1,26 @@
+header {
+    height: 106px;
+}
+
 .navbar {
     background: linear-gradient(45deg, #010631, #163182, #010631);
-    padding: 18px 0;
+    padding: 16px 0 !important;
+    width: 100%;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: all 0.3s ease;
+}
+
+.navbar.sticky {
+    background: linear-gradient(45deg, #010631, #163182, #010631);
+    padding: 6px 0 !important;
+    height: 70px;
+}
+
+.navbar.sticky .logo img {
+    height: 50px;
 }
 
 
@@ -26,16 +46,6 @@
 }
 
 
-.overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 900;
-}
-
 .menu-label {
     font-size: 26px !important;
     font-weight: 300;
@@ -55,7 +65,7 @@
 }
 
 @media (max-width: 575.98px) {
-    .logo img{
+    .logo img {
         width: 136px;
         height: auto;
     }

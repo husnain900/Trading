@@ -2,7 +2,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Nav from './Component/Common/Nav/Nav';
-import BrandIdentity from './Component/Common/Nav/Pages/Brand_identity/BrandIdentity';
+import BrandIdentity from './Component/Pages/Brand_identity/BrandIdentity';
 import Footer from './Component/Common/Footer/Footer';
 
 
