@@ -1,8 +1,9 @@
+import './Nav.css';
 
 const Nav = () => {
     return (
         <div>
-            <Nav>
+            <nav className='Navbar'>
                 <div className="container">
                     <div className="d-flex">
                         <div className="logo">
@@ -13,7 +14,7 @@ const Nav = () => {
                         </div>
                     </div>
                 </div>
-            </Nav>
+            </nav>
         </div>
     )
 }
