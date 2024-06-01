@@ -1,0 +1,89 @@
+.homebannarcontact h1 {
+    font-size: 65px;
+    font-weight: 700;
+    color: #0e1b36;
+    margin-left: -36%;
+    padding-top: 70px;
+    letter-spacing: -3px;
+}
+
+.bluetitle {
+    font-size: 35px;
+    color: #5584ff;
+    font-family: 'Alata', sans-serif;
+}
+
+.homebannarcontact p {
+    font-family: 'Sen', sans-serif;
+    font-size: 19px;
+    color: #b7c0d5;
+    line-height: 26px;
+}
+
+/* Hosting css  */
+.titleline {
+    font-size: 70px;
+    font-weight: 100;
+    padding-bottom: 40px;
+    text-align: center;
+    letter-spacing: -1px;
+}
+
+.titleline:after {
+    content: '';
+    display: inline-block;
+    width: 60px;
+    height: 1px;
+    background: #0e1b36;
+    vertical-align: middle;
+    margin-left: 25px;
+}
+
+.bold-title {
+    font-size: 140px;
+    font-weight: 100;
+    color: #0e1b36;
+    line-height: 140px;
+    padding-bottom: 70px;
+    letter-spacing: -10px;
+}
+
+.bran-identity-content {
+    background-image: url(Assets/Images/Background/tri-left.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 575.98px) {
+    .homebannarcontact h1 {
+        font-size: 42px;
+        margin-left: 0;
+        padding-top: 28px;
+    }
+
+    .bluetitle {
+        font-size: 28px;
+    }
+
+    .homebannarcontact p {
+        font-size: 16px;
+    }
+
+    .titleline {
+        font-size: 36px;
+        padding-bottom: 23px;
+        letter-spacing: -1px;
+    }
+
+    .section-title {
+        font-size: 36px;
+        padding-bottom: 28px;
+    }
+
+    .bold-title {
+        font-size: 58px;
+        line-height: 58px;
+        padding-bottom: 6px;
+        letter-spacing: 3px;
+    }
+}

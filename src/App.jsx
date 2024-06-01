@@ -5,6 +5,7 @@ import Nav from './Component/Common/Nav/Nav';
 import Footer from './Component/Common/Footer/Footer';
 import Home from './Component/Pages/Home/home';
 import BrandIdentity from './Component/Pages/Brand_identity/BrandIdentity';
+import Hosting_Services from './Component/Pages/Hosting-Services/Hosting_Services';
 
 
 
@@ -14,6 +15,7 @@ function App() {
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/hosting-service" element={<Hosting_Services />} />
         <Route path="/Brand-Identity" element={<BrandIdentity />} />
       </Routes>
       <Footer />

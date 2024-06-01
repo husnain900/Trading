@@ -28,7 +28,7 @@
     }
 
     .footer h5 {
-        font-size: 22px;
+        font-size: 21px;
         line-height: 30px;
     }
 
@@ -37,4 +37,9 @@
         line-height: 18px;
     }
 
+}
+@media (min-width: 576px) and (max-width: 867.98px) {
+    .footer-logo img {
+        max-width: 250px;
+    }
 }

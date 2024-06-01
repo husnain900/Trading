@@ -9,6 +9,36 @@ a {
     text-decoration: none !important;
 }
 
+.fathena-btn {
+    background: #5584FF !important;
+    height: 58px;
+    padding: 0 45px !important;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+    border-radius: 30px !important;
+}
+
+.section-title {
+    font-size: 45px;
+    color: #0e1b36;
+    font-weight: 700;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.section-text {
+    font-size: 18px;
+    line-height: 24px;
+    color: #b7c0d5;
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+
+}
+
 @media (max-width: 575.98px) {}
 
 /* Medium devices (landscape phones, 576px and up) */

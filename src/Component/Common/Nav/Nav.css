@@ -29,14 +29,13 @@ header {
     position: fixed;
     top: 0;
     right: -100%;
-    /* Start off-screen */
     height: 100%;
     bottom: 0;
     width: 100%;
     background-image: url(Assets/Images/Background/menu-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    transition: right 0.3s ease;
+    transition: right 0.6s ease;
     z-index: 1000;
     padding: 16px;
 }
@@ -65,6 +64,10 @@ header {
 }
 
 @media (max-width: 575.98px) {
+    header {
+        height: 80px;
+    }
+
     .logo img {
         width: 136px;
         height: auto;
