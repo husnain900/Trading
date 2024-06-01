@@ -1,0 +1,141 @@
+.BrandIdentitySection4bg {
+    background-image: url('/images/process.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-size: 740px auto;
+    background-position: center; 
+  }
+  
+
+.BRandIdentitys4  > h2 {
+    font-size: 65px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0 30px;
+    margin-top: 150px;
+  }
+  .BRandIdentitys4 > h3 {
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center;
+    padding: 0 30px;
+    color: #5584ff;
+    padding-bottom: 80px;
+  }
+ 
+  .brandidentitys4inner1 {
+        width: 350px;
+        height: 350px;
+        background: #5584ff;
+        border-radius: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0 30px;
+        position: relative;
+        z-index: 1;
+        margin: auto;
+        padding: 0 20px;
+
+    }
+    .brandidentitys4inner2{
+display: flex;
+justify-content: space-between;
+    }
+    
+    .brandidentitys4inner1,  .brandidentitys4inner2cr, .brandidentitys4inner2c , .brandidentitys4inner2c >h2{
+        font-size: 35px;
+        font-weight: 700;
+    }
+   
+    .brandidentitys4inner1,  .brandidentitys4inner2cr, .brandidentitys4inner2c , .brandidentitys4inner2c >p{
+        font-size: 20px;
+    }
+
+    .brandidentitys4inner2c {
+        width: 350px;
+        height: 350px;
+        background: #5584ff;
+        border-radius: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0 30px;
+        position: relative;
+        z-index: 1;
+        padding: 0 20px;
+
+    }
+    
+    .brandidentitys4inner2cr {
+        width: 350px;
+        height: 350px;
+        background: #5584ff;
+        border-radius: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0 30px;
+        position: relative;
+        z-index: 1;
+        padding: 0 20px;
+        margin-left: auto;
+
+    }
+
+.brandidentitylastc4{
+margin-bottom: 100px;
+}
+
+
+@media (max-width: 1100px) {
+
+    .BrandIdentitySection4bg {
+      
+        background-size: 600px auto;
+       
+      }
+
+    .brandidentitys4inner1, .brandidentitys4inner2cr, .brandidentitys4inner2c , .brandidentitys4inner2c {
+        width: 300px; 
+        height: 300px; 
+    }
+    
+    .brandidentitys4inner1,  .brandidentitys4inner2cr, .brandidentitys4inner2c , .brandidentitys4inner2c >h2{
+        font-size: 22px;
+        line-height: 22px;
+    }
+   
+    .brandidentitys4inner1,  .brandidentitys4inner2cr, .brandidentitys4inner2c, .brandidentitys4inner2c  >p{
+        font-size: 15px;
+        line-height: 15px;
+    }
+}
+    @media (max-width: 992px) {
+        .BrandIdentitySection4bg {
+      
+            background-size: 450px auto;
+           padding-top: 50px;
+           
+          }
+        .brandidentitys4inner1, .brandidentitys4inner2cr, .brandidentitys4inner2c , .brandidentitys4inner2c{
+            width: 220px; 
+            height: 220px; 
+        }
+    }
+
+    @media (max-width: 768px) {
+        .brandidentitys4inner1, .brandidentitys4inner2cr, .brandidentitys4inner2c , .brandidentitys4inner2c {
+        margin:10px  auto;
+
+        }
+        .BrandIdentitySection4bg {
+            background-image: none;
+        }
+    }
