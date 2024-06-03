@@ -2,7 +2,7 @@
   background-image: url('/images/2.jpg');
   background-size: cover;
   width: 100%;
-  height: 750px;
+  height: auto;
 }
 
 .Brand_Heading {
@@ -20,10 +20,94 @@
 
 .BrandIdentity_P {
   padding-top: 30px;
+  padding-bottom: 245px;
 }
 
 .BrandIdentity_P>p {
   color: white;
   font-size: 16px;
   line-height: 16px;
+}
+
+@media (min-width: 992px) and (max-width: 1100px) {
+  .Brand_Heading {
+    font-size: 100px; 
+    padding-top: 70px;
+  }
+
+  .Identity_Heading {
+    font-size: 100px; 
+  }
+  .BrandIdentity_P {
+    padding-top: 20px;
+    padding-bottom: 180px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .Brand_Heading {
+    font-size: 60px; 
+    padding-top: 70px;
+  }
+
+  .Identity_Heading {
+    font-size:60px; 
+    margin-top: -28px;
+  }
+  .BrandIdentity_P {
+    padding-top: 30px;
+    padding-bottom: 180px;
+  }
+  .BrandIdentity_P>p {
+   font-size: 14px;
+margin-bottom: 10px;
+padding-right: 50px;
+  }
+}
+
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .Brand_Heading {
+    font-size: 50px; 
+    padding-top: 50px;
+  }
+
+  .Identity_Heading {
+    font-size:50px; 
+    margin-top: -30px;
+  }
+  .BrandIdentity_P {
+    padding-top: 0px;
+    padding-bottom: 150px;
+  }
+  .BrandIdentity_P>p {
+   font-size: 14px;
+margin-bottom: 10px;
+padding-right: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .Brand_Heading {
+    font-size: 50px; 
+    padding-top: 30px; 
+  }
+
+  .Identity_Heading {
+    font-size: 50px; 
+    margin-top: -30px;
+    
+  letter-spacing: 0px; 
+  }
+
+  .BrandIdentity_P {
+    padding-top: 0px;
+    padding-bottom: 140px;
+  }
+
+  .BrandIdentity_P > p {
+    font-size: 14px; 
+    margin-bottom: 8px; 
+    padding-right: 30px; 
+  }
 }

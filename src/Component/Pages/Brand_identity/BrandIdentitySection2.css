@@ -16,3 +16,43 @@
     width: 100%;
     margin: 150px 0;
 }
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .BRandIdentityBrandStrategy > h2 {
+    font-size: 50px;
+    padding: 0 10px;
+    margin-top: -100px;
+  }
+  .BRandIdentityBrandStrategy > h3 {
+    font-size: 28px;
+    padding: 0 10px;
+  }
+  .BrandIdentitys3_image>img{
+      margin: 100px 0;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .BRandIdentityBrandStrategy > h2 {
+    font-size: 40px;
+    margin-top: 0px;
+  }
+  .BRandIdentityBrandStrategy > h3 {
+    font-size: 24px;
+  }
+  .BrandIdentitys3_image>img{
+      margin: 80px 0;
+  }
+}
+  @media (max-width: 576px) {
+    .BRandIdentityBrandStrategy > h2 {
+      font-size: 38px;
+      margin-top: 0px;
+    }
+    .BRandIdentityBrandStrategy > h3 {
+      font-size: 22px;
+    }
+    .BrandIdentitys3_image>img{
+        margin: 50px 0;
+    }}
+  
+

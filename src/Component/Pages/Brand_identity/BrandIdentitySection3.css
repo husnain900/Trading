@@ -39,7 +39,7 @@ padding: 20px 0 0 20px;
 
 .BrandIdentityStrategyInnerS2C4 {
   padding:70px 50px;
-  
+
   background-image: url('/images/bg2.png');
   background-size: cover; 
   background-position: center; 
@@ -84,3 +84,122 @@ width: -webkit-fill-available;
   .strategys3c2{
     margin-top: 40px;
   }
+  @media  (max-width: 1100px) {
+    .strategyimage> img{
+      width: 100%;
+       }
+       .BRandIdentityStrategy > h3 {
+        font-size: 28px;
+      }
+      .StrategyBrandConvey {
+        height: 290px; 
+    }
+    .BRandIdentityStrategy > h2 {
+      font-size: 35px;
+      padding: 20px 10px 0px 10px;
+    }
+    .BRandIdentityStrategy > h3 {
+      font-size: 28px;
+      padding: 0 10px;
+    }
+  }
+
+  @media  (max-width: 992px) {
+   
+     
+      .StrategyBrandConvey {
+        margin-top: 20px;
+        height: 200px; 
+        padding: 10px;
+    }
+    .BRandIdentityStrategy > h2 {
+      font-size: 32px;
+      padding: 20px 10px 0px 10px;
+    }
+    .BRandIdentityStrategy > h3 {
+      font-size: 24px;
+      padding: 0 10px;
+    }
+    .StrategyBrandConvey>img {
+   width: 70px ;
+  }
+  .StrategyBrandConvey>p , .BrandIdentityStrategyInnerS2C4>p{
+    font-size: 16px;
+    }
+
+    .BrandIdentityStrategyInnerS2C4 {
+      padding:20px;
+      height: 360px; 
+      margin-top: -130px;
+    }
+    .BrandIdentityStrategyInnerS2C8 {
+      height: 230px; 
+    }
+    .BrandIdentityStrategyInnerS2C8 >p{
+      font-size: 16px;
+      color: white;
+      padding-top: 20px;
+      padding-left: 20px;
+    }
+    .BRandIdentityStrategy_ROwS2 {
+      padding-top: 100px;
+  }
+  }
+  @media  (max-width: 768px) {
+    .StrategyBrandConvey {
+     height: 100%;
+  }
+  .strategyimage> img {
+    margin-top: 250px;
+  }
+    .StrategyBrandConvey>p , .BrandIdentityStrategyInnerS2C4>p {
+      font-size: 22px;
+      padding: 20px;
+    }
+      .StrategyBrandConvey>img {
+        width: 200px;
+    }
+    .BrandIdentityStrategyInnerS2C8 {
+      height: 230px;
+      margin-top: 50px;
+      margin-left: 0px;
+  }
+  .strategyimagec8> img {
+    margin-left: 0px;
+    margin-top: 200px;
+}
+      }
+
+      @media  (max-width: 576px) {
+        .StrategyBrandConvey {
+          height: auto;
+      }
+    
+    .strategyimage> img {
+      margin-top: 20px;
+  }
+  .BrandIdentityStrategyInnerS2C8 {
+    height: 180px;
+    margin-top: 40px;
+    margin-left: 0px;
+    margin-left: 0px;
+    padding: 20px;
+}
+
+.BrandIdentityStrategyInnerS2C8 >p {
+  font-size: 18px;
+  padding-left: 10px;
+}
+.StrategyBrandConvey>p, .BrandIdentityStrategyInnerS2C4>p {
+  font-size: 18px;
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.BrandIdentityStrategyInnerS2C8 {
+
+  height: 200px; 
+      }
+    }
+
+  
