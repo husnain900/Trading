@@ -7,7 +7,7 @@ function BannerSection() {
     <div className="Brand_Identity_bg">
       <div className="container">
         <div className="row ">
-          <div className="col-6 ">
+          <div className="col-12 col-xs-6">
             <h2 className="Brand_Heading">BRAND</h2>
             <h2 className="Identity_Heading">Identity</h2>
             <div className="BrandIdentity_P">
