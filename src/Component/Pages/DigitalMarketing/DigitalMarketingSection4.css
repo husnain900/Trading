@@ -1,0 +1,20 @@
+.digitalmarketingsection4textimg>p {
+    font-size: 20px;
+    padding-top: 100px;
+
+}
+.Digitalmarketingsection4images>img{
+    width: 100%;
+    margin-top: -200px;
+    margin-bottom: 70px;
+}
+@media (max-width: 768px) {
+    .Digitalmarketingsection4images>img{
+     
+        margin-top: 20px;
+        
+    }
+    .digitalmarketingsection4textimg>p {
+        padding-top: 50px;
+    }
+}

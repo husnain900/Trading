@@ -1,0 +1,24 @@
+.digitalmarketingSection7bg {
+    background-image: url('/images/digitalmarletection7.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-size: 740px auto;
+    background-position: center; 
+  }
+  .BRandIdentitys4  > h2 {
+    font-size: 65px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0 30px;
+    margin-top: 150px;
+}
+.digitalmarketingsection7process{
+    margin-top: -300px;
+}
+
+  @media (max-width: 768px) {
+    .digitalmarketingSection7bg {
+      background-image: none;
+  }
+  
+  }
