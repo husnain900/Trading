@@ -10,6 +10,7 @@ import TradingServices from './Component/Pages/Trading-Services/TradingServices'
 import Webdesign from './Component/Pages/WebDesign/Webdesign';
 import WebDevelopment from './Component/Pages/WebDevelopment/WebDevelopment';
 import DigitalMarketing from './Component/Pages/DigitalMarketing/DigitalMarketing';
+import Webmaintaince from './Component/Pages/WebMaintaince/Webmaintaince';
 
 
 
@@ -24,6 +25,7 @@ function App() {
         <Route path="/web-design" element={<Webdesign />} />
         <Route path="/web-development" element={<WebDevelopment />} />
         <Route path="/digital-marketing" element={<DigitalMarketing />} />
+        <Route path="/web-maintenance" element={<Webmaintaince />} />
         <Route path="/trading-platform" element={<TradingServices />} />
       </Routes>
       <Footer />
