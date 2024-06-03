@@ -1,0 +1,54 @@
+.Webdesignmemorable >h2{
+    margin-top: 150px;
+font-size: 35px;
+color: #0e1b36;
+font-weight: 700;
+letter-spacing: -2px;
+line-height: 50px;
+padding: 40px 10% 15px 20px;
+}
+.Webdesignmemorable >p{
+    font-size: 19px;
+    color: #b7c0d5;
+    font-weight: 500;
+    padding-right: 10%;
+padding-left: 20px;
+}
+@media  (max-width: 1100px) {
+    .Webdesignmemorable >h2{
+    line-height: 40px;
+    padding: 40px 7% 15px 20px;
+    }
+}
+
+@media  (max-width: 992px) {
+    .Webdesignmemorable >h2{
+        
+    margin-top: 100px;
+    line-height: 30px;
+    padding: 0px 3% 5px 10px;
+    font-size: 28px;
+    }
+    .Webdesignmemorable >p{
+        font-size: 17px;
+        padding-right: 3%;
+    padding-left: 10px;
+    }
+}
+@media  (max-width: 768px) {
+    .Webdesignmemorable >h2{
+        margin-top: 20px;
+        font-size: 35px;
+        }
+        .Webdesignmemorable >p{
+            font-size: 19px;
+        }
+}
+@media  (max-width: 576px) {
+    .Webdesignmemorable >h2{
+        font-size: 28px;
+        }
+        .Webdesignmemorable >p{
+            font-size: 17px;
+        }
+}
