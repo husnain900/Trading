@@ -51,7 +51,7 @@ justify-content: space-between;
         line-height: 35px;
     }
    
-    .brandidentitys4inner1,  .brandidentitys4inner2cr, .brandidentitys4inner2c , .brandidentitys4inner2c >p{
+    .brandidentitys4inner1>p,  .brandidentitys4inner2cr>p, .brandidentitys4inner2c>p , .brandidentitys4inner2c >p{
         font-size: 20px;
         line-height: 18px;
     }
@@ -109,12 +109,12 @@ margin-bottom: 100px;
         height: 300px; 
     }
     
-    .brandidentitys4inner1,  .brandidentitys4inner2cr, .brandidentitys4inner2c , .brandidentitys4inner2c >h2{
+    .brandidentitys4inner1 >h2,  .brandidentitys4inner2cr>h2, .brandidentitys4inner2c>h2 , .brandidentitys4inner2c >h2{
         font-size: 22px;
         line-height: 22px;
     }
    
-    .brandidentitys4inner1,  .brandidentitys4inner2cr, .brandidentitys4inner2c, .brandidentitys4inner2c  >p{
+    .brandidentitys4inner1>p,  .brandidentitys4inner2cr>p, .brandidentitys4inner2c>p, .brandidentitys4inner2c  >p{
         font-size: 15px;
         line-height: 15px;
     }
@@ -153,7 +153,7 @@ margin-bottom: 100px;
             font-size: 20px;
             line-height: 20px;
         }
-        .brandidentitys4inner1, .brandidentitys4inner2cr, .brandidentitys4inner2c, .brandidentitys4inner2c  >p {
+        .brandidentitys4inner1>p, .brandidentitys4inner2cr>p, .brandidentitys4inner2c>p, .brandidentitys4inner2c  >p {
             font-size: 14px;
         }
         

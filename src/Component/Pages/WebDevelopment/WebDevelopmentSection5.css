@@ -1,0 +1,37 @@
+.webdevelopments3text{
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+.WebDevelopmentSection5bg {
+    background-image: url('/images/webdevelopmentprocess5.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-size: 740px auto;
+    background-position: center; 
+  }
+  .brandidentitylastc5{
+    margin-top: -200px;
+  }
+  .webdevelopmentsection5margin{
+    margin-top: -200px;
+    margin-bottom: 50px;
+  }
+
+  @media (max-width: 992px) {
+    .brandidentitylastc5{
+        margin-top: -150px;
+      }
+}
+  @media (max-width: 768px) {
+    .WebDevelopmentSection5bg {
+      background-image: none;
+  }
+  .webdevelopmentsection5margin{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .brandidentitylastc5{
+    margin-top: 0px;
+  }
+  }

@@ -1,0 +1,23 @@
+.webdevelopments3text{
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+.webdevelopmentsection2{
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+.WebDevelopmentSection3bg {
+    background-image: url('/images/webdevelopmentprocess2.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-size: 740px auto;
+    background-position: center; 
+  }
+
+  @media (max-width: 768px) {
+    .WebDevelopmentSection3bg {
+      background-image: none;
+  }
+  
+  }

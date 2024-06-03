@@ -8,6 +8,7 @@ import BrandIdentity from './Component/Pages/Brand_identity/BrandIdentity';
 import Hosting_Services from './Component/Pages/Hosting-Services/Hosting_Services';
 import TradingServices from './Component/Pages/Trading-Services/TradingServices';
 import Webdesign from './Component/Pages/WebDesign/Webdesign';
+import WebDevelopment from './Component/Pages/WebDevelopment/WebDevelopment';
 
 
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/hosting-service" element={<Hosting_Services />} />
         <Route path="/Brand-Identity" element={<BrandIdentity />} />
         <Route path="/web-design" element={<Webdesign />} />
+        <Route path="/web-development" element={<WebDevelopment />} />
         <Route path="/trading-platform" element={<TradingServices />} />
       </Routes>
       <Footer />
