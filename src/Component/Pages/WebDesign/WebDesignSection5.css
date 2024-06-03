@@ -5,3 +5,10 @@
     background-size: 740px auto;
     background-position: center; 
   }
+
+  @media (max-width: 768px) {
+    .WebDesignSection5bg {
+      background-image: none;
+  }
+  
+  }

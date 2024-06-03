@@ -1,0 +1,86 @@
+.DigitalmarketingSection3text>h2{
+    font-size: 65px;
+    padding-top: 600px;
+    text-align: center;
+}
+.DigitalmarketingSection3text>h3{
+    font-size: 35px;
+    color: white;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.digitalmarketingSection3img >img{
+    width: 100%;
+    margin-top: -100px;
+    margin-bottom: -270px;
+   
+}
+.giditalmarketingsection3col>h3{
+    background-color: #0E1B36;
+padding:70px  50px;
+font-size: 20px;
+color: white;
+}
+.digitalmarketingsection3s2c1{
+    margin-top: -500px;
+    display: flex;
+    align-items: end;
+}
+.digitalmarketingsection3sc1>h3{
+    background-color: #0E1B36;
+    padding:70px  50px;
+    font-size: 20px;
+    color: white;
+}
+@media (max-width: 992px) {
+
+    .digitalmarketingSection3img >img{
+        width: 100%;
+        margin-top: -70px;
+        margin-bottom: -120px;
+       
+    }
+    .digitalmarketingsection3sc1>h3 {
+        padding: 30px  20px;
+        font-size: 16px;
+    }
+    .giditalmarketingsection3col>h3 {
+        padding: 30px  20px;
+        font-size: 16px;
+    }
+}
+@media (max-width: 768px) {
+    .DigitalmarketingSection3text>h2{
+        font-size: 46px;
+        padding-top: 300px;
+    }
+        .DigitalmarketingSection3text>h3{
+            font-size: 28px;
+            padding-bottom: 70px;
+        }
+    
+
+    .digitalmarketingSection3img >img{
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+       
+    }
+    .digitalmarketingsection3sc1>h3 {
+        padding: 30px  20px;
+        font-size: 16px;
+    }
+    .giditalmarketingsection3col>h3 {
+        padding: 30px  20px;
+        font-size: 16px;
+    }
+    .DigitalmarketingSection3text {
+        padding-top: 350px;
+    }
+    @media (max-width: 576px) {
+
+        .DigitalmarketingSection3text>h2 {
+            padding-top: 70px;
+        }
+    }
+}

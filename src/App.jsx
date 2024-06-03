@@ -10,6 +10,8 @@ import TradingServices from './Component/Pages/Trading-Services/TradingServices'
 import Webdesign from './Component/Pages/WebDesign/Webdesign';
 import PaymentSolution from './Component/Pages/Payment-Solution/PaymentSolution';
 import AggregatedLiquidity from './Component/Pages/Aggregated-Liquidity/AggregatedLiquidity';
+import WebDevelopment from './Component/Pages/WebDevelopment/WebDevelopment';
+import DigitalMarketing from './Component/Pages/DigitalMarketing/DigitalMarketing';
 
 
 
@@ -22,6 +24,8 @@ function App() {
         <Route path="/hosting-service" element={<Hosting_Services />} />
         <Route path="/Brand-Identity" element={<BrandIdentity />} />
         <Route path="/web-design" element={<Webdesign />} />
+        <Route path="/web-development" element={<WebDevelopment />} />
+        <Route path="/digital-marketing" element={<DigitalMarketing />} />
         <Route path="/trading-platform" element={<TradingServices />} />
         <Route path="/payment-solution" element={<PaymentSolution />} />
         <Route path="/aggregated-liquidity" element={<AggregatedLiquidity />} />
