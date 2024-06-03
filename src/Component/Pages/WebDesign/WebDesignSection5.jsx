@@ -23,7 +23,7 @@ function WebDesignSection5() {
       </div>
 
       <div className="col-12 col-md-6 brandidentitys4inner2">
-        <div className="brandidentitys4inner2c mb-5 ">
+        <div className="brandidentitys4inner2c  ">
           <h2> 2. Explore </h2>
           <p>
           Your personalized design strategy is refined as we analyze your business’s competitors, audience, and industry.
@@ -48,7 +48,7 @@ function WebDesignSection5() {
           </p>
         </div>
       </div>
-      <div className="col-12 col-md-6 mt-5 ">
+      <div className="col-12 col-md-6  ">
         <div className="brandidentitys4inner1 brandidentitylastc4">
           <h2>5. Design </h2>
           <p>

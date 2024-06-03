@@ -16,7 +16,7 @@ function WebDesignSection2() {
 
  <div className="container-fluid">
         <div className="row " >
-            <div className="col-12 col-md-6 BrandIdentitys3_image">
+            <div className="col-12 col-md-6 webdesigns2_image">
                 <img src="/images/memorable.png" alt="images"></img>
             </div>
             <div className="col-12 col-md-6 Webdesignmemorable">
@@ -36,7 +36,7 @@ function WebDesignSection2() {
         
         
         <div className="row" >
-            <div className="col-12 BrandIdentitys3_image">
+            <div className="col-12 webdesigns2_image">
                 <img src="/images/webuiesign.png" alt="images"></img>
             </div>
         </div>

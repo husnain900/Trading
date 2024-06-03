@@ -136,6 +136,7 @@ margin-bottom: 100px;
         .brandidentitys4inner1, .brandidentitys4inner2cr, .brandidentitys4inner2c , .brandidentitys4inner2c {
         margin:10px  auto;
 
+
         }
         .BrandIdentitySection4bg {
             background-image: none;
@@ -147,6 +148,13 @@ margin-bottom: 100px;
         .BRandIdentitys4 > h3 {
             font-size: 28px;
             padding: 0 80px;
+        }
+        .brandidentitys4inner1>h2, .brandidentitys4inner2cr>h2, .brandidentitys4inner2c >h2, .brandidentitys4inner2c >h2 {
+            font-size: 20px;
+            line-height: 20px;
+        }
+        .brandidentitys4inner1, .brandidentitys4inner2cr, .brandidentitys4inner2c, .brandidentitys4inner2c  >p {
+            font-size: 14px;
         }
         
     }

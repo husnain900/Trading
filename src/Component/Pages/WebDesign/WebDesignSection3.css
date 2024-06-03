@@ -18,8 +18,26 @@
 }
 .webdesignSection3img>img{
 width: 100%;
+margin: 50px 0;
 }
 .webdesignSection3c2>h3{
     font-size: 20px;
     color: white;
+}
+
+@media (max-width: 576px) {
+    .webDesignSection3text {
+        padding-top: 0px;
+    }
+    .webDesignSection3text >h2{
+        font-size: 36px;
+    }
+    .webDesignSection3text >h3 {
+        font-size: 22px;
+        color: black;
+        padding-bottom: 70px;
+    }
+    .Webdesignsectioncontainer1st {
+        padding-bottom: 0px;
+    }
 }
