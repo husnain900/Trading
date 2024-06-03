@@ -45,13 +45,15 @@ display: flex;
 justify-content: space-between;
     }
     
-    .brandidentitys4inner1,  .brandidentitys4inner2cr, .brandidentitys4inner2c , .brandidentitys4inner2c >h2{
+    .brandidentitys4inner1>h2,  .brandidentitys4inner2cr>h2, .brandidentitys4inner2c >h2 , .brandidentitys4inner2c >h2{
         font-size: 35px;
         font-weight: 700;
+        line-height: 35px;
     }
    
     .brandidentitys4inner1,  .brandidentitys4inner2cr, .brandidentitys4inner2c , .brandidentitys4inner2c >p{
         font-size: 20px;
+        line-height: 18px;
     }
 
     .brandidentitys4inner2c {
