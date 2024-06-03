@@ -9,11 +9,11 @@ function MobileSection() {
                         <img className="w-100 h-auto" src="Assets/Images/mobile2-1.png" alt="" />
                     </div>
                     <div className="col-12 col-md-8">
-                        <h3 className="section-title text-white text-start">Download MetaTrader</h3>
-                        <div className=" d-flex flex-wrap gap-3 gap-lg-4">
-                            <ButtonC text="Windows" to="#" icon="windows" />
-                            <ButtonC text="Apple" to="#" icon="apple" />
-                            <ButtonC text="Android" to="#" icon="android" />
+                        <h3 className="section-title text-white text-lg-start">Download MetaTrader</h3>
+                        <div className=" d-flex flex-wrap gap-1 gap-lg-4">
+                            <ButtonC   text="Windows" to="#" icon="windows" />
+                            <ButtonC   text="Apple" to="#" icon="apple" />
+                            <ButtonC   text="Android" to="#" icon="android" />
                         </div>
                     </div>
                 </div>

@@ -1,5 +1,5 @@
 .card-trading {
-    max-width: 450px;
+    width: 450px;
 }
 
 .card-trading img {
@@ -8,3 +8,17 @@
     margin-bottom: 50px;
 }
 
+@media (max-width: 575.98px) {
+    .card-trading img {
+        height: auto;
+        width: 80%;
+        margin:0 auto;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .card-trading {
+        width: 100%;
+    }
+
+}

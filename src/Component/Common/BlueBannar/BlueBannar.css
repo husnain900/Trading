@@ -39,7 +39,9 @@
 }
 
 @media (max-width: 575.98px) {
-
+    .blue-bannar {
+        padding: 50px 0;
+    }
     .blue-bannar h1 {
         font-size: 34px;
         letter-spacing: 0;

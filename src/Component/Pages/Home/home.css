@@ -70,7 +70,7 @@
     }
 
     .titleline {
-        font-size: 36px;
+        font-size: 32px !important;
         padding-bottom: 23px;
         letter-spacing: -1px;
     }
