@@ -3,7 +3,7 @@ import ButtonC from "../../Ui-Component/Button"
 const HomeBannar = () => {
     return (
         <div className="container">
-            <div className="row align-items-center mb-5 mb-lg-0">
+            <div className="row align-items-center mb-5 ">
                 <div className="col-12 col-md-6">
                     <img style={{ filter: 'grayscale(100%)' }} className="w-100 h-auto" src="Assets/Images/about.png" alt="" />
                 </div>

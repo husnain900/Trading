@@ -1,4 +1,8 @@
 import BlueBannar from "../../Common/BlueBannar/BlueBannar"
+import Equinix from "./Equinix";
+import Equinix2 from "./Equinix2";
+import Equinix3 from "./Equinix3";
+import Equinix4 from "./Equinix4";
 import "./Hosting-Services.css"
 import OurData from "./OurData";
 const Hosting_Services = () => {
@@ -18,6 +22,10 @@ const Hosting_Services = () => {
                 scrollImageSrc="Assets/Images/scroll.png"
             />
             <OurData />
+            <Equinix />
+            <Equinix2 />
+            <Equinix3 />
+            <Equinix4 />
         </div>
     )
 }

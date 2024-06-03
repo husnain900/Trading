@@ -35,7 +35,7 @@ header {
     background-image: url(Assets/Images/Background/menu-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    transition: right 0.6s ease;
+    transition: right 0.5s ease;
     z-index: 1000;
     padding: 16px;
 }

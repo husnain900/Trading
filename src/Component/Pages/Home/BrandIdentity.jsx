@@ -37,8 +37,8 @@ function BrandIdentity() {
         <div className="bran-identity-content">
             <div className="container">
                 <h2 className="titleline text-lg-start my-4">Presence Capabilities</h2>
-                <div className="row">
-                    <div className="col-12 col-md-6 mb-5 mb-lg-0 ">
+                <div className="row mb-5">
+                    <div className="col-12 col-md-6 mb-5 mb-lg-0">
                         <h2 className="bold-title">BRAND <b>Identity</b></h2>
                         <img className="w-100 h-auto  d-md-none" src="Assets/Images/brand1.png" alt="" />
                         <div className="BrandIdentity_P">
@@ -56,7 +56,7 @@ function BrandIdentity() {
                     </div>
                 </div>
                 {/* 2---- */}
-                <div className="row">
+                <div className="row mb-5 ">
                     <div className="col-12 col-md-6 mb-5 mb-lg-0 d-none d-md-block">
                         <img className="w-100 h-auto " src="Assets/Images/brand2.png" alt="" />
                     </div>
@@ -76,7 +76,7 @@ function BrandIdentity() {
                     </div>
                 </div>
                 {/* 3---- */}
-                <div className="row">
+                <div className="row mb-5 ">
                     <div className="col-12 col-md-6 mb-5 mb-lg-0 ">
                         <h2 className="bold-title">WEB <b>Development</b></h2>
                         <img className="w-100 h-auto  d-md-none" src="Assets/Images/brand3-768x747.png" alt="" />
@@ -95,8 +95,8 @@ function BrandIdentity() {
                     </div>
                 </div>
                 {/* 4---- */}
-                <div className="row">
-                    <div className="col-12 col-md-6 mb-5 mb-lg-0 d-none d-md-block">
+                <div className="row mb-5 ">
+                    <div className="col-12 col-md-6  d-none d-md-block">
                         <img className="w-100 h-auto " src="Assets/Images/brand4.png" alt="" />
                     </div>
                     <div className="col-12 col-md-6 mb-5 mb-lg-0 text-center text-lg-end ">
@@ -115,8 +115,8 @@ function BrandIdentity() {
                     </div>
                 </div>
                 {/* 5---- */}
-                <div className="row">
-                    <div className="col-12 col-md-6 mb-5 mb-lg-0">
+                <div className="row mb-5">
+                    <div className="col-12 col-md-6 ">
                         <h2 className="bold-title">WEB <b>Maintenance</b></h2>
                         <img className="w-100 h-auto  d-md-none" src="Assets/Images/brand5.png" alt="" />
                         <div className="BrandIdentity_P">

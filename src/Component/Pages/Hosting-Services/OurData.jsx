@@ -1,4 +1,4 @@
-import { FaArrowRightLong } from "react-icons/fa6"
+import BlueBox from "../../Ui-Component/BlueBox"
 
 const OurData = () => {
     const certifications = [
@@ -37,28 +37,9 @@ const OurData = () => {
                     </h3>
                 </div>
             </div>
-            <div className="row">
-                <div className="col-1 d-none d-md-block"></div>
-                <div className="col-12 col-md-4">
-                    <div className="box-blue">
-                        <ul className="p-0">
-                            {certifications.map((certification, index) => (
-                                <li className="d-flex gap-2 text-white pb-2" key={index}><FaArrowRightLong className="mt-1" /> {certification}</li>
-                            ))}
-                        </ul>
-                    </div>
-                </div>
-                <div className="col-12 col-md-6">
-                    <div className="box-blue">
-                        <ul className="p-0">
-                            {dataCenterFacts.map((fact, index) => (
-                                <li className="d-flex gap-2 text-white pb-2" key={index}><FaArrowRightLong className="mt-1" /> {fact}</li>
-                            ))}
-                        </ul>
-                    </div>
-                </div>
-                <div className="col-1 d-none d-md-block"></div>
-            </div>
+            <BlueBox certifications={certifications} dataCenterFacts={dataCenterFacts} />
+            <p className="section-text2 ">Connection to Europe’s extensive financial service market through the Slough campus (LD4, LD5, LD6, LD7, LD10, LD13x data centers) Highly secure and hosts Europe’s largest multilateral trading facility, BATS Chi-X, and FX trading system ICAP’s EBS.
+            </p>
         </div>
     )
 }
