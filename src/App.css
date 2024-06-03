@@ -3,6 +3,9 @@
 
 body {
     font-family: "League Spartan", sans-serif !important;
+    background-image: url(../public/Assets/Images/Background/lines.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 a {

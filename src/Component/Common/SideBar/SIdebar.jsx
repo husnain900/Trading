@@ -8,7 +8,7 @@ const menuItems = [
     { name: "Hosting Service", path: "/hosting-service", clickable: true },
     { name: "Trading Platform", path: "/trading-platform", clickable: true },
     { name: "Payment Solution", path: "/payment-solution", clickable: true },
-    { name: "Aggregated Liquidity", path: "#", clickable: true },
+    { name: "Aggregated Liquidity", path: "aggregated-liquidity", clickable: true },
     { name: "Site Development", path: "/site-development", clickable: false },
     { name: "Brand Identity", path: "/brand-identity", clickable: true },
     { name: "Web Design", path: "/web-design", clickable: true },

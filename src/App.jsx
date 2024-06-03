@@ -8,6 +8,8 @@ import BrandIdentity from './Component/Pages/Brand_identity/BrandIdentity';
 import Hosting_Services from './Component/Pages/Hosting-Services/Hosting_Services';
 import TradingServices from './Component/Pages/Trading-Services/TradingServices';
 import Webdesign from './Component/Pages/WebDesign/Webdesign';
+import PaymentSolution from './Component/Pages/Payment-Solution/PaymentSolution';
+import AggregatedLiquidity from './Component/Pages/Aggregated-Liquidity/AggregatedLiquidity';
 
 
 
@@ -21,6 +23,8 @@ function App() {
         <Route path="/Brand-Identity" element={<BrandIdentity />} />
         <Route path="/web-design" element={<Webdesign />} />
         <Route path="/trading-platform" element={<TradingServices />} />
+        <Route path="/payment-solution" element={<PaymentSolution />} />
+        <Route path="/aggregated-liquidity" element={<AggregatedLiquidity />} />
       </Routes>
       <Footer />
     </Router>

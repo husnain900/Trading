@@ -3,7 +3,11 @@ import BlueBannar from "../../Common/BlueBannar/BlueBannar"
 import GrideTrading from "./GrideTrading";
 import MetaTraders from "./MetaTraders";
 import MobileSection from "./MobileSection";
+import Investment from "./Investment";
 import "./tradingservices.css"
+import Analysis from "./Analysis";
+import MetaTraderAPI from "./MetaTraderAPI";
+import TradingForm from "./TradingForm";
 const TradingServices = () => {
   const listItems = [
     "Fast and efficient",
@@ -28,6 +32,11 @@ const TradingServices = () => {
       <MetaTraders />
       <GrideTrading />
       <MobileSection />
+      <Investment />
+      <Analysis />
+      <MetaTraderAPI />
+      <TradingForm />
+
     </div>
 
   )

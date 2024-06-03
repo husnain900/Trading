@@ -1,4 +1,5 @@
-import { IoCheckmarkCircle } from "react-icons/io5";
+import { useState, useEffect } from 'react';
+import { IoCheckmarkCircle } from 'react-icons/io5';
 
 const GrideTrading = () => {
     const items1 = [
@@ -52,6 +53,22 @@ const GrideTrading = () => {
         { title: '24/7 Technical support', items: items6, image: 'Assets/Images/trade6.png' }
     ];
 
+    const [isMobile, setIsMobile] = useState(false);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth <= 767);
+        };
+
+        handleResize();
+
+        window.addEventListener("resize", handleResize);
+
+        return () => {
+            window.removeEventListener("resize", handleResize);
+        };
+    }, []);
+
     return (
         <div className="container">
             <div className="row">
@@ -59,11 +76,11 @@ const GrideTrading = () => {
                     <div className="col-12 col-md-6" key={cardIndex}>
                         <div className={`card-trading mt-5 mt-lg-0 ${[1, 3, 5].includes(cardIndex) ? 'ms-0 ms-lg-auto' : ''}`}>
                             <img src={card.image} alt={card.title} />
-                            <h3 style={{ fontSize: "35px", padding: "0" }} className="section-title text-start">{card.title}</h3>
-                            <div className="BrandIdentity_P pb-4">
+                            <h3 style={{ fontSize: isMobile ? '28px' : '35px', padding: '0' }} className="section-title text-start">{card.title}</h3>
+                            <div className="check-p py-4">
                                 {card.items.map((item, itemIndex) => (
-                                    <p className="align-items-center text-center text-lg-end text-black d-flex gap-2" key={itemIndex}>
-                                        <IoCheckmarkCircle style={{ color: "#5584FF" }} size={18} /> {item}
+                                    <p className="align-items-center  text-black d-flex gap-2" key={itemIndex}>
+                                        <IoCheckmarkCircle style={{ color: "#5584FF" }} size={22} /> {item}
                                     </p>
                                 ))}
                             </div>

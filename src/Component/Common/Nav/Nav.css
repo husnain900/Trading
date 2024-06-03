@@ -32,7 +32,7 @@ header {
     height: 100%;
     bottom: 0;
     width: 100%;
-    background-image: url(Assets/Images/Background/menu-bg.png);
+    background-image: url(../../../../public/Assets/Images/Background/menu-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     transition: right 0.5s ease;
@@ -99,4 +99,8 @@ header {
 }
 
 /* Medium devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {}
+@media (min-width: 576px) and (max-width: 867.98px) {
+    .sidebar {
+        background: #5584FF;
+    }
+}
