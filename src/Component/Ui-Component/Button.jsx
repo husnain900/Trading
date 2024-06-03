@@ -2,7 +2,7 @@ import { Button } from "@mui/material";
 import { Link } from "react-router-dom";
 import { IoLogoWindows, IoLogoApple, IoLogoAndroid } from "react-icons/io5";
 
-function ButtonC({ text, to, onClick, icon, ...props }) {
+function ButtonC({ text, to, onClick, icon, type = "button", ...props }) {
     const renderIcon = () => {
         switch (icon) {
             case "windows":
@@ -25,6 +25,7 @@ function ButtonC({ text, to, onClick, icon, ...props }) {
                 to={to}
                 onClick={onClick}
                 startIcon={renderIcon()}
+                type={type}
                 {...props}
             >
                 {text}

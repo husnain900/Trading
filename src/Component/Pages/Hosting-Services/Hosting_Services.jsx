@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import BlueBannar from "../../Common/BlueBannar/BlueBannar"
 import Equinix from "./Equinix";
 import Equinix2 from "./Equinix2";
@@ -14,6 +15,13 @@ const Hosting_Services = () => {
     ];
     return (
         <div>
+            <Helmet>
+                <title>
+                    Hosting Service - fathena
+                    :
+                    fathena
+                </title>
+            </Helmet>
             <BlueBannar
                 title="Athena Hosting Service"
                 imageSrc="Assets/Images/host-banner.png"

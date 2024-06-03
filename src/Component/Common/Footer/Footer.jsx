@@ -1,8 +1,8 @@
 import "./footer.css";
 const Footer = () => {
     return (
-        <div className="container">
-            <div className="footer text-center text-lg-start">
+        <div className="footer text-center bg-white text-lg-start">
+            <div className="container">
                 <div className="row py-5">
                     <div className="col-12 col-lg-2 mb-4 mb-lg-0">
                         <div className="footer-logo">

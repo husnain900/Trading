@@ -1,10 +1,63 @@
 .card-trading {
-    max-width: 450px;
+    width: 450px;
 }
 
 .card-trading img {
-    height: 340px;
+    height: auto;
     width: 396px;
     margin-bottom: 50px;
 }
 
+.img-h {
+    height: 120px;
+}
+
+.card-img {
+    width: 16% !important;
+    height: auto;
+}
+
+.MuiInputBase-formControl {
+    color: #0e1b36 !important;
+    border-radius: 0 !important;
+}
+
+@media (max-width: 575.98px) {
+    .card-trading img {
+        height: auto;
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .card-trading {
+        width: 100%;
+    }
+
+    .card-img {
+        width: 100% !important;
+        height: auto;
+    }
+
+    .img-h {
+        height: auto;
+        width: 80px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 973.98px) {
+    .card-trading {
+        width: 350px;
+    }
+
+    .card-trading img {
+        width: 256px;
+        margin-bottom: 30px;
+    }
+
+    .img-h {
+        height: auto;
+    }
+}

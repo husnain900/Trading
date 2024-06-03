@@ -41,10 +41,10 @@ function BrandIdentity() {
                     <div className="col-12 col-md-6 mb-5 mb-lg-0">
                         <h2 className="bold-title">BRAND <b>Identity</b></h2>
                         <img className="w-100 h-auto  d-md-none" src="Assets/Images/brand1.png" alt="" />
-                        <div className="BrandIdentity_P">
+                        <div className="check-p">
                             {items.map((item, index) => (
                                 <p className="align-items-center text-black d-flex gap-2" key={index}>
-                                    <IoCheckmarkCircle style={{ color: "#5584FF" }} size={18} /> {item}
+                                    <IoCheckmarkCircle className="mb-1" style={{ color: "#5584FF" }} size={18} /> {item}
                                 </p>
                             ))}
                             <ButtonC text="SEE MORE" to="/contact-us" />
@@ -64,7 +64,7 @@ function BrandIdentity() {
                         <h2 className="bold-title">WEB <b>Design</b></h2>
                         <img className="w-100 h-auto  d-md-none" src="Assets/Images/brand2.png" alt="" />
                         <div className="d-flex justify-content-start justify-content-lg-center">
-                            <div className="BrandIdentity_P ">
+                            <div className="check-p ">
                                 {items2.map((item, index) => (
                                     <p className="align-items-center text-center text-lg-end text-black d-flex gap-2" key={index}>
                                         <IoCheckmarkCircle style={{ color: "#5584FF" }} size={18} /> {item}
@@ -80,7 +80,7 @@ function BrandIdentity() {
                     <div className="col-12 col-md-6 mb-5 mb-lg-0 ">
                         <h2 className="bold-title">WEB <b>Development</b></h2>
                         <img className="w-100 h-auto  d-md-none" src="Assets/Images/brand3-768x747.png" alt="" />
-                        <div className="BrandIdentity_P">
+                        <div className="check-p">
                             {items3.map((item, index) => (
                                 <p className="align-items-center text-black d-flex gap-2" key={index}>
                                     <IoCheckmarkCircle style={{ color: "#5584FF" }} size={18} /> {item}
@@ -103,7 +103,7 @@ function BrandIdentity() {
                         <h2 className="bold-title">DIGITAL <b>Marketing</b></h2>
                         <img className="w-100 h-auto  d-md-none" src="Assets/Images/brand4.png" alt="" />
                         <div className="d-flex justify-content-start justify-content-lg-center">
-                            <div className="BrandIdentity_P ">
+                            <div className="check-p ">
                                 {items4.map((item, index) => (
                                     <p className="align-items-center text-center text-lg-end text-black d-flex gap-2" key={index}>
                                         <IoCheckmarkCircle style={{ color: "#5584FF" }} size={18} /> {item}
@@ -119,7 +119,7 @@ function BrandIdentity() {
                     <div className="col-12 col-md-6 ">
                         <h2 className="bold-title">WEB <b>Maintenance</b></h2>
                         <img className="w-100 h-auto  d-md-none" src="Assets/Images/brand5.png" alt="" />
-                        <div className="BrandIdentity_P">
+                        <div className="check-p">
                             {items5.map((item, index) => (
                                 <p className="align-items-center text-black d-flex gap-2" key={index}>
                                     <IoCheckmarkCircle style={{ color: "#5584FF" }} size={18} /> {item}
