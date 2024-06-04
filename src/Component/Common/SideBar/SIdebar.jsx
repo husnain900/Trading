@@ -21,9 +21,21 @@ const Sidebar = ({ isOpen, onClose }) => {
     return (
         <div className={`sidebar ${isOpen ? 'open' : ''}`}>
             <div className="row">
-                <div className="col-12 col-lg-6">
-                    <NavLink to="/contact-us"></NavLink>
-                    <NavLink to="/about-us"></NavLink>
+                <div className="col-12 col-lg-6 ">
+                    <div className=" d-flex align-items-end h-100">
+                        <div className="">
+                            <NavLink onClick={onClose} className='nav-link p-0' to="/contact-us">
+                                <Button className="text-white fw-bold fs-6" >
+                                    Contact Us
+                                </Button>
+                            </NavLink>
+                            <NavLink onClick={onClose} className='nav-link p-0' to="/about-us">
+                                <Button className="text-white fw-bold fs-6" >
+                                    About Us
+                                </Button>
+                            </NavLink>
+                        </div>
+                    </div>
                 </div>
                 <div className="col-12 col-lg-6">
                     <div className="text-end">

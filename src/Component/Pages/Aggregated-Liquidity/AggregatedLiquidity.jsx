@@ -17,9 +17,10 @@ const AggregatedLiquidity = () => {
         <div>
             <Helmet>
                 <title>
-                    Payment Solution - fathena
+                    Aggregated Liquidity - fathena
                     :
-                    fathena</title>
+                    fathena
+                </title>
             </Helmet>
             <BlueBannar
                 title="Aggregated Liquidity"

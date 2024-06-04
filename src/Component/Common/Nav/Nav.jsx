@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import "./Nav.css";
+import "./nav.css";
 import { Button } from '@mui/material';
 import Sidebar from '../SideBar/SIdebar';
 import { Link } from 'react-router-dom';
