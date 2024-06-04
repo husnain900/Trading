@@ -14,6 +14,7 @@ import WebDevelopment from './Component/Pages/WebDevelopment/WebDevelopment';
 import DigitalMarketing from './Component/Pages/DigitalMarketing/DigitalMarketing';
 import Webmaintaince from './Component/Pages/WebMaintaince/Webmaintaince';
 import TermsAndConditions from './Component/Pages/Terms&Conditions/TermsAndConditions';
+import Privacypolicy from './Component/Pages/Terms&Conditions/Privacypolicy/Privacypolicy';
 
 
 
@@ -33,6 +34,7 @@ function App() {
         <Route path="/payment-solution" element={<PaymentSolution />} />
         <Route path="/aggregated-liquidity" element={<AggregatedLiquidity />} />
         <Route path="/terms" element={<TermsAndConditions />} />
+        <Route path="/privacy-policy" element={<Privacypolicy />} />
       </Routes>
       <Footer />
     </Router>
