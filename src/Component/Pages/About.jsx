@@ -11,7 +11,7 @@ function About() {
     return (
       <div className="container">
         <div className="row">
-          <div className={`col-12 ${isExpanded ? 'col-md-6' : ''} text-center bg-image-container`}>
+          <div className={`col-12 ${isExpanded ? 'col-md-6 col-12' : ''} text-center bg-image-container`}>
             <div className="bg-image" />
             <div className="content">
               <h1>Initial Text</h1>

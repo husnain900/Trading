@@ -4,6 +4,7 @@ function TermsAndConditions() {
     <div className="container">
       <div className="row">
         <div className="col-12 TermsAndConditions">
+          <br/><br/>
           <h1>TERMS AND CONDITIONS</h1>
           <p>
             Please Read These Terms and Conditions Carefully Before Using This

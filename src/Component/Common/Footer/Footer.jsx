@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./footer.css";
 const Footer = () => {
     return (
@@ -19,7 +20,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="text-center bottom-footer pt-3">
-                    <p>Copyright © 2024 Athena. All rights reserved. <a href="" className="pe-2" >Terms of Use</a> <a href="" >Privacy Policy</a></p>
+                    <p>Copyright © 2024 Athena. All rights reserved. <Link to="/terms" className="pe-2" >Terms of Use</Link> <Link to="/privacy-policy" >Privacy Policy</Link></p>
                 </div>
             </div>
         </div>
