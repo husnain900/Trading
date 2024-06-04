@@ -15,6 +15,7 @@ import DigitalMarketing from './Component/Pages/DigitalMarketing/DigitalMarketin
 import Webmaintaince from './Component/Pages/WebMaintaince/Webmaintaince';
 import TermsAndConditions from './Component/Pages/Terms&Conditions/TermsAndConditions';
 import Privacypolicy from './Component/Pages/Terms&Conditions/Privacypolicy/Privacypolicy';
+import About from './Component/Pages/About';
 
 
 
@@ -35,6 +36,8 @@ function App() {
         <Route path="/aggregated-liquidity" element={<AggregatedLiquidity />} />
         <Route path="/terms" element={<TermsAndConditions />} />
         <Route path="/privacy-policy" element={<Privacypolicy />} />
+        <Route path="/about-us" element={<About />} />
+ 
       </Routes>
       <Footer />
     </Router>
