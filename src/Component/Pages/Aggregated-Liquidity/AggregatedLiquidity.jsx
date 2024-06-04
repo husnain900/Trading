@@ -1,5 +1,10 @@
 import { Helmet } from "react-helmet";
 import BlueBannar from "../../Common/BlueBannar/BlueBannar";
+import MajorCards from "./MajorCards";
+import Liquidity from "./Liquidity";
+import Gateway from "./Gateway";
+import Aggregation from "./Aggregation";
+import Infrastructure from "./Infrastructure";
 
 const AggregatedLiquidity = () => {
     const listItems = [
@@ -17,11 +22,16 @@ const AggregatedLiquidity = () => {
                     fathena</title>
             </Helmet>
             <BlueBannar
-                title="Aggregated Liquidity                "
+                title="Aggregated Liquidity"
                 imageSrc="Assets/Images/aggregated.png"
                 listItems={listItems}
                 scrollImageSrc="Assets/Images/scroll.png"
             />
+            <Liquidity />
+            <MajorCards />
+            <Infrastructure />
+            <Aggregation />
+            <Gateway />
         </div>
     )
 }

@@ -1,4 +1,3 @@
-import { useState, useEffect } from 'react';
 
 const cardData = [
   {
@@ -24,25 +23,12 @@ const cardData = [
 ];
 
 const MetaTraderAPI = () => {
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 767);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth <= 767);
-    };
-
-    window.addEventListener('resize', handleResize);
-
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
 
   return (
     <div className="container">
       <div className="row">
         <div className="col-12 col-md-10 col-lg-6">
-          <h1 className="section-title text-start" style={{ fontSize: isMobile ? "34px" : "65px" }}>
+          <h1 className="section-title text-start text-larger" >
             MetaTrader API
           </h1>
           <h3 className="bluetitle text-start">Athena offers public interfaces (Application Programming Interface, API) to add, integrate and customize.</h3>

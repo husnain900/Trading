@@ -1,0 +1,109 @@
+.seamles-sec .card {
+    width: 550px !important;
+}
+
+.seamles-sec .card .adjust-seamless {
+    height: 560px;
+    margin: 0 auto;
+    width: 310px;
+}
+
+.seamles-sec .card img {
+    height: 510px;
+    width: auto;
+    margin-bottom: 50px;
+}
+
+.card-text {
+    color: white;
+    font-size: 26px;
+}
+
+.accept-card .card {
+    height: 160px !important;
+}
+
+.partner-cards .card {
+    height: 155px !important;
+}
+
+.Bankbannar {
+    background-color: #0E1B36;
+    padding: 100px 0;
+}
+
+.position-adjust {
+    top: 180px;
+    padding: 0 106px;
+    text-align: center;
+}
+
+@media (max-width: 575.98px) {
+    .seamles-sec .card {
+        width: 100% !important;
+        padding: 18px;
+    }
+
+    .seamles-sec .card .adjust-seamless {
+        height: auto;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .seamles-sec .card img {
+        height: auto;
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+    .card-text {
+        font-size: 16px;
+    }
+
+    .accept-card .card {
+        height: auto !important;
+    }
+
+    .partner-cards .card {
+        height: 100% !important;
+    }
+
+    .position-adjust {
+        top: 134px;
+        padding: 0px 71px;
+        font-size: 22px;
+    }
+}
+
+/* Medium devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 967.98px) {
+    .seamles-sec .card {
+        width: 350px !important;
+    }
+
+    .seamles-sec .card .adjust-seamless {
+        height: 360px;
+        margin: 0 auto;
+        width: 230px;
+    }
+
+    .seamles-sec .card img {
+        height: 310px;
+        width: auto;
+        margin-bottom: 50px;
+    }
+
+    .card-text {
+        font-size: 22px;
+    }
+
+    .position-adjust {
+        top: 108px;
+        text-align: center;
+        width: 79%;
+        margin: 0 auto;
+        right: 39px;
+        padding: 0 18px;
+        font-size: 22px;
+    }
+}

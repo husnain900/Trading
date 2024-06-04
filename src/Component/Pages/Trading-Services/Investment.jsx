@@ -1,25 +1,11 @@
-import { useState, useEffect } from 'react';
 
 function Investment() {
-    const [isMobile, setIsMobile] = useState(window.innerWidth <= 767);
-
-    useEffect(() => {
-        const handleResize = () => {
-            setIsMobile(window.innerWidth <= 767);
-        };
-
-        window.addEventListener('resize', handleResize);
-
-        return () => {
-            window.removeEventListener('resize', handleResize);
-        };
-    }, []);
 
     return (
         <div className="container">
             <div className="row my-5">
                 <div className="col-12 col-md-10 col-lg-6">
-                    <h1 className="section-title text-start" style={{ fontSize: isMobile ? "34px" : "65px" }}>
+                    <h1 className="section-title text-start text-larger" >
                         Investment Management Tools
                     </h1>
                     <h3 className="section-title text-start my-4">Trading Robots</h3>

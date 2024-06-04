@@ -1,36 +1,15 @@
-import  { useState, useEffect } from "react";
+
 import "./tradingservices.css";
 
 function MetaTraders() {
-    const [isMobile, setIsMobile] = useState(false);
 
-    useEffect(() => {
-        const handleResize = () => {
-            setIsMobile(window.innerWidth <= 767);
-        };
-
-        handleResize();
-
-        window.addEventListener("resize", handleResize);
-
-        return () => {
-            window.removeEventListener("resize", handleResize);
-        };
-    }, []);
-
-    const titleStyle = {
-        color: '#444444',
-        fontSize: isMobile ? '32px' : '65px',
-        textAlign: 'left'
-    
-    };
 
     return (
         <div className="container">
             <div className="MetaTraders-content mt-5">
                 <div className="row">
                     <div className="col-12 col-lg-10">
-                        <h1 className="section-title" style={titleStyle}>
+                        <h1 style={{ color: "#444444" }} className="section-title text-start" >
                             MetaTrader 4 & MetaTrader 5
                             Your Gateway to the Markets
                         </h1>
