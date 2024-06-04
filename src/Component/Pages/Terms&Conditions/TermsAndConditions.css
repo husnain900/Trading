@@ -1,0 +1,12 @@
+.TermsAndConditions >h1{ 
+    font-weight: 700;
+    font-size: 24px;
+}
+.TermsAndConditions >h2 , .TermsAndConditions >p>span{
+    font-size: 20px;
+    font-weight: 700;
+}
+.TermsAndConditions >p{
+    font-size: 18px;
+    font-weight: 400;
+}

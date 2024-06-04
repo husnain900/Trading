@@ -13,7 +13,7 @@ function WebmaintainceSection2() {
 
     <div className="row" >
         <div className="col-12 BrandIdentitys3_image">
-            {/* <img src="/images/brandidentitys3.png" alt="images"></img> */}
+            <img src="/images/maintainer1.png" alt="images"></img>
         </div>
     </div>
 
