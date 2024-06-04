@@ -13,6 +13,7 @@ import AggregatedLiquidity from './Component/Pages/Aggregated-Liquidity/Aggregat
 import WebDevelopment from './Component/Pages/WebDevelopment/WebDevelopment';
 import DigitalMarketing from './Component/Pages/DigitalMarketing/DigitalMarketing';
 import Webmaintaince from './Component/Pages/WebMaintaince/Webmaintaince';
+import TermsAndConditions from './Component/Pages/Terms&Conditions/TermsAndConditions';
 
 
 
@@ -31,6 +32,7 @@ function App() {
         <Route path="/trading-platform" element={<TradingServices />} />
         <Route path="/payment-solution" element={<PaymentSolution />} />
         <Route path="/aggregated-liquidity" element={<AggregatedLiquidity />} />
+        <Route path="/terms" element={<TermsAndConditions />} />
       </Routes>
       <Footer />
     </Router>
