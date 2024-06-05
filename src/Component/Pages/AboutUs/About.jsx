@@ -320,28 +320,7 @@ function About() {
         </div>
       </div>
       {/* 5th Section Last */}
-<<<<<<< Updated upstream:src/Component/Pages/AboutUs/About.jsx
       <AboutUsSection />
-=======
-      {/* <div className="container">
-        <div className="row">
-          <div className="col-12 AboutusEnvironmentSection">
-            <h1>Environmental protection:</h1>
-            <p>At Quadcode, we strive to reduce our ecological footprint and balance human and environmental needs by minimizing the use of resources, energy, and waste at the workplace.</p>
-          </div>
-          <div className='col-6'> <img src='/images/'></img></div>
-          <div className='col-6'>text here</div>
-        </div>
-      </div> */}
-
-
-
-
-
-      {/* jdcjhbsjdhcbs */}
-
-      <AboutUsSection/>
->>>>>>> Stashed changes:src/Component/Pages/About.jsx
     </>
   );
 }
