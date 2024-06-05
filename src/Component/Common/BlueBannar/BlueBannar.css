@@ -1,6 +1,9 @@
 .blue-bannar {
-    background: #071244;
     padding: 100px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white; /* Assuming the text should be white on a dark background */
 }
 
 .blue-bannar h1 {
@@ -27,7 +30,7 @@
 
 .blue-bannar svg {
     margin-top: 4px;
-    color: #5584FF;
+    /* color: #5584FF; */
     font-size: 40px;
 
 }
@@ -35,7 +38,7 @@
 .blue-bannar p {
     font-size: 20px;
     font-weight: 500;
-    color: #5584FF;
+    /* color: #5584FF; */
 }
 
 @media (max-width: 575.98px) {

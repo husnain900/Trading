@@ -9,9 +9,11 @@ import BannarBank from "./BannarBank";
 import TradingForm from "../Trading-Services/TradingForm";
 const PaymentSolution = () => {
     const listItems = [
-        "Local bank payment  ",
-        "Cryptocurrency pay   ",
-        "Credit card payment   "
+        "Local Bank Payments ",
+        "Cryptocurrency Payments ",
+        "Credit Card Payments",
+        "Efficiency and Security Combined"
+
     ];
     return (
         <div>
@@ -22,10 +24,11 @@ const PaymentSolution = () => {
                     fathena</title>
             </Helmet>
             <BlueBannar
-                title="Payment Solution"
+                title="Seamless Payment Solutions by Athena"
                 imageSrc="Assets/Images/payment-banner.png"
                 listItems={listItems}
                 scrollImageSrc="Assets/Images/scroll.png"
+                backgroundImage="../../../../public/Assets/Images/Background/PaymentSolution-Main-min.jpg"
             />
             <Seamless />
             <AcceptCard />

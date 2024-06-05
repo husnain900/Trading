@@ -17,7 +17,7 @@ function ButtonC({ text, to, onClick, icon, type = "button", ...props }) {
     };
 
     return (
-        <div className="text-center text-lg-start">
+        <div className="">
             <Button
                 className="fathena-btn mt-3 mt-lg-4"
                 variant="contained"

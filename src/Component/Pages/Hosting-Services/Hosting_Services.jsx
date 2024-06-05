@@ -11,7 +11,8 @@ const Hosting_Services = () => {
         '100% Uptime SLA',
         '99.9999% Data Center Uptime',
         'Free Server Migration',
-        'Free DDoS Protection'
+        'Free DDoS Protection',
+        'Optimized for Brokers'
     ];
     return (
         <div>
@@ -23,11 +24,12 @@ const Hosting_Services = () => {
                 </title>
             </Helmet>
             <BlueBannar
-                title="Athena Hosting Service"
+                title="Athena Hosting: Secure, Reliable, Always On"
                 imageSrc="Assets/Images/host-banner.png"
                 listItems={listItems}
                 paragraphText="Athena server hosting service helps brokers to expand their operations without the logistical headaches of managing their own infrastructure ensuring both primary and backup sites are well equipped with a stable connection with low latency trade execution."
                 scrollImageSrc="Assets/Images/scroll.png"
+                backgroundImage="../../../../public/Assets/Images/Background/HostingService-Main-min.jpg"
             />
             <OurData />
             <Equinix />

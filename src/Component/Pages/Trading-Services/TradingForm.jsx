@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Button from "@mui/material/Button";
 import { Select, MenuItem, FormControl, InputLabel, FormHelperText, TextField } from "@mui/material";
+import { timeZones } from "../../DevData/devData";
 
 const TradingForm = () => {
     const [formData, setFormData] = useState({
@@ -42,33 +43,6 @@ const TradingForm = () => {
         }
     };
 
-    const timeZones = [
-        { name: "International Date Line West", value: "GMT -12:00" },
-        { name: "Samoa Standard Time", value: "GMT -11:00" },
-        { name: "Hawaii-Aleutian Standard Time", value: "GMT -10:00" },
-        { name: "Alaska Standard Time", value: "GMT -09:00" },
-        { name: "Pacific Standard Time", value: "GMT -08:00" },
-        { name: "Mountain Standard Time (USA)", value: "GMT -07:00" },
-        { name: "Central Standard Time (USA, Mexico)", value: "GMT -06:00" },
-        { name: "Eastern Standard Time (USA, Canada)", value: "GMT -05:00" },
-        { name: "Atlantic Standard Time (Canada)", value: "GMT -04:00" },
-        { name: "Brazil Time (East)", value: "GMT -03:00" },
-        { name: "Fernando de Noronha Time", value: "GMT -02:00" },
-        { name: "Azores Time", value: "GMT -01:00" },
-        { name: "Greenwich Mean Time", value: "GMT +00:00" },
-        { name: "Central European Time", value: "GMT +01:00" },
-        { name: "Eastern European Time", value: "GMT +02:00" },
-        { name: "Eastern African Time", value: "GMT +03:00" },
-        { name: "Pakistan Standard Time", value: "GMT +04:00" },
-        { name: "Indian Standard Time", value: "GMT +05:00" },
-        { name: "Bangladesh Standard Time", value: "GMT +06:00" },
-        { name: "Indochina Time", value: "GMT +07:00" },
-        { name: "China Standard Time", value: "GMT +08:00" },
-        { name: "Japan Standard Time", value: "GMT +09:00" },
-        { name: "Australian Eastern Standard Time", value: "GMT +10:00" },
-        { name: "Chamorro Standard Time", value: "GMT +11:00" },
-        { name: "Line Islands Time", value: "GMT +12:00" }
-    ];
 
     const contactTimes = [
         "6AM – 9PM",
@@ -81,7 +55,7 @@ const TradingForm = () => {
 
     return (
         <div className="container">
-            <div className="row mt-5">
+            <div className="row my-5">
                 <div className="col-12 col-lg-8">
                     <h1 className="titleline text-start">
                         Let’s talk about

@@ -3,6 +3,7 @@ import { useState } from "react";
 import Button from "@mui/material/Button";
 import { Select, MenuItem, FormControl, InputLabel, FormHelperText, TextField } from "@mui/material";
 import { Link } from "react-router-dom";
+import { timeZones } from "../../DevData/devData";
 
 const ContactUs = () => {
     const contactInfo = [
@@ -11,8 +12,9 @@ const ContactUs = () => {
         { label: 'Email:', content: 'admin@fathena.com' },
     ];
     const [formData, setFormData] = useState({
-        name: '',
+        firstName: '',
         lastName: '',
+        phone: '',
         time: '',
         inquiries: '',
         timeZone: ''
@@ -30,8 +32,8 @@ const ContactUs = () => {
 
     const validate = () => {
         let newErrors = {};
-        if (!formData.name) newErrors.name = "Name is required";
-        if (!formData.phone) newErrors.phone = "Phone number is required";
+        if (!formData.firstName) newErrors.firstName = "First name is required";
+        if (!formData.lastName) newErrors.lastName = "Last name is required";
         if (!formData.time) newErrors.time = "Preferred contact time is required";
         if (!formData.inquiries) newErrors.inquiries = "Inquiry details are required";
         if (!formData.timeZone) newErrors.timeZone = "Time zone is required";
@@ -48,34 +50,6 @@ const ContactUs = () => {
             setErrors(validationErrors);
         }
     };
-
-    const timeZones = [
-        { name: "International Date Line West", value: "GMT -12:00" },
-        { name: "Samoa Standard Time", value: "GMT -11:00" },
-        { name: "Hawaii-Aleutian Standard Time", value: "GMT -10:00" },
-        { name: "Alaska Standard Time", value: "GMT -09:00" },
-        { name: "Pacific Standard Time", value: "GMT -08:00" },
-        { name: "Mountain Standard Time (USA)", value: "GMT -07:00" },
-        { name: "Central Standard Time (USA, Mexico)", value: "GMT -06:00" },
-        { name: "Eastern Standard Time (USA, Canada)", value: "GMT -05:00" },
-        { name: "Atlantic Standard Time (Canada)", value: "GMT -04:00" },
-        { name: "Brazil Time (East)", value: "GMT -03:00" },
-        { name: "Fernando de Noronha Time", value: "GMT -02:00" },
-        { name: "Azores Time", value: "GMT -01:00" },
-        { name: "Greenwich Mean Time", value: "GMT +00:00" },
-        { name: "Central European Time", value: "GMT +01:00" },
-        { name: "Eastern European Time", value: "GMT +02:00" },
-        { name: "Eastern African Time", value: "GMT +03:00" },
-        { name: "Pakistan Standard Time", value: "GMT +04:00" },
-        { name: "Indian Standard Time", value: "GMT +05:00" },
-        { name: "Bangladesh Standard Time", value: "GMT +06:00" },
-        { name: "Indochina Time", value: "GMT +07:00" },
-        { name: "China Standard Time", value: "GMT +08:00" },
-        { name: "Japan Standard Time", value: "GMT +09:00" },
-        { name: "Australian Eastern Standard Time", value: "GMT +10:00" },
-        { name: "Chamorro Standard Time", value: "GMT +11:00" },
-        { name: "Line Islands Time", value: "GMT +12:00" }
-    ];
 
     const contactTimes = [
         "6AM – 9PM",
@@ -128,10 +102,10 @@ const ContactUs = () => {
                                     fullWidth
                                     size="small"
                                     label=""
-                                    error={!!errors.name}
-                                    helperText={errors.name}
-                                    name="name"
-                                    value={formData.name}
+                                    error={!!errors.firstName}
+                                    helperText={errors.firstName}
+                                    name="firstName"
+                                    value={formData.firstName}
                                     onChange={handleChange}
                                 />
                                 <label className="pt-1" htmlFor="">First</label>
@@ -142,10 +116,10 @@ const ContactUs = () => {
                                     fullWidth
                                     size="small"
                                     label=""
-                                    error={!!errors.phone}
-                                    helperText={errors.phone}
-                                    name="phone"
-                                    value={formData.phone}
+                                    error={!!errors.lastName}
+                                    helperText={errors.lastName}
+                                    name="lastName"
+                                    value={formData.lastName}
                                     onChange={handleChange}
                                 />
                                 <label className="pt-1" htmlFor="">Last</label>
@@ -197,7 +171,6 @@ const ContactUs = () => {
                                     fullWidth
                                     multiline
                                     rows={6}
-                                    label="Inquiries"
                                     error={!!errors.inquiries}
                                     helperText={errors.inquiries && <span style={{ color: 'red' }}>{errors.inquiries}</span>}
                                     name="inquiries"

@@ -7,7 +7,7 @@ const supportedCards = [
 
 const BannarBank = () => {
     return (
-        <div className="Bankbannar d-flex text-center justify-content-center align-items-center">
+        <div className="Bankbannar d-flex text-center justify-content-center align-items-center mb-5">
             <div className="">
                 <h2 className="section-title text-white ">Athena credit card payment gateway</h2>
                 <div className="mt-4 d-flex gap-5 justify-content-center flex-wrap">

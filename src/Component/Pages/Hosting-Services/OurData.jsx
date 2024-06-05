@@ -21,18 +21,15 @@ const OurData = () => {
             <div className="row my-5">
                 <div className="col-12 col-md-6">
                     <h1
-                        className="section-title"
+                        className="section-title text-larger"
                         style={{
-                            fontSize: '65px',
                             color: '#0e1b36',
                             textAlign: 'left'
                         }}
                     >
                         Our Data Centers
                     </h1>
-                    <h3 style={{
-                        textAlign: 'left'
-                    }} className="section-title">Equinix’s London International Business Exchange™ (IBX®)</h3>
+                    <h3 className="section-title text-start">Equinix’s London International Business Exchange™ (IBX®)</h3>
                     <h3 className="bluetitle">Europe’s largest multi-asset trading community
                     </h3>
                 </div>

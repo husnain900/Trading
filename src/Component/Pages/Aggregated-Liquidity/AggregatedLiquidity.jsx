@@ -8,9 +8,11 @@ import Infrastructure from "./Infrastructure";
 
 const AggregatedLiquidity = () => {
     const listItems = [
-        "Customized liquidity pools",
-        "Competitive quote aggregation ",
-        "Multi-tiered bid/offer "
+        "Customized Liquidity Pools",
+        "Competitive Quote Aggregation",
+        "Multi-Tiered Bid/Offer System ",
+        "Liquidity Management",
+        "Enhancing Transaction Efficiency",
 
     ];
     return (
@@ -23,10 +25,11 @@ const AggregatedLiquidity = () => {
                 </title>
             </Helmet>
             <BlueBannar
-                title="Aggregated Liquidity"
+                title="Precision Liquidity, Optimized Outcomes at Athena"
                 imageSrc="Assets/Images/aggregated.png"
                 listItems={listItems}
                 scrollImageSrc="Assets/Images/scroll.png"
+                backgroundImage="../../../../public/Assets/Images/Background/AggregatedLiquidity-Main-min.jpg"
             />
             <Liquidity />
             <MajorCards />

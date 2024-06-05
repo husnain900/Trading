@@ -4,13 +4,13 @@ const ItWorks = () => {
         <div className="container">
             <div className="row">
                 <div className="col-12 col-md-10 col-lg-6">
-                    <h1 className="section-title text-start text-larger" >
+                    <h1 className="section-title text-start text-larger p-0 m-0" >
                         How does it works
                     </h1>
-                    <h3 className="bluetitle my-4">We don’t hold your crypto. You do. We give you all the benefits of a hosted platform while you maintain ownership.</h3>
+                    <h3 className="bluetitle my-2 ">We don’t hold your crypto. You do. We give you all the benefits of a hosted platform while you maintain ownership.</h3>
                 </div>
             </div>
-            <div className="row">
+            <div className="row mt-2 mb-5">
                 <div className="col-12 col-md-6">
                     <div className="position-relative">
                         <img className="w-100 h-auto" src="Assets/Images/13.png" alt="" />
