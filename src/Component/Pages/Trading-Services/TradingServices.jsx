@@ -30,7 +30,7 @@ const TradingServices = () => {
         imageSrc="Assets/Images/banner1.png"
         listItems={listItems}
         scrollImageSrc="Assets/Images/scroll.png"
-        backgroundImage="../../../../public/Assets/Images/Background/TradingPlatform-Main.png"
+        backgroundImage="Assets/Images/Background/TradingPlatform-Main.png"
       />
       <MetaTraders />
       <GrideTrading />

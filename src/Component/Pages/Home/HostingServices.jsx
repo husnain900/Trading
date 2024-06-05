@@ -12,7 +12,7 @@ const HostingServices = () => {
                 <p className="section-text">
                     Utilizing AWS and Equinix data centers, we provide low-latency connectivity directly to the financial ecosystem. This strategic placement near major liquidity providers for Forex, Stocks, Gold, and Cryptos allows us to reduce trade request times to less than a hundredth of a millisecond, enhancing execution speed and efficiency.
                 </p>
-                <ButtonC text="Learn More" to="/learn-more" />
+                <ButtonC text="Learn More" to="/hosting-service" />
             </div>
         </div>
     )

@@ -20,26 +20,28 @@ const Equinix = () => {
         'Less than 10ms of Local Latency'
     ];
     return (
-        <div className="container">
-            <img className="w-100 h-auto px-0 px-lg-5 mt-4 mb-5" src="Assets/Images/map1.png" alt="" />
-            <div className="Equinix-content">
-                <div className="col-12 col-md-6">
-                    <h3 style={{
-                        textAlign: 'left'
-                    }} className="section-title">Equinix FR2 International Business Exchange™ (IBX®)</h3>
-                    <h3 className="bluetitle">Direct interconnection infrastructure for major banks in Germany</h3>
+        <div className="hosting-bg-1">
+            <div className="container">
+                <img className="w-100 h-auto px-0 px-lg-5 mt-4 mb-5" src="Assets/Images/map1.png" alt="" />
+                <div className="Equinix-content">
+                    <div className="col-12 col-md-6">
+                        <h3 style={{
+                            textAlign: 'left'
+                        }} className="section-title">Equinix FR2 International Business Exchange™ (IBX®)</h3>
+                        <h3 className="bluetitle">Direct interconnection infrastructure for major banks in Germany</h3>
+                    </div>
                 </div>
-            </div>
-            <BlueBox certifications={certifications} dataCenterFacts={dataCenterFacts} />
-            <p className="section-text2">
-                European gateway to global trading. <br />
-                Equinix Frankfurt’s financial ecosystem. <br />
-                Hosts major players in global electronic payment. <br />
-                Over 150+ financial services firms and 20+ trading venues. <br />
-                Supports the storage, connectivity and compliance needs of payment services providers.
-            </p>
-            <img className="w-100 h-auto px-0 px-lg-5 my-5" src="Assets/Images/map2.png" alt="" />
+                <BlueBox certifications={certifications} dataCenterFacts={dataCenterFacts} />
+                <p className="section-text2">
+                    European gateway to global trading. <br />
+                    Equinix Frankfurt’s financial ecosystem. <br />
+                    Hosts major players in global electronic payment. <br />
+                    Over 150+ financial services firms and 20+ trading venues. <br />
+                    Supports the storage, connectivity and compliance needs of payment services providers.
+                </p>
+                <img className="w-100 h-auto px-0 px-lg-5 my-5" src="Assets/Images/map2.png" alt="" />
 
+            </div>
         </div>
     )
 }

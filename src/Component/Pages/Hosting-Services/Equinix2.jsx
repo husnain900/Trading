@@ -18,19 +18,21 @@ const Equinix2 = () => {
     ];
 
     return (
-        <div className="container">
-            <div className="Equinix-content">
-                <div className="col-12 col-md-6">
-                    <h3 style={{
-                        textAlign: 'left'
-                    }} className="section-title">Equinix NY2 International Business Exchange™ (IBX®)
-                    </h3>
-                    <h3 className="bluetitle">Data center for the world’s largest financial institutions</h3>
+        <div className="">
+            <div className="container">
+                <div className="Equinix-content">
+                    <div className="col-12 col-md-6">
+                        <h3 style={{
+                            textAlign: 'left'
+                        }} className="section-title">Equinix NY2 International Business Exchange™ (IBX®)
+                        </h3>
+                        <h3 className="bluetitle">Data center for the world’s largest financial institutions</h3>
+                    </div>
                 </div>
+                <BlueBox certifications={certifications} dataCenterFacts={dataCenterFacts} />
+                <p className="section-text2">Equinix Financial Exchange with low latency connectivity to a large ecosystem of financial firms including BATS, CBOE, ICAP, Knight Capital, ISE and BOX. </p>
+                <img className="w-100 h-auto px-0 px-lg-5 my-5" src="Assets/Images/map3.png" alt="" />
             </div>
-            <BlueBox certifications={certifications} dataCenterFacts={dataCenterFacts} />
-            <p className="section-text2">Equinix Financial Exchange with low latency connectivity to a large ecosystem of financial firms including BATS, CBOE, ICAP, Knight Capital, ISE and BOX. </p>
-            <img className="w-100 h-auto px-0 px-lg-5 my-5" src="Assets/Images/map3.png" alt="" />
         </div>
     )
 }

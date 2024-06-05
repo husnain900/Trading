@@ -5,6 +5,22 @@
     font-size: 20px;
 }
 
+.hosting-bg-1 {
+    background-image: url(../../../../public/Assets/Images/Background/Background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+}
+
+.hosting-bg-2 {
+    background-image: url(../../../../public/Assets/Images/Background/Background3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+}
+
 @media (max-width: 575.98px) {
     .box-blue {
         padding: 24px;

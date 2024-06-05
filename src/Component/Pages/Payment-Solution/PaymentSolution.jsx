@@ -28,7 +28,7 @@ const PaymentSolution = () => {
                 imageSrc="Assets/Images/payment-banner.png"
                 listItems={listItems}
                 scrollImageSrc="Assets/Images/scroll.png"
-                backgroundImage="../../../../public/Assets/Images/Background/PaymentSolution-Main-min.jpg"
+                backgroundImage="Assets/Images/Background/PaymentSolution-Main-min.jpg"
             />
             <Seamless />
             <AcceptCard />

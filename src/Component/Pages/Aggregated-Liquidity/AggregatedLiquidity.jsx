@@ -29,7 +29,7 @@ const AggregatedLiquidity = () => {
                 imageSrc="Assets/Images/aggregated.png"
                 listItems={listItems}
                 scrollImageSrc="Assets/Images/scroll.png"
-                backgroundImage="../../../../public/Assets/Images/Background/AggregatedLiquidity-Main-min.jpg"
+                backgroundImage="Assets/Images/Background/AggregatedLiquidity-Main-min.jpg"
             />
             <Liquidity />
             <MajorCards />

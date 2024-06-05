@@ -29,12 +29,14 @@ const Hosting_Services = () => {
                 listItems={listItems}
                 paragraphText="Athena server hosting service helps brokers to expand their operations without the logistical headaches of managing their own infrastructure ensuring both primary and backup sites are well equipped with a stable connection with low latency trade execution."
                 scrollImageSrc="Assets/Images/scroll.png"
-                backgroundImage="../../../../public/Assets/Images/Background/HostingService-Main-min.jpg"
+                backgroundImage="Assets/Images/Background/HostingService-Main-min.jpg"
             />
             <OurData />
             <Equinix />
-            <Equinix2 />
-            <Equinix3 />
+            <div className="hosting-bg-2">
+                <Equinix2 />
+                <Equinix3 />
+            </div>
             <Equinix4 />
         </div>
     )

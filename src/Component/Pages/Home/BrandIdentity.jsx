@@ -48,7 +48,7 @@ function BrandIdentity() {
                                 </p>
                             ))}
                             <div className="text-start">
-                                <ButtonC text="SEE MORE" to="/contact-us" />
+                                <ButtonC text="SEE MORE" to="/Brand-Identity" />
                             </div>
                         </div>
 
@@ -73,7 +73,7 @@ function BrandIdentity() {
                                     </p>
                                 ))}
                                 <div className="text-start">
-                                    <ButtonC text="SEE MORE" to="/contact-us" />
+                                    <ButtonC text="SEE MORE" to="/web-design" />
                                 </div>
                             </div>
                         </div>
@@ -91,7 +91,7 @@ function BrandIdentity() {
                                 </p>
                             ))}
                             <div className="text-start">
-                                <ButtonC text="SEE MORE" to="/contact-us" />
+                                <ButtonC text="SEE MORE" to="/web-development" />
                             </div>
                         </div>
 
@@ -116,7 +116,7 @@ function BrandIdentity() {
                                     </p>
                                 ))}
                                 <div className="text-start">
-                                    <ButtonC text="SEE MORE" to="/contact-us" />
+                                    <ButtonC text="SEE MORE" to="/digital-marketing" />
                                 </div>
                             </div>
                         </div>
@@ -134,7 +134,7 @@ function BrandIdentity() {
                                 </p>
                             ))}
                             <div className="text-start">
-                                <ButtonC text="SEE MORE" to="/contact-us" />
+                                <ButtonC text="SEE MORE" to="/web-maintenance" />
                             </div>
                         </div>
 

@@ -10,7 +10,7 @@ const TradingServices = () => {
                 <p className="section-text">
                     Athena provides rapid and user-friendly trading platforms for a diverse range of financial markets, including Forex, Stocks, Gold, and Cryptos. Our offerings include a variety of trading and reporting APIs, customizable to meet the specific requirements of your online trading services.
                 </p>
-                <ButtonC text="Learn More" to="/learn-more" />
+                <ButtonC text="Learn More" to="/trading-platform" />
             </div>
         </div>
     )
