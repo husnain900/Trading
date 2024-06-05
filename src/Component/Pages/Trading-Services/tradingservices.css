@@ -22,6 +22,10 @@
     border-radius: 0 !important;
 }
 
+.MobileSection .MuiButton-root {
+    margin: 0 !important;
+}
+
 @media (max-width: 575.98px) {
     .card-trading img {
         height: auto;

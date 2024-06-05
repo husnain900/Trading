@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './About.css';
-// import AboutUsSection from './AboutUsSection';
+import AboutUsSection from './AboutUsSection';
 
 function About() {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -19,15 +19,14 @@ function About() {
 
   return (
     <>
-         {/* !st Section */}
+      {/* !st Section */}
       <div className={`${isExpanded ? 'container' : 'container-fluid'}`}>
         <div className="row">
-     
+
 
           <div
-            className={`col-12 ${
-              isExpanded ? 'col-md-6' : ''
-            } text-center AboutUsImg`}
+            className={`col-12 ${isExpanded ? 'col-md-6' : ''
+              } text-center AboutUsImg`}
           >
             <div className="AboutUsbox" />
             <div className="aboutus1stcontent">
@@ -320,26 +319,8 @@ function About() {
           </div>
         </div>
       </div>
-
       {/* 5th Section Last */}
-      {/* <div className="container">
-        <div className="row">
-          <div className="col-12 AboutusEnvironmentSection">
-            <h1>Environmental protection:</h1>
-            <p>At Quadcode, we strive to reduce our ecological footprint and balance human and environmental needs by minimizing the use of resources, energy, and waste at the workplace.</p>
-          </div>
-          <div className='col-6'> <img src='/images/'></img></div>
-          <div className='col-6'>text here</div>
-        </div>
-      </div> */}
-
-
-
-
-
-      {/* jdcjhbsjdhcbs */}
-
-      {/* <AboutUsSection/> */}
+      <AboutUsSection />
     </>
   );
 }

@@ -15,7 +15,7 @@ import DigitalMarketing from './Component/Pages/DigitalMarketing/DigitalMarketin
 import Webmaintaince from './Component/Pages/WebMaintaince/Webmaintaince';
 import TermsAndConditions from './Component/Pages/Terms&Conditions/TermsAndConditions';
 import Privacypolicy from './Component/Pages/Terms&Conditions/Privacypolicy/Privacypolicy';
-import About from './Component/Pages/About';
+import About from './Component/Pages/AboutUs/About';
 import ContactUs from './Component/Pages/Contact-Us/ContactUs';
 
 
