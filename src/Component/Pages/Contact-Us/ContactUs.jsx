@@ -3,6 +3,7 @@ import { useState } from "react";
 import Button from "@mui/material/Button";
 import { Select, MenuItem, FormControl, InputLabel, FormHelperText, TextField } from "@mui/material";
 import { Link } from "react-router-dom";
+import emailjs from 'emailjs-com'; // Import EmailJS
 import { timeZones } from "../../DevData/devData";
 
 const ContactUs = () => {
@@ -11,6 +12,7 @@ const ContactUs = () => {
         { label: 'Phone:', content: '+44 20 8089 9460' },
         { label: 'Email:', content: 'admin@fathena.com' },
     ];
+
     const [formData, setFormData] = useState({
         firstName: '',
         lastName: '',
@@ -44,7 +46,14 @@ const ContactUs = () => {
         event.preventDefault();
         const validationErrors = validate();
         if (Object.keys(validationErrors).length === 0) {
-            // handle form submission logic here
+            // EmailJS send email logic here
+            emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', formData, 'YOUR_USER_ID')
+                .then((response) => {
+                    console.log('SUCCESS!', response.status, response.text);
+                }, (error) => {
+                    console.log('FAILED...', error);
+                });
+
             console.log("Form submitted successfully");
         } else {
             setErrors(validationErrors);
@@ -109,7 +118,6 @@ const ContactUs = () => {
                                     onChange={handleChange}
                                 />
                                 <label className="pt-1" htmlFor="">First</label>
-
                             </div>
                             <div className="col-12 col-lg-6 col-md-6 mb-4">
                                 <TextField
@@ -123,7 +131,6 @@ const ContactUs = () => {
                                     onChange={handleChange}
                                 />
                                 <label className="pt-1" htmlFor="">Last</label>
-
                             </div>
                             <div className="col-12 mb-4">
                                 <label className="fw-medium fs-5 pb-2" htmlFor="">Zones</label>
@@ -189,7 +196,8 @@ const ContactUs = () => {
                     </form>
                     <p className="section-text2 pt-4">
                         Your privacy is important to us, and we will handle your information in accordance with our
-                        <Link className="ps-2" to="/privacy-policy">Privacy Policy</Link> </p>
+                        <Link className="ps-2" to="/privacy-policy">Privacy Policy</Link>
+                    </p>
                 </div>
             </div>
         </div>
