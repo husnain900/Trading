@@ -1,8 +1,9 @@
 import { useState } from "react";
 import Button from "@mui/material/Button";
-import { Select, MenuItem, FormControl, InputLabel, FormHelperText, TextField } from "@mui/material";
+import { Select, MenuItem, FormControl, InputLabel, FormHelperText, TextField, Snackbar, SnackbarContent } from "@mui/material";
 import emailjs from 'emailjs-com'; // Import EmailJS
 import { timeZones } from "../../DevData/devData";
+import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 
 const TradingForm = () => {
     const [formData, setFormData] = useState({
@@ -14,6 +15,7 @@ const TradingForm = () => {
     });
 
     const [errors, setErrors] = useState({});
+    const [openSnackbar, setOpenSnackbar] = useState(false);
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -37,18 +39,33 @@ const TradingForm = () => {
         event.preventDefault();
         const validationErrors = validate();
         if (Object.keys(validationErrors).length === 0) {
-            // EmailJS send email logic here
-            emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', formData, 'YOUR_USER_ID')
+            // All fields are filled, proceed with sending email
+            emailjs.send('service_nqzb5rn', 'template_zgakz4q', formData, 'Od0LxuyOZjgdfkbE8')
                 .then((response) => {
                     console.log('SUCCESS!', response.status, response.text);
+                    setOpenSnackbar(true); // Open success popup
+                    setFormData({ // Clear form fields
+                        name: '',
+                        phone: '',
+                        time: '',
+                        inquiries: '',
+                        timeZone: ''
+                    });
                 }, (error) => {
                     console.log('FAILED...', error);
+                    // Show error popup or handle error message
                 });
 
             console.log("Form submitted successfully");
         } else {
+            // Some fields are empty, show Material-UI popup or alert
             setErrors(validationErrors);
+            setOpenSnackbar(true); // Open popup for validation errors
         }
+    };
+
+    const handleCloseSnackbar = () => {
+        setOpenSnackbar(false);
     };
 
     const contactTimes = [
@@ -156,6 +173,22 @@ const TradingForm = () => {
                     </form>
                 </div>
             </div>
+            <Snackbar
+            open={openSnackbar}
+            autoHideDuration={6000}
+            onClose={handleCloseSnackbar}
+            anchorOrigin={{ vertical: 'bottom', horizontal: 'center' }}
+        >
+            <SnackbarContent
+                style={{ backgroundColor: '#4CAF50' }} // Green background color
+                message={
+                    <span style={{ display: 'flex', alignItems: 'center' }}>
+                        <CheckCircleIcon style={{ marginRight: '8px' }} /> {/* Check icon */}
+                        {Object.keys(errors).length === 0 ? "Email sent successfully!" : "Please fill in all required fields."}
+                    </span>
+                }
+            />
+        </Snackbar>
         </div>
     );
 };

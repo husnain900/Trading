@@ -1,12 +1,16 @@
 import "./ContactUs.css";
 import { useState } from "react";
 import Button from "@mui/material/Button";
-import { Select, MenuItem, FormControl, InputLabel, FormHelperText, TextField } from "@mui/material";
+import { Select, MenuItem, FormControl, InputLabel, FormHelperText, TextField, Snackbar, Alert } from "@mui/material";
 import { Link } from "react-router-dom";
-import emailjs from 'emailjs-com'; // Import EmailJS
+import emailjs from 'emailjs-com';
 import { timeZones } from "../../DevData/devData";
 
 const ContactUs = () => {
+    const servicesid = "service_nqzb5rn";
+    const templeteid = "template_vsjimzf";
+    const publickey = "Od0LxuyOZjgdfkbE8";
+
     const contactInfo = [
         { label: 'Address:', content: '71-75 Shelton Street, Covent Garden, London, WC2H 9JQ, United Kingdom' },
         { label: 'Phone:', content: '+44 20 8089 9460' },
@@ -23,6 +27,9 @@ const ContactUs = () => {
     });
 
     const [errors, setErrors] = useState({});
+    const [snackbarOpen, setSnackbarOpen] = useState(false);
+    const [snackbarMessage, setSnackbarMessage] = useState("");
+    const [snackbarSeverity, setSnackbarSeverity] = useState("success");
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -46,15 +53,26 @@ const ContactUs = () => {
         event.preventDefault();
         const validationErrors = validate();
         if (Object.keys(validationErrors).length === 0) {
-            // EmailJS send email logic here
-            emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', formData, 'YOUR_USER_ID')
+            emailjs.send(servicesid, templeteid, formData, publickey)
                 .then((response) => {
                     console.log('SUCCESS!', response.status, response.text);
+                    setSnackbarMessage("Email sent successfully!");
+                    setSnackbarSeverity("success");
+                    setSnackbarOpen(true);
+                    setFormData({
+                        firstName: '',
+                        lastName: '',
+                        phone: '',
+                        time: '',
+                        inquiries: '',
+                        timeZone: ''
+                    });
                 }, (error) => {
                     console.log('FAILED...', error);
+                    setSnackbarMessage("Failed to send email.");
+                    setSnackbarSeverity("error");
+                    setSnackbarOpen(true);
                 });
-
-            console.log("Form submitted successfully");
         } else {
             setErrors(validationErrors);
         }
@@ -69,8 +87,22 @@ const ContactUs = () => {
         "9PM – 12PM"
     ];
 
+    const handleCloseSnackbar = () => {
+        setSnackbarOpen(false);
+    };
+
     return (
         <div className="container">
+            <Snackbar
+                open={snackbarOpen}
+                autoHideDuration={6000}
+                onClose={handleCloseSnackbar}
+                anchorOrigin={{ vertical: 'bottom', horizontal: 'center' }}
+            >
+                <Alert onClose={handleCloseSnackbar} severity={snackbarSeverity} sx={{ width: '100%' }}>
+                    {snackbarMessage}
+                </Alert>
+            </Snackbar>
             <div className="row my-5">
                 <div className="col-12 col-md-6">
                     <div className="">
@@ -85,14 +117,14 @@ const ContactUs = () => {
                             {contactInfo.map((item) => (
                                 <li className="py-0" key={item.label}>
                                     <p style={{ color: "#444444" }}>
-                                        {item.label} {/* Display the label */}
-                                        {item.label === 'Email:' && ( // Check for email
+                                        {item.label}
+                                        {item.label === 'Email:' && (
                                             <a href={`mailto:${item.content}`}>{item.content}</a>
                                         )}
-                                        {item.label === 'Phone:' && ( // Check for phone number
+                                        {item.label === 'Phone:' && (
                                             <a href={`tel:${item.content}`}>{item.content}</a>
                                         )}
-                                        {item.label !== 'Email:' && item.label !== 'Phone:' && ( // Display other content
+                                        {item.label !== 'Email:' && item.label !== 'Phone:' && (
                                             item.content
                                         )}
                                     </p>
