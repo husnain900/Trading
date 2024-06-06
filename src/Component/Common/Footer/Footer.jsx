@@ -7,16 +7,20 @@ const Footer = () => {
                 <div className="row py-3 py-lg-5">
                     <div className="col-12 col-lg-2 mb-4 mb-lg-0">
                         <div className="footer-logo">
-                            <img className="w-100 h-auto" src="Assets/Images/Logo/footer-athena.png" alt="" />
+                            <Link to="/">
+                                <img className="w-100 h-auto" src="Assets/Images/Logo/footer-athena.png" alt="" />
+                            </Link>
                         </div>
                     </div>
                     <div className="col-12 col-lg-5 mb-4 mb-lg-0">
-                        <div className="ms-0 ms-lg-auto">
-                            <div className="d-flex gap-5 justify-content-center justify-content-lg-start">
-                                <h5>About Us </h5> <h5>Contact US</h5>
+                        <div className="ms-0 ms-lg-auto ">
+                            <div className="d-flex gap-5 justify-content-center justify-content-lg-start pb-3">
+                                <Link className="nav-link-foot" to="/about-us">About Us</Link>
+                                <Link className="nav-link-foot" to="/contact-us">Contact Us</Link>
                             </div>
                             <h5>We lead you to jump start and grow strong. Discuss with us your goal, our job is to help you reach it.</h5>
                         </div>
+
                     </div>
                     <div className="col-12 col-lg-5 footer-text">
                         <p>

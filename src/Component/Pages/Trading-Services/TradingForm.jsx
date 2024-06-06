@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Button from "@mui/material/Button";
 import { Select, MenuItem, FormControl, InputLabel, FormHelperText, TextField } from "@mui/material";
+import emailjs from 'emailjs-com'; // Import EmailJS
 import { timeZones } from "../../DevData/devData";
 
 const TradingForm = () => {
@@ -36,13 +37,19 @@ const TradingForm = () => {
         event.preventDefault();
         const validationErrors = validate();
         if (Object.keys(validationErrors).length === 0) {
-            // handle form submission logic here
+            // EmailJS send email logic here
+            emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', formData, 'YOUR_USER_ID')
+                .then((response) => {
+                    console.log('SUCCESS!', response.status, response.text);
+                }, (error) => {
+                    console.log('FAILED...', error);
+                });
+
             console.log("Form submitted successfully");
         } else {
             setErrors(validationErrors);
         }
     };
-
 
     const contactTimes = [
         "6AM – 9PM",
