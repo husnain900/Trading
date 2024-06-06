@@ -119,4 +119,7 @@
   .aboutus2ndcontentAfter {
     padding-top: 20px;
   }
+  .carousel-item img {
+    width: 200px;
+  }
 }
