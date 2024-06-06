@@ -35,7 +35,9 @@ const Footer = () => {
 
                 </div>
                 <div className="text-center text-lg-start pt-0 pt-lg-3">
-                    <p> <b> Disclaimer: </b> Athena Technology operates solely as an information technology company. We expressly disclaim any provision of financial services or acceptance of investments. The contents of this site are not designed for distribution to, or use by, any individuals or entities in any jurisdiction or country where such distribution or use would contravene local laws or regulations. Athena Technology is not authorized to engage in or offer financial services or investment opportunities.</p>
+                    <p> <b> Disclaimer: </b> Athena Technology operates solely as an information technology company. We expressly disclaim any provision of financial services or acceptance of investments. The contents of this site are not designed for distribution to, or use by, any individuals or entities in any jurisdiction or country where such distribution or use would contravene local laws or regulations. Athena Technology is not authorized to engage in or offer financial services or investment opportunities. 
+                    </p>
+                    <p style={{textAlign:'center', color:'#b7c0d5'}}> © Copyright 2024. Athena. All Right Reserved <a href="/terms"> Terms of use</a> | <a href="/privacy-policy"> Privacy Policy</a></p>
                 </div>
             </div>
         </div>
