@@ -39,7 +39,7 @@ function BrandIdentity() {
                 <h2 className="titleline text-lg-start my-4">Presence Capabilities</h2>
                 <div className="row BrandSPaceHomePage">
                     <div className="col-12 col-md-6 mb-5 mb-lg-0">
-                        <h2 className="bold-title">BRAND <b>Identity</b></h2>
+                        <h2 className="bold-title brandTitleHome">BRAND <br/><b>Identity</b></h2>
                         <img className="w-100 h-auto  d-md-none mb-5" src="Assets/Images/brand1.png" alt="" />
                         <div className="check-p">
                             {items.map((item, index) => (
@@ -63,7 +63,7 @@ function BrandIdentity() {
                         <img className="w-100 h-auto " src="Assets/Images/brand2.png" alt="" />
                     </div>
                     <div className="col-12 col-md-6 mb-5 mb-lg-0 text-center text-lg-end ">
-                        <h2 className="bold-title">WEB <b>Design</b></h2>
+                        <h2 className="bold-title brandTitleHome">WEB <br/><b>Design</b></h2>
                         <img className="w-100 h-auto  d-md-none mb-5" src="Assets/Images/brand2.png" alt="" />
                         <div className="d-flex justify-content-start justify-content-lg-center">
                             <div className="check-p ">
@@ -82,7 +82,7 @@ function BrandIdentity() {
                 {/* 3---- */}
                 <div className="row BrandSPaceHomePage ">
                     <div className="col-12 col-md-6 mb-5 mb-lg-0 ">
-                        <h2 className="bold-title">WEB <b>Development</b></h2>
+                        <h2 className="bold-title brandTitleHome">WEB <br/><b>Development</b></h2>
                         <img className="w-100 h-auto  d-md-none mb-5" src="Assets/Images/brand3-768x747.png" alt="" />
                         <div className="check-p">
                             {items3.map((item, index) => (
@@ -106,7 +106,7 @@ function BrandIdentity() {
                         <img className="w-100 h-auto " src="Assets/Images/brand4.png" alt="" />
                     </div>
                     <div className="col-12 col-md-6 mb-5 mb-lg-0 text-center text-lg-end ">
-                        <h2 className="bold-title">DIGITAL <b>Marketing</b></h2>
+                        <h2 className="bold-title brandTitleHome">DIGITAL<br/><b>Marketing</b></h2>
                         <img className="w-100 h-auto  d-md-none mb-5" src="Assets/Images/brand4.png" alt="" />
                         <div className="d-flex justify-content-start justify-content-lg-center">
                             <div className="check-p ">
@@ -125,7 +125,7 @@ function BrandIdentity() {
                 {/* 5---- */}
                 <div className="row BrandSPaceHomePage">
                     <div className="col-12 col-md-6 ">
-                        <h2 className="bold-title">WEB <b>Maintenance</b></h2>
+                        <h2 className="bold-title brandTitleHome">WEB <br/><b>Maintenance</b></h2>
                         <img className="w-100 h-auto  d-md-none mb-5" src="Assets/Images/brand5.png" alt="" />
                         <div className="check-p">
                             {items5.map((item, index) => (

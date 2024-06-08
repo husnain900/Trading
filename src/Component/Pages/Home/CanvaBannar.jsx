@@ -12,7 +12,7 @@ function CanvaBannar() {
   return (
     <div className="container-fluid canvabanner-container">
       <div className="row">
-        <div className="col-12 col-md-8 col-lg-9 media-wrapper">
+        <div className="col-12  col-lg-9 media-wrapper">
           <img
             src="/images/empowering future of trading.png"
             alt="Overlay"
@@ -29,7 +29,7 @@ function CanvaBannar() {
             Your browser does not support the video tag.
           </video>
         </div>
-        <div className="col-12 col-md-4 col-lg-3 canvabanner-container " id='canvabanner_text'>
+        <div className="col-12  col-lg-3 canvabanner-container " id='canvabanner_text'>
           <h2>Simplifying Your Path</h2>
           <h5>Streamlined, Speedy, Cost-Effective Solutions</h5>
           <p>
