@@ -10,11 +10,7 @@ import MetaTraderAPI from "./MetaTraderAPI";
 import TradingForm from "./TradingForm";
 const TradingServices = () => {
   const listItems = [
-    "Fast and Efficient Trading ",
-    "Fully Customizable Platforms ",
-    "Accessible Anywhere",
-    "MetaTrader 4 & MetaTrader 5 ",
-    "Your Gateway to the Markets"
+  "Fast and Efficient Trading | Fully Customizable Platforms | Accessible Anywhere | MetaTrader 4 & MetaTrader 5 | Your Gateway to the Markets:"
   ];
   return (
     <div>
@@ -26,7 +22,7 @@ const TradingServices = () => {
         </title>
       </Helmet>
       <BlueBannar
-        title="Empower Your Trade, Expand Your Horizons"
+        title={["Empower Your Trade, ", <br />, "Expand Your Horizons"]}
         imageSrc="Assets/Images/banner1.png"
         listItems={listItems}
         scrollImageSrc="Assets/Images/scroll.png"

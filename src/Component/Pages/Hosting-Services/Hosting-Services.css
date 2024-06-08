@@ -4,7 +4,12 @@
     height: 100%;
     font-size: 20px;
 }
-
+.HostingMapimages{
+    margin-left: 10%;
+}
+.HostingpageP{
+    font-size: 21px;
+}
 .hosting-bg-1 {
     background-image: url(../../../../public/Assets/Images/Background/Background2.jpg);
     background-repeat: no-repeat;

@@ -19,9 +19,9 @@ const Equinix2 = () => {
 
     return (
         <div className="">
-            <div className="container">
+            <div className="container ">
                 <div className="Equinix-content">
-                    <div className="col-12 col-md-6">
+                    <div className="col-12 col-md-7">
                         <h3 style={{
                             textAlign: 'left'
                         }} className="section-title">Equinix NY2 International Business Exchange™ (IBX®)
@@ -30,8 +30,8 @@ const Equinix2 = () => {
                     </div>
                 </div>
                 <BlueBox certifications={certifications} dataCenterFacts={dataCenterFacts} />
-                <p className="section-text2">Equinix Financial Exchange with low latency connectivity to a large ecosystem of financial firms including BATS, CBOE, ICAP, Knight Capital, ISE and BOX. </p>
-                <img className="w-100 h-auto px-0 px-lg-5 my-5" src="Assets/Images/map3.png" alt="" />
+                <p className="section-text2 HostingpageP">Equinix Financial Exchange with low latency connectivity to a large ecosystem of financial firms including BATS, CBOE, ICAP, Knight Capital, ISE and BOX. </p>
+                <img className="HostingMapimages w-80 h-auto px-0 px-lg-5 my-5" src="Assets/Images/map3.png" alt="" />
             </div>
         </div>
     )

@@ -1,6 +1,7 @@
 .AboutUsImg {
   position: relative;
-  height: 420px;
+
+  height: 600px;
   /* Adjust as needed */
   display: flex;
   justify-content: center;
@@ -11,24 +12,71 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-
 }
-
-.AboutUsImg::before {
+.AboutUsImg2 {
+  position: relative;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: width 0.3s ease;
+  width: 100%;
+  background-image: url('/images/team.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.AboutUsImg::before{
   content: '';
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(14, 33, 100, 0.5);
   z-index: 1;
 }
+
+/* .AboutUsImg2::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(14, 33, 100, 0.3);
+  z-index: 1;
+} */
+ .AboutUsSecttion4Content>h1 , .AboutUsSecttion4Content>h3 , .AboutUsSecttion4Content>p{
+color: #979797;
+ }
+ .AboutUsSecttion4Content>p{
+  font-size: 21px;
+ }
+
+.aboutus3rdcontent{
+  width: 100% !important;
+}
+.aboutus3rdcontent>h1{
+  color: white;
+  font-size: 56px !important;
+}
+.aboutus3rdcontent>h5{
+  font-size: 22px;
+  color: white;
+}
+.aboutus23rdcontentAfter>p , .aboutus23rdcontentAfter>h5{
+  color: white;
+  z-index: 1;
+}
+
+
 
 .ReadMorebtn {
   background-color: none;
   cursor: pointer;
-  color: white;
+  color: #5584ff !important;
+  font-size: 24px !important;
 }
 
 .AboutUs {
@@ -46,26 +94,35 @@
 
 .aboutus1stcontent {
   z-index: 1;
+
 }
 
 .aboutus1stcontent>h1 {
-  font-size: 30px;
+  font-size: 56px;
   color: white;
   font-weight: 400;
 }
 
 .aboutus1stcontent>p {
-  font-size: 16px;
+  font-size: 34px;
   color: white;
 }
 
 .aboutus1stcontentAfter {
   padding: 20px;
+  z-index: 11;
   transition: opacity 0.3s ease;
+}
+.aboutus1stcontentAfter >p{
+  color: white;
+ 
 }
 
 .aboutus2ndcont {
   padding: 70px 0;
+}
+.aboutus2ndcontent>p {
+ color: #979797;
 }
 
 .aboutus2ndcontent>h1 {
@@ -78,6 +135,9 @@
   cursor: pointer;
   color: #5584ff;
 
+}
+.aboutus2ndcontentAfter>p{
+  color: #979797;
 }
 
 .AboutusEnvironmentSection>h1 {
@@ -98,6 +158,9 @@
   height: auto;
   margin: 0 auto;
 }
+.aboutus23rdcontentAfter, .aboutus3rdcontent{
+  z-index: 1;
+}
 
 .carousel-indicators button {
   width: 120px !important;
@@ -112,11 +175,15 @@
     height: 330px;
 
   }
+  .AboutUsImg2 {
+    height: 330px;
+
+  }
 
 }
 
 @media (max-width: 768px) {
-  .aboutus2ndcontentAfter {
+  .aboutus2ndcontentAfter, .aboutus23rdcontentAfter {
     padding-top: 20px;
   }
   .carousel-item img {

@@ -20,7 +20,7 @@ const OurData = () => {
         <div className="">
             <div className="container">
                 <div className="row my-5">
-                    <div className="col-12 col-md-6">
+                    <div className="col-12 col-md-7">
                         <h1
                             className="section-title text-larger"
                             style={{
@@ -36,7 +36,7 @@ const OurData = () => {
                     </div>
                 </div>
                 <BlueBox certifications={certifications} dataCenterFacts={dataCenterFacts} />
-                <p className="section-text2 ">Connection to Europe’s extensive financial service market through the Slough campus (LD4, LD5, LD6, LD7, LD10, LD13x data centers) Highly secure and hosts Europe’s largest multilateral trading facility, BATS Chi-X, and FX trading system ICAP’s EBS.
+                <p className="section-text2 HostingpageP">Connection to Europe’s extensive financial service market through the Slough campus (LD4, LD5, LD6, LD7, LD10, LD13x data centers) Highly secure and hosts Europe’s largest multilateral trading facility, BATS Chi-X, and FX trading system ICAP’s EBS.
                 </p>
             </div>
         </div>

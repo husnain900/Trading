@@ -1,3 +1,4 @@
+import "./BrandIdentity.css"
 import { IoCheckmarkCircle } from "react-icons/io5";
 import ButtonC from "../../Ui-Component/Button"
 
@@ -35,8 +36,11 @@ function BrandIdentity() {
     ];
     return (
         <div className="bran-identity-content py-5 ">
-            <div className="container">
-                <h2 className="titleline text-lg-start my-4">Presence Capabilities</h2>
+            <h2 className="titleline text-lg-start my-4">Presence Capabilities</h2>
+                 <div className="BrandIdentityHomebg ">
+            <div className="container ">
+                
+         
                 <div className="row BrandSPaceHomePage">
                     <div className="col-12 col-md-6 mb-5 mb-lg-0">
                         <h2 className="bold-title brandTitleHome">BRAND <br/><b>Identity</b></h2>
@@ -78,8 +82,10 @@ function BrandIdentity() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div></div></div>
                 {/* 3---- */}
+                <div className="BrandIdentityHomebg2 ">
+                <div className="container">
                 <div className="row BrandSPaceHomePage ">
                     <div className="col-12 col-md-6 mb-5 mb-lg-0 ">
                         <h2 className="bold-title brandTitleHome">WEB <br/><b>Development</b></h2>
@@ -121,8 +127,9 @@ function BrandIdentity() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> </div></div>
                 {/* 5---- */}
+                <div className="container">
                 <div className="row BrandSPaceHomePage">
                     <div className="col-12 col-md-6 ">
                         <h2 className="bold-title brandTitleHome">WEB <br/><b>Maintenance</b></h2>
@@ -142,9 +149,9 @@ function BrandIdentity() {
                     <div className="col-12 col-md-6 mb-5 mb-lg-0 d-none d-md-block">
                         <img className="w-100 h-auto " src="Assets/Images/brand5.png" alt="" />
                     </div>
-                </div>
+              
                 {/* ---- */}
-            </div>
+            </div></div>
         </div>
     )
 }

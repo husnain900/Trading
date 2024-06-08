@@ -22,7 +22,7 @@ const Sidebar = ({ isOpen, onClose }) => {
         <div className={`sidebar ${isOpen ? 'open' : ''}`}>
             <div className="row">
                 <div className="col-12 col-lg-6 order-2 order-lg-1 mt-5 mt-md-0">
-                    <div className="d-flex  align-items-end h-100 justify-content-between justify-content-lg-end flex-lg-column text-start">
+                    {/* <div className="d-flex  align-items-end h-100 justify-content-between justify-content-lg-end flex-lg-column text-start">
                             <NavLink onClick={onClose} className='nav-link p-0 me-0 me-lg-auto' to="/contact-us">
                                 <Button className="text-white fw-bold fs-6" >
                                     Contact Us
@@ -33,7 +33,7 @@ const Sidebar = ({ isOpen, onClose }) => {
                                     About Us
                                 </Button>
                             </NavLink>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="col-12 col-lg-6 order-1 order-lg-2">
                     <div className="text-end">
@@ -57,8 +57,24 @@ const Sidebar = ({ isOpen, onClose }) => {
                                 >
                                     {item.name}
                                 </div>
+                                
                             )
                         ))}
+                         <div className="d-flex w-20">
+                            <NavLink onClick={onClose} className='nav-link p-0 me-0 me-lg-auto ' to="/contact-us">
+                                <Button className="text-white fw-bold fs-6" >
+                                    Contact Us
+                                </Button>
+                            </NavLink>
+                            <NavLink onClick={onClose} className='nav-link p-0 me-0 me-lg-auto' to="/about-us">
+                                <Button className="text-white fw-bold fs-6" >
+                                    About Us
+                                </Button>
+                            
+                            </NavLink>
+                          
+
+                    </div>
                     </div>
                 </div>
             </div>

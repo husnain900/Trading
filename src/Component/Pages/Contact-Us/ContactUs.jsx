@@ -12,9 +12,9 @@ const ContactUs = () => {
     const publickey = "Od0LxuyOZjgdfkbE8";
 
     const contactInfo = [
-        { label: 'Address:', content: '71-75 Shelton Street, Covent Garden, London, WC2H 9JQ, United Kingdom' },
-        { label: 'Phone:', content: '+44 20 8089 9460' },
-        { label: 'Email:', content: 'admin@fathena.com' },
+        { label: 'Address:', content: ' 71-75 Shelton Street, Covent Garden, London, WC2H 9JQ, United Kingdom' },
+        { label: 'Phone:', content: '  +44 20 8089 9460' },
+        { label: 'Email:', content: '  admin@fathena.com' },
     ];
 
     const [formData, setFormData] = useState({
@@ -103,26 +103,26 @@ const ContactUs = () => {
                     {snackbarMessage}
                 </Alert>
             </Snackbar>
-            <div className="row my-5">
+            <div className="row my-5 ">
                 <div className="col-12 col-md-6">
                     <div className="">
                         <h3 style={{ color: "#444444" }} className="bluetitle text-start">
                             Contact Us
                         </h3>
-                        <p style={{ color: "#444444" }} className="section-text2">
+                        <p style={{ color: "#444444" , paddingRight:'20px' }} className="section-text2 "  >
                             Whether you have inquiries, feedback, or need specific information, our team is here to help.
                         </p>
                         <ul className="p-0 mt-5">
-                            <li><h6 className="fw-bold">Athena Technology Limited (UK)</h6></li>
+                            <li><h6 className="fw-bold"> Athena Technology Limited (UK)</h6></li>
                             {contactInfo.map((item) => (
                                 <li className="py-0" key={item.label}>
                                     <p style={{ color: "#444444" }}>
-                                        {item.label}
+                                    {"  "} {item.label}
                                         {item.label === 'Email:' && (
-                                            <a href={`mailto:${item.content}`}>{item.content}</a>
+                                            <a href={`mailto:${item.content}`}>{"  "} {item.content}</a>
                                         )}
                                         {item.label === 'Phone:' && (
-                                            <a href={`tel:${item.content}`}>{item.content}</a>
+                                            <a href={`tel:${item.content}`}>{"  "} {item.content}</a>
                                         )}
                                         {item.label !== 'Email:' && item.label !== 'Phone:' && (
                                             item.content
@@ -131,10 +131,10 @@ const ContactUs = () => {
                                 </li>
                             ))}
                         </ul>
-                        <img className="w-100 h-auto" src="Assets/Images/Conact-Us-Page-image-1.png" alt="" />
+                        <img style={{padding:"20px 20px 0 0"}} className="w-100 h-auto" src="Assets/Images/Conact-Us-Page-image-1.png" alt="" />
                     </div>
                 </div>
-                <div className="col-12 col-md-6">
+                <div className="col-12 col-md-6 px-5">
                     <form className="form-section" onSubmit={handleSubmit}>
                         <div className="row">
                             <label className="fw-medium fs-5 pb-2" htmlFor="">Name</label>

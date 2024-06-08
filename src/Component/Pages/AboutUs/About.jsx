@@ -20,16 +20,11 @@ function About() {
   return (
     <>
       {/* !st Section */}
-      <div className={`${isExpanded ? 'container' : 'container-fluid'}`}>
-        <div className="row">
-
-
-          <div
-            className={`col-12 ${isExpanded ? 'col-md-6' : ''
-              } text-center AboutUsImg`}
-          >
-            <div className="AboutUsbox" />
-            <div className="aboutus1stcontent">
+      <div className="AboutUsImg">
+        <div className="container">
+          <div className="row">
+            <div className="AboutUsbox " />
+            <div className=" col-6 aboutus1stcontent">
               <h1>Pioneering the Future of Trading</h1>
 
               <p>
@@ -40,58 +35,28 @@ function About() {
                 {isExpanded ? 'Read Less About Us' : 'Read More About Us'}
               </p>
             </div>
+
+            {isExpanded && (
+              <div className="col-12 col-md-6  aboutus1stcontentAfter">
+                <p>
+                  Athena Technology, established in 2019, strives to
+                  revolutionize the online trading experience by focusing on
+                  simplicity, cost-efficiency, and speed. These principles guide
+                  the development of each tool and service, aiming to provide
+                  top-tier trading solutions. The company culture prioritizes
+                  these values, fostering an environment that encourages
+                  innovation and focuses on enhancing user experience. Athena
+                  Technology is dedicated to continuous improvement, ensuring
+                  their trading platforms are industry-leading and empowering
+                  traders to maintain a competitive edge. Since its founding,
+                  Athena has positioned itself as a pioneer in the trading
+                  sector, continuously pushing the boundaries of what is
+                  possible in online trading.
+                </p>
+              </div>
+            )}
           </div>
-          {isExpanded && (
-            <div className="col-12 col-md-6  aboutus1stcontentAfter">
-              <h2>Athena Technology</h2>
-              <p>
-                Established in 2019, Athena Technology has consistently aimed to
-                redefine the online trading experience. Our guiding principle is
-                clear and focused: to make trading simple, cost-efficient, and
-                fast for everyone. This commitment shapes every tool and service
-                we develop, ensuring our users have access to the best trading
-                solutions in the industry.
-              </p>
-              <h5>Our Vision and Mission</h5>
-              <p>
-                Our mission at Athena Technology is straightforward—to
-                streamline the trading process using innovative technology that
-                guarantees speed, reduces costs, and simplifies user experience.
-                We believe in making high-quality trading accessible to all,
-                supporting our users in navigating the complexities of financial
-                markets with ease and efficiency.
-              </p>
-              <h5>Core Values and Culture</h5>
-              <p>
-                Simplicity, affordability, and speed are at the heart of
-                everything we do at Athena Technology. Our culture is built
-                around these values, encouraging a workplace where innovation
-                thrives and the focus remains on enhancing user experience. By
-                harmonizing seasoned expertise with fresh perspectives, we
-                create a collaborative environment that propels forward-thinking
-                solutions.
-              </p>
-              <h5>Commitment to Excellence</h5>
-              <p>
-                Athena Technology is committed to excellence, focusing on the
-                continuous improvement of our trading platforms to meet and
-                exceed industry standards. Our dedication extends beyond
-                technology; it encompasses a holistic approach to empower
-                traders, instilling confidence and ensuring they always have a
-                competitive advantage in the market.
-              </p>
-              <h5>Legacy and Future Outlook</h5>
-              <p>
-                Since our inception, Athena Technology has been more than a
-                technology provider—we are pioneers in the trading industry. Our
-                approach is rooted in a deep understanding of market dynamics
-                and an unyielding drive to innovate. Looking forward, we remain
-                dedicated to advancing our platforms and services, pushing the
-                boundaries of what is possible in online trading.
-              </p>
-            </div>
-          )}
-        </div>
+        </div>{' '}
       </div>
       {/* 2nd Section */}
       <div className="container">
@@ -99,132 +64,116 @@ function About() {
           <div className={`col-12 col-md-6 ${isExpanded2 ? 'col-md-6' : ''} `}>
             <div className="AboutUsbox" />
             <div className="aboutus2ndcontent">
-              <h1>Explore the Future of Trading with Athena Technology</h1>
+              <h1 style={{color:"#979797"}}>
+                <b>Explore the Future of Trading</b>
+              </h1>
 
               <p>
                 Join our CEO, Edward HyungJin Jung, as he shares the
                 transformative journey from Wall Street to the digital
-                forefront. Learn how Athena’s dedication to innovation and
+                forefront. Learn how Athena&apos;s dedication to innovation and
                 reliability is shaping the trading world.
-              </p>
-              <p>
-                <b>CEO Profile Overview:</b>
-              </p>
-              <p>
-                Edward HyungJin Jung’s journey from Wall Street to pioneering AI
-                trading systems highlights his impressive career path. An NYU
-                alum, Edward swiftly moved into the realms of stocks and
-                currency trading, showcasing his ambition and expertise. His
-                development of a “black box” AI system, central to his hedge
-                fund management strategy, led to the founding of Athena
-                Technology in 2019. Under his leadership, Athena merges deep
-                industry knowledge with advanced technology, emphasizing that
-                the human touch enhances the precision of digital trading
-                platforms.
-              </p>
-              <p>
-                <b>Educational & Career Milestones:</b>
-              </p>
-              <p>
-                <b>1999:</b> Graduated from New York University.
-              </p>
-              <p>
-                <b>1999:</b> Began his professional journey at Merrill Lynch as
-                a Currency Dealer
-              </p>
-              <p>
-                <b>2005:</b> Held a role as the Principal Manager at Nara New
-                York Wealth Management.
-              </p>
-              <p>
-                <b>2010:</b> Ventured into hedge fund management as the
-                Principle and CEO of FSICM in New York.
-              </p>
-              <p>
-                <b>2019:</b>Founder and CEO of Athena Technology,
               </p>
 
               <p className="ReadCeobtn" onClick={handleReadMore2}>
-                <b>
+                {/* <b>
                   <u>{isExpanded2 ? 'Read Less' : "Read the CEO's Letter"}</u>{' '}
-                </b>{' '}
+                </b>{' '} */}
               </p>
               <img
-                style={{ width: '100%' }}
+                style={{ width: '92%' }}
                 src="/images/CEO.jpeg"
                 alt="CEO image"
               ></img>
+              <h5 style={{color:"#979797"}}>
+                <br />
+                <br/>
+                <b>CEO Profile Overview:</b>
+              </h5>
+              <p>
+              Edward HyungJin Jung, an NYU alum, transitioned from Wall Street to pioneering AI in trading with his creation of a "black box" system. This innovation led him to found Athena Technology in 2019, where he combines deep industry knowledge with advanced technology to enhance digital trading platforms.
+              </p>
             </div>
           </div>
-          {isExpanded2 && (
-            <div className="col-12 col-md-6  aboutus2ndcontentAfter">
-              <p>
-                <b>Dear Valued Partners,</b>
-              </p>
-              <p>
-                Reflecting on my start in 1999 on Wall Street, the evolution of
-                the trading industry has been a dynamic journey, from the
-                dot-com era to the rise of digital trading platforms. Amidst
-                these changes, the constant has been the trader’s search for
-                platforms that are functional, reliable, and innovative.
-              </p>
-              <p>
-                This realization spurred the creation of Athena Technology. We
-                set out not just to participate in the trading ecosystem but to
-                lead it, crafting a trading experience that is intuitive,
-                advanced, and dependable.
-              </p>
-              <p>
-                Athena represents a fusion of diverse talents and ideas,
-                blending deep industry knowledge with fresh, innovative
-                perspectives. Our team, driven by expertise and passion, is the
-                cornerstone of Athena, pushing us daily towards our mission of
-                redefining trading.
-              </p>
-              <p>
-                As we progress, our commitment remains strong: to innovate and
-                set standards. I invite you to join us in this continuing
-                journey, to be part of the change that shapes the future of
-                trading.
-              </p>
-              <p>Best regards,</p>
-              <h5>Edward HyungJin Jung</h5>
-              <p>Founder & CEO, Athena Technology</p>
-            </div>
-          )}
+
+          <div className="col-12 col-md-6  aboutus2ndcontentAfter">
+            <p>
+              Dear Valued Partners,
+            </p>
+            <p>
+              At Athena Technology, we harness a blend of diverse talents and
+              innovative ideas. Our team, which boasts a wealth of industry
+              expertise and a robust passion for pragmatic innovation, is the
+              cornerstone of our mission. Their unwavering dedication and
+              commitment are what propel us daily toward redefining the
+              capabilities of a trading platform.
+            </p>
+            <p>
+              Our approach is grounded in a simple philosophy: trading platforms
+              should be accessible, affordable, and swift, enabling traders to
+              execute their strategies effectively and without undue burden.
+              This philosophy guides every decision we make and every feature we
+              develop, ensuring that we remain leaders in the industry.
+            </p>
+            <p>
+              As we continue to move forward, our dedication to driving
+              innovation and setting new standards in trading technology remains
+              unwavering. We are committed to maintaining the core values of
+              simplicity, cost-efficiency, and speed in all our developments.
+            </p>
+            <p>
+              I warmly invite you to join us on this ongoing journey, to be a
+              part of the transformative changes that are shaping the future of
+              trading. Together, we can redefine what it means to trade
+              efficiently and effectively in the digital age.
+            </p>
+            <p>Best regards,</p>
+            <br />
+            <p>Edward HyungJin Jung</p>
+            <p>Founder & CEO, Athena Technology</p>
+
+           
+         <br/>
+            <h5 style={{color:"#979797"}}>
+              <b>Educational & Career Milestones:</b>
+            </h5>
+
+            <p>1999: Stockbroker at Merrill Lynch.<br/>
+2000: Currency Trader at Citi Group New York.<br/>
+2005: Principal Manager at Nara New York Wealth Management.<br/>
+2010: Principal Partner of FSICM New York Hedge Fund.<br/>
+2019: Founder and CEO of Athena Technology,</p>
+       
+          </div>
         </div>
       </div>
 
       {/* 3rd Section */}
-
+      <div className="AboutUsImg2 mb-5">
       <div className="container">
         <div className="row aboutus2ndcont">
-          <div className={`col-12 col-md-6 ${isExpanded3 ? 'col-md-6' : ''} `}>
+          <div className=
+          {`col-12 col-md-6 ${isExpanded3 ? 'col-md-6' : ''} `}>
             <div className="AboutUsbox" />
-            <div className="aboutus2ndcontent">
-              <h1>Our Dynamic Team</h1>
+            <div className="col-12 col-md-6 aboutus3rdcontent" >
+              <h1 ><b>Our Dynamic Team</b></h1>
 
-              <p>
-                At the heart of Athena’s success is its team. A vibrant mix of
-                seasoned IT and financial professionals along with fresh, young
-                talent in both fields ensures a balanced approach to our
-                mission. This blend of experience and fresh perspectives makes
-                us agile, innovative, and always ready to adapt to the evolving
-                needs of the trading world.
-                <span className="ReadCeobtn" onClick={handleReadMore3}>
-                  <b>{isExpanded3 ? ' Read Less' : ' Read More'}</b>{' '}
+              <h5>
+              At the heart of Athena's success is its team. A vibrant mix of seasoned IT and financial professionals along with fresh, young talent in both fields ensures a balanced approach to our mission. This blend of experience and fresh perspectives makes us agile, innovative, and always ready to adapt to the evolving needs of the trading world.
+               <br/> <span className="ReadCeobtn" onClick={handleReadMore3}>
+                  <b>{isExpanded3 ? ' [Read Less]' : ' [Read More]'}</b>{' '}
                 </span>
-              </p>
+              </h5>
 
-              <img
+              {/* <img
                 style={{ width: '100%' }}
                 src="/images/team.jpg"
                 alt="Team image"
-              ></img>
+              ></img> */}
             </div>
           </div>
           {isExpanded3 && (
-            <div className="col-12 col-md-6  aboutus2ndcontentAfter">
+            <div className="col-12 col-md-6    aboutus23rdcontentAfter">
               <h5>
                 <b>Diversity in Expertise</b>
               </h5>
@@ -291,12 +240,12 @@ function About() {
             </div>
           )}
         </div>
-      </div>
+      </div></div>
 
       {/* 4th Section */}
-      <div className="container">
+      <div className="container pt-5">
         <div className="row">
-          <div className="col-12 col-md-6">
+          <div className="col-12 col-md-6 AboutUsSecttion4Content">
             <h1>Trading, Transformed</h1>
             <h3>Swift, Smart, Superior with Athena.</h3>
             <p>
@@ -311,12 +260,13 @@ function About() {
               dream is to be the first choice for traders globally, providing
               them with a platform that’s ahead of its time.
             </p>
-            <img
-              style={{ width: '100%' }}
+            
+          </div>
+          <div className='col-12 col-md-6 d-flex justify-content-center align-items-center'> <img
+              style={{ width: '80%' }}
               src="/images/aboutus4.png"
               alt="Team image"
-            ></img>
-          </div>
+            ></img></div>
         </div>
       </div>
       {/* 5th Section Last */}
