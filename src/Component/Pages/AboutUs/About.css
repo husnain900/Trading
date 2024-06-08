@@ -170,6 +170,21 @@ color: #979797;
   background-color: #E75451 !important;
 }
 
+.AboutUsLAstSectionText{
+  text-align: center;
+  margin-top: 100px;
+}
+.AboutUsLAstSectionText>h1{
+font-size: 48px;
+font-weight: 600;
+color: #979797;
+}
+.AboutUsLAstSectionText>p{
+  font-size: 26px;
+  font-weight: 500;
+  color: #979797;
+  }
+
 @media (max-width: 992px) {
   .AboutUsImg {
     height: 330px;

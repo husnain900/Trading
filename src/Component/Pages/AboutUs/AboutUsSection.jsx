@@ -47,6 +47,8 @@ const carouselData = [
 function AboutUsSection() {
   return (
     <div className="container">
+      <div className='AboutUsLAstSectionText'> <h1>Company Culture</h1>
+      <p>Innovation, Integrity, Inclusivity: The Pillars of Our Culture</p></div>
       <div
         id="carouselExampleDark"
         className="carousel carousel-dark slide carousel-fade py-5"
