@@ -17,6 +17,7 @@ import TermsAndConditions from './Component/Pages/Terms&Conditions/TermsAndCondi
 import Privacypolicy from './Component/Pages/Terms&Conditions/Privacypolicy/Privacypolicy';
 import About from './Component/Pages/AboutUs/About';
 import ContactUs from './Component/Pages/Contact-Us/ContactUs';
+import ScrollToTop from './Component/Pages/Home/ScrollToTop ';
 
 
 
@@ -24,6 +25,7 @@ function App() {
   return (
     <Router>
       <Nav />
+      <ScrollToTop/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/hosting-service" element={<Hosting_Services />} />

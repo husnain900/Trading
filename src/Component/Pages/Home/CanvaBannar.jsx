@@ -1,59 +1,47 @@
-import  { useEffect, useRef } from 'react';
+import  { useState } from 'react';
+import './CanvaBannar.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-const CanvasComponent = () => {
-  const canvasRef = useRef(null);
-  const animContainerRef = useRef(null);
-  const domOverlayContainerRef = useRef(null);
+function CanvaBannar() {
+  const [videoLoaded, setVideoLoaded] = useState(false);
 
-  useEffect(() => {
-    const init = () => {
-      const canvas = canvasRef.current;
-      const animContainer = animContainerRef.current;
-      const domOverlayContainer = domOverlayContainerRef.current;
-      const comp = AdobeAn.getComposition('D46332A7DA7D48099E976E2CB0D74D0F');
-      const lib = comp.getLibrary();
-      handleComplete({}, comp);
-    };
-
-    const handleComplete = (evt, comp) => {
-      const lib = comp.getLibrary();
-      const ss = comp.getSpriteSheet();
-      const exportRoot = new lib.Athena_Fintech_Hero_07();
-      const stage = new lib.Stage(canvasRef.current);
-      const fnStartAnimation = () => {
-        stage.addChild(exportRoot);
-        createjs.Ticker.framerate = lib.properties.fps;
-        createjs.Ticker.addEventListener('tick', stage);
-      };
-
-      AdobeAn.makeResponsive(true, 'both', true, 2, [canvasRef.current, animContainerRef.current, domOverlayContainerRef.current]);
-      AdobeAn.compositionLoaded(lib.properties.id);
-      fnStartAnimation();
-    };
-
-    window.addEventListener('load', init);
-
-    return () => {
-      window.removeEventListener('load', init);
-    };
-  }, []);
+  const handleVideoLoaded = () => {
+    setVideoLoaded(true);
+  };
 
   return (
-    <div id="animation_container" style={{ backgroundColor: 'rgba(255, 255, 255, 1.00)', width: '1680px', height: '1150px' }}>
-      <canvas
-        id="canvas"
-        ref={canvasRef}
-        width="1680"
-        height="1150"
-        style={{ position: 'absolute', display: 'block', backgroundColor: 'rgba(255, 255, 255, 1.00)' }}
-      ></canvas>
-      <div
-        id="dom_overlay_container"
-        ref={domOverlayContainerRef}
-        style={{ pointerEvents: 'none', overflow: 'hidden', width: '1680px', height: '1150px', position: 'absolute', left: 0, top: 0, display: 'block' }}
-      ></div>
+    <div className="container-fluid canvabanner-container">
+      <div className="row">
+        <div className="col-12 col-md-8 col-lg-9 media-wrapper">
+          <img
+            src="/images/empowering future of trading.png"
+            alt="Overlay"
+            className={`overlay-image ${videoLoaded ? 'hidden' : ''}`}
+          />
+          <video
+            autoPlay
+            loop
+            muted
+            className={`canvabannervideo  ${videoLoaded ? '' : 'hidden'}`}
+            onLoadedData={handleVideoLoaded}
+          >
+            <source src="/images/Home Hero Video.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div className="col-12 col-md-4 col-lg-3 canvabanner-container " id='canvabanner_text'>
+          <h2>Simplifying Your Path</h2>
+          <h5>Streamlined, Speedy, Cost-Effective Solutions</h5>
+          <p>
+            Our mission is to support your trading from start to finish by handling aspects
+            like server hosting, payment processing, and web development. We aim to simplify
+            your financial activities, assisting in everything from budgeting to branding,
+            ensuring you operate with ease and confidence.
+          </p>
+        </div>
+      </div>
     </div>
   );
-};
+}
 
-export default CanvasComponent;
+export default CanvaBannar;

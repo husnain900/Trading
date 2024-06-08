@@ -12,6 +12,7 @@ a {
     text-decoration: none !important;
 }
 
+
 .fathena-btn {
     background: #5584FF !important;
     height: 58px;
@@ -34,6 +35,8 @@ a {
     line-height: 24px;
     color: #b7c0d5;
     text-align: center;
+    
+  padding: 0 15%;
 }
 
 .section-text2 {

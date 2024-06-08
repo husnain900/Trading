@@ -6,14 +6,14 @@ import TradingServices from "./TradingServices";
 import PaymentServices from "./PaymentServices";
 import AggregatedServices from "./AggregatedServices";
 import BrandIdentity from "./BrandIdentity";
-// import CanvasComponent from "./CanvaBannar";
+import CanvasComponent from "./CanvaBannar";
 const home = () => {
     return (
         <div>
             <Helmet>
                 <title>Home - fathena : fathena</title>
             </Helmet>
-            {/* <CanvasComponent /> */}
+            <CanvasComponent />
             <HomeBannar />
             <HostingServices />
             <TradingServices />

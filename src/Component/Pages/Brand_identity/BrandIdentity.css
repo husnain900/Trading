@@ -28,10 +28,13 @@
   font-size: 16px;
   line-height: 16px;
 }
+.BrandSPaceHomePage{
+  padding: 60px 0;
+}
 
 .check-p p {
   color: white;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 16px;
 }
 
