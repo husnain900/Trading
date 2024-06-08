@@ -35,8 +35,9 @@ function BrandIdentity() {
         "Scheduled backups"
     ];
     return (
-        <div className="bran-identity-content py-5 ">
-            <h2 className="titleline text-lg-start my-4">Presence Capabilities</h2>
+        <>
+        <div className="container"> <div className="row"></div><div className=" col-12 bran-identity-content py-5 ">
+            <h2 className="titleline text-lg-start my-4">Presence Capabilities</h2></div></div>
                  <div className="BrandIdentityHomebg ">
             <div className="container ">
                 
@@ -151,8 +152,8 @@ function BrandIdentity() {
                     </div>
               
                 {/* ---- */}
-            </div></div>
-        </div>
+            </div>
+        </div></>
     )
 }
 
