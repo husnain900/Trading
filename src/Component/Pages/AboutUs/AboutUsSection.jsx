@@ -32,19 +32,19 @@ const sections = [
 
 const carouselData = [
   {
-    src: "/images/carosal.png",
+    src: "Assets/Images/carousel/A 1.jpg",
 
   },
   {
-    src: "/images/carosal.png",
+    src: "Assets/Images/carousel/A 2.jpg",
 
   },
   {
-    src: "/images/carosal.png",
+    src: "Assets/Images/carousel/A 3.jpg",
 
   },
   {
-    src: "/images/carosal.png",
+    src: "Assets/Images/carousel/logo  ok.jpg",
 
   },
 
@@ -63,7 +63,7 @@ function AboutUsSection() {
             className="carousel carousel-dark slide  py-5"
             data-bs-ride="carousel"
           >
-            <div className="carousel-indicators">
+            <div className="carousel-indicators border-1 rounded-3 border-secondary p-3">
               {carouselData.map((item, index) => (
                 <button
                   key={index}

@@ -1,51 +1,56 @@
 .canvabanner-container {
-    background-color: black;
-    color: white;
-    padding: 20px;
-    margin-bottom: 30px;
-  }
-  
-  .media-wrapper {
-    position: relative;
-  }
-  
-  .canvabannervideo , .overlay-image {
-    width: 100%;
-    height: auto;
-  }
-  
-  .hidden {
-    display: none;
-  }
-  
-  .canvabanner-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 20px ;
-  }
-  
-  #canvabanner_text{
-    
-padding-right: 75px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin-bottom: 30px;
+}
 
+.media-wrapper {
+  position: relative;
+}
+
+.canvabannervideo,
+.overlay-image {
+  width: 100%;
+  height: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.canvabanner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+#canvabanner_text {
+
+  padding-right: 75px;
+
+}
+
+#canvabanner_text>h2 {
+  font-size: 38px;
+  color: #0D99FF;
+}
+
+#canvabanner_text>h5 {
+  padding: 30px 80px;
+  font-size: 24px;
+
+}
+#canvabanner_text p {
+  color: #FFCD29;
+  font-size: 18px;
+}
+
+@media (max-width: 992px) {
+
+  #canvabanner_text {
+    padding-right: 50px;
   }
-  #canvabanner_text>h2{
-    font-size: 38px;
-    
-      }
 
-      #canvabanner_text>h5{
-       padding: 20px 0;
-        
-          }
-
-      @media (max-width: 992px) {
-       
-        #canvabanner_text{
-            padding-right: 50px;
-              }
-      
-      }
-
-      
+}

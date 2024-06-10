@@ -39,7 +39,11 @@ header {
     z-index: 1000;
     padding: 16px;
 }
-
+.scroll-container {
+    max-height: 95vh; /* Adjust as needed for your layout */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding-right: 1rem; /* Optional: Add padding to avoid scrollbar overlap */
+  }
 .sidebar.open {
     right: 0;
 }

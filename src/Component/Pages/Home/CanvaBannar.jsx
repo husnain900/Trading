@@ -1,4 +1,4 @@
-import  { useState } from 'react';
+import { useState } from 'react';
 import './CanvaBannar.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -12,7 +12,7 @@ function CanvaBannar() {
   return (
     <div className="container-fluid canvabanner-container">
       <div className="row">
-        <div className="col-12  col-lg-9 media-wrapper">
+        <div className="col-12  col-lg-7 media-wrapper">
           <img
             src="/images/empowering future of trading.png"
             alt="Overlay"
@@ -29,14 +29,11 @@ function CanvaBannar() {
             Your browser does not support the video tag.
           </video>
         </div>
-        <div className="col-12  col-lg-3 canvabanner-container " id='canvabanner_text'>
+        <div className="col-12  col-lg-5 canvabanner-container text-center" id='canvabanner_text'>
           <h2>Simplifying Your Path</h2>
-          <h5>Streamlined, Speedy, Cost-Effective Solutions</h5>
+          <h5>Complete IT Solutions for Trading and Brokerage Firms</h5>
           <p>
-            Our mission is to support your trading from start to finish by handling aspects
-            like server hosting, payment processing, and web development. We aim to simplify
-            your financial activities, assisting in everything from budgeting to branding,
-            ensuring you operate with ease and confidence.
+            We simplify your financial operations from budgeting to branding, enabling you to work with ease and confidence.
           </p>
         </div>
       </div>

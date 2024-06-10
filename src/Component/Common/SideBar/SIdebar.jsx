@@ -21,61 +21,48 @@ const Sidebar = ({ isOpen, onClose }) => {
     return (
         <div className={`sidebar ${isOpen ? 'open' : ''}`}>
             <div className="row">
-                <div className="col-12 col-lg-6 order-2 order-lg-1 mt-5 mt-md-0">
-                    {/* <div className="d-flex  align-items-end h-100 justify-content-between justify-content-lg-end flex-lg-column text-start">
-                            <NavLink onClick={onClose} className='nav-link p-0 me-0 me-lg-auto' to="/contact-us">
-                                <Button className="text-white fw-bold fs-6" >
-                                    Contact Us
-                                </Button>
-                            </NavLink>
-                            <NavLink onClick={onClose} className='nav-link p-0 me-0 me-lg-auto' to="/about-us">
-                                <Button className="text-white fw-bold fs-6" >
-                                    About Us
-                                </Button>
-                            </NavLink>
-                    </div> */}
+                <div className="col-12 col-lg-6">
                 </div>
-                <div className="col-12 col-lg-6 order-1 order-lg-2">
-                    <div className="text-end">
-                        <Button className="close-btn" onClick={onClose}><FaTimesCircle size={30} className='text-white' /></Button>
-                    </div>
-                    <div className="nav-menu">
-                        {menuItems.map((item, index) => (
-                            item.clickable ? (
-                                <NavLink
-                                    key={index}
-                                    to={item.path}
-                                    className="d-flex flex-row nav-link"
-                                    onClick={onClose} // Close sidebar on link click
-                                >
-                                    {item.name}
-                                </NavLink>
-                            ) : (
-                                <div
-                                    key={index}
-                                    className="menu-label" // Add a specific class for non-clickable items
-                                >
-                                    {item.name}
-                                </div>
-                                
-                            )
-                        ))}
-                         <div className="d-flex w-20">
-                            <NavLink onClick={onClose} className='nav-link p-0 me-0 me-lg-auto ' to="/contact-us">
-                                <Button className="text-white fw-bold fs-6" >
-                                    Contact Us
-                                </Button>
-                            </NavLink>
-                            <NavLink onClick={onClose} className='nav-link p-0 me-0 me-lg-auto' to="/about-us">
-                                <Button className="text-white fw-bold fs-6" >
-                                    About Us
-                                </Button>
-                            
-                            </NavLink>
-                          
+                <div className="col-12 col-lg-6">
+                    <div className="scroll-container">
+                            <div className="text-end">
+                                <Button className="close-btn" onClick={onClose}><FaTimesCircle size={30} className='text-white' /></Button>
+                            </div>
+                            <div className="nav-menu">
+                                {menuItems.map((item, index) => (
+                                    item.clickable ? (
+                                        <NavLink
+                                            key={index}
+                                            to={item.path}
+                                            className="d-flex flex-row nav-link"
+                                            onClick={onClose} // Close sidebar on link click
+                                        >
+                                            {item.name}
+                                        </NavLink>
+                                    ) : (
+                                        <div
+                                            key={index}
+                                            className="menu-label" // Add a specific class for non-clickable items
+                                        >
+                                            {item.name}
+                                        </div>
 
-                    </div>
-                    </div>
+                                    )
+                                ))}
+                                <div className="d-flex gap-5 mt-5">
+                                    <NavLink onClick={onClose} className='nav-link' to="/contact-us">
+                                        <Button className="text-white fw-bold fs-5" >
+                                            Contact Us
+                                        </Button>
+                                    </NavLink>
+                                    <NavLink onClick={onClose} className='nav-link' to="/about-us">
+                                        <Button className="text-white fw-bold fs-5" >
+                                            About Us
+                                        </Button>
+                                    </NavLink>
+                                </div>
+                            </div>
+                        </div>
                 </div>
             </div>
 
