@@ -10,7 +10,7 @@ import MetaTraderAPI from "./MetaTraderAPI";
 import TradingForm from "./TradingForm";
 const TradingServices = () => {
   const listItems = [
-  "Fast and Efficient Trading | Fully Customizable Platforms | Accessible Anywhere | MetaTrader 4 & MetaTrader 5 | Your Gateway to the Markets:"
+    "Fast and Efficient Trading | Fully Customizable Platforms | Accessible Anywhere | MetaTrader 4 & MetaTrader 5 | Your Gateway to the Markets:"
   ];
   return (
     <div>

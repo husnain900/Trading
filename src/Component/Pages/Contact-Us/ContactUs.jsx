@@ -104,12 +104,12 @@ const ContactUs = () => {
                 </Alert>
             </Snackbar>
             <div className="row my-5 ">
-                <div className="col-12 col-md-6">
+                <div className="col-12 col-md-6 pe-0 pe-lg-5">
                     <div className="">
                         <h3 style={{ color: "#444444" }} className="bluetitle text-start">
                             Contact Us
                         </h3>
-                        <p style={{ color: "#444444" , paddingRight:'20px' }} className="section-text2 "  >
+                        <p style={{ color: "#444444" }} className="section-text2 "  >
                             Whether you have inquiries, feedback, or need specific information, our team is here to help.
                         </p>
                         <ul className="p-0 mt-5">
@@ -131,10 +131,10 @@ const ContactUs = () => {
                                 </li>
                             ))}
                         </ul>
-                        <img style={{padding:"20px 20px 0 0"}} className="w-100 h-auto" src="Assets/Images/Conact-Us-Page-image-1.png" alt="" />
+                        <img className="w-100 h-auto" src="Assets/Images/Conact-Us-Page-image-1.png" alt="" />
                     </div>
                 </div>
-                <div className="col-12 col-md-6 px-5">
+                <div className="col-12 col-md-6 ps-0 ps-lg-5">
                     <form className="form-section" onSubmit={handleSubmit}>
                         <div className="row">
                             <label className="fw-medium fs-5 pb-2" htmlFor="">Name</label>

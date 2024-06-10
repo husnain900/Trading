@@ -13,6 +13,7 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .AboutUsImg2 {
   position: relative;
   height: 1000px;
@@ -26,7 +27,8 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-.AboutUsImg::before{
+
+.AboutUsImg::before {
   content: '';
   position: absolute;
   top: 0;
@@ -47,25 +49,32 @@
   background-color: rgba(14, 33, 100, 0.3);
   z-index: 1;
 } */
- .AboutUsSecttion4Content>h1 , .AboutUsSecttion4Content>h3 , .AboutUsSecttion4Content>p{
-color: #979797;
- }
- .AboutUsSecttion4Content>p{
-  font-size: 21px;
- }
+.AboutUsSecttion4Content>h1,
+.AboutUsSecttion4Content>h3,
+.AboutUsSecttion4Content>p {
+  color: #979797;
+}
 
-.aboutus3rdcontent{
+.AboutUsSecttion4Content>p {
+  font-size: 21px;
+}
+
+.aboutus3rdcontent {
   width: 100% !important;
 }
-.aboutus3rdcontent>h1{
+
+.aboutus3rdcontent>h1 {
   color: white;
   font-size: 56px !important;
 }
-.aboutus3rdcontent>h5{
+
+.aboutus3rdcontent>h5 {
   font-size: 22px;
   color: white;
 }
-.aboutus23rdcontentAfter>p , .aboutus23rdcontentAfter>h5{
+
+.aboutus23rdcontentAfter>p,
+.aboutus23rdcontentAfter>h5 {
   color: white;
   z-index: 1;
 }
@@ -113,16 +122,18 @@ color: #979797;
   z-index: 11;
   transition: opacity 0.3s ease;
 }
-.aboutus1stcontentAfter >p{
+
+.aboutus1stcontentAfter>p {
   color: white;
- 
+
 }
 
 .aboutus2ndcont {
   padding: 70px 0;
 }
+
 .aboutus2ndcontent>p {
- color: #979797;
+  color: #979797;
 }
 
 .aboutus2ndcontent>h1 {
@@ -136,7 +147,8 @@ color: #979797;
   color: #5584ff;
 
 }
-.aboutus2ndcontentAfter>p{
+
+.aboutus2ndcontentAfter>p {
   color: #979797;
 }
 
@@ -158,7 +170,9 @@ color: #979797;
   height: auto;
   margin: 0 auto;
 }
-.aboutus23rdcontentAfter, .aboutus3rdcontent{
+
+.aboutus23rdcontentAfter,
+.aboutus3rdcontent {
   z-index: 1;
 }
 
@@ -170,26 +184,29 @@ color: #979797;
   background-color: #E75451 !important;
 }
 
-.AboutUsLAstSectionText{
+.AboutUsLAstSectionText {
   text-align: center;
   margin-top: 100px;
 }
-.AboutUsLAstSectionText>h1{
-font-size: 48px;
-font-weight: 600;
-color: #979797;
+
+.AboutUsLAstSectionText>h1 {
+  font-size: 48px;
+  font-weight: 600;
+  color: #979797;
 }
-.AboutUsLAstSectionText>p{
+
+.AboutUsLAstSectionText>p {
   font-size: 26px;
   font-weight: 500;
   color: #979797;
-  }
+}
 
 @media (max-width: 992px) {
   .AboutUsImg {
     height: 330px;
 
   }
+
   .AboutUsImg2 {
     height: 330px;
 
@@ -198,9 +215,12 @@ color: #979797;
 }
 
 @media (max-width: 768px) {
-  .aboutus2ndcontentAfter, .aboutus23rdcontentAfter {
+
+  .aboutus2ndcontentAfter,
+  .aboutus23rdcontentAfter {
     padding-top: 20px;
   }
+
   .carousel-item img {
     width: 200px;
   }
