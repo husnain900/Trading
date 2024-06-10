@@ -24,7 +24,7 @@ function About() {
         <div className="container">
           <div className="row">
             <div className="AboutUsbox " />
-            <div className=" col-6 aboutus1stcontent">
+            <div className=" col-12 col-md-6 aboutus1stcontent">
               <h1>Pioneering the Future of Trading</h1>
 
               <p>

@@ -204,4 +204,21 @@ color: #979797;
   .carousel-item img {
     width: 200px;
   }
+  .AboutUsImg, .AboutUsImg2  {
+    height: 100%;
+  }
+  .aboutus1stcontent>h1 {
+    font-size: 46px;
+  }
+  .aboutus3rdcontent>h1 {
+    font-size: 46px !important;
+  }
+ 
+.aboutus1stcontent>p {
+  font-size: 24px;
+}
+.aboutus1stcontent {
+padding: 20px;
+
+}
 }
