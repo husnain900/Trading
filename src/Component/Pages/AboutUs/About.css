@@ -12,6 +12,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+
 }
 
 .AboutUsImg2 {
@@ -35,10 +36,13 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(14, 33, 100, 0.5);
+  background-color: rgba(14, 33, 100, 0.3);
   z-index: 1;
 }
 
+.AboutUs1stBanner{
+  padding: 0 60px;
+}
 /* .AboutUsImg2::before{
   content: '';
   position: absolute;
@@ -84,7 +88,6 @@
 .ReadMorebtn {
   background-color: none;
   cursor: pointer;
-  color: #5584ff !important;
   font-size: 24px !important;
 }
 
@@ -103,13 +106,16 @@
 
 .aboutus1stcontent {
   z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
 }
 
 .aboutus1stcontent>h1 {
   font-size: 56px;
   color: white;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .aboutus1stcontent>p {
@@ -118,18 +124,22 @@
 }
 
 .aboutus1stcontentAfter {
-  padding: 20px;
+  padding: 50px 22px;
   z-index: 11;
   transition: opacity 0.3s ease;
 }
 
 .aboutus1stcontentAfter>p {
   color: white;
+  font-size: 22px;
 
+}
+.AboutUsC2Img{
+  padding-left: 5%;
 }
 
 .aboutus2ndcont {
-  padding: 70px 0;
+  padding:100px 0;
 }
 
 .aboutus2ndcontent>p {
@@ -142,6 +152,7 @@
 }
 
 .ReadCeobtn {
+ 
   background-color: none;
   cursor: pointer;
   color: #5584ff;
@@ -150,6 +161,11 @@
 
 .aboutus2ndcontentAfter>p {
   color: #979797;
+font-size: 20px;
+line-height: 22px;
+}
+.aboutus2ndcontentAfter>h1 {
+  font-family: "Times New Roman", Times, serif;
 }
 
 .AboutusEnvironmentSection>h1 {
@@ -199,6 +215,19 @@
   font-size: 26px;
   font-weight: 500;
   color: #979797;
+}
+
+
+@media (max-width: 1300px) {
+  .AboutUs1stBanner{
+    padding: 0 20px;
+  }
+  
+.aboutus1stcontentAfter>p {
+  color: white;
+  font-size: 24px;
+
+}
 }
 
 @media (max-width: 992px) {

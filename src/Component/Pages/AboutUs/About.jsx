@@ -21,15 +21,14 @@ function About() {
     <>
       {/* !st Section */}
       <div className="AboutUsImg">
-        <div className="container">
+        <div className="container-fluid AboutUs1stBanner">
           <div className="row">
             <div className="AboutUsbox " />
             <div className=" col-12 col-md-6 aboutus1stcontent">
               <h1>Pioneering the Future of Trading</h1>
 
               <p>
-                Simple, Cost-Efficient, Fast—Crafting the Trading Experience
-                Since 2019.
+                Simple, Cost-Efficient, Fast—Crafting the Trading Experience.
               </p>
               <p className="ReadMorebtn" onClick={handleReadMore}>
                 {isExpanded ? 'Read Less About Us' : 'Read More About Us'}
@@ -61,36 +60,12 @@ function About() {
       {/* 2nd Section */}
       <div className="container">
         <div className="row aboutus2ndcont">
-          <div className={`col-12 col-md-6 ${isExpanded2 ? 'col-md-6' : ''} `}>
-            <div className="AboutUsbox" />
-            <div className="aboutus2ndcontent">
-              <h1 style={{ color: "#979797" }}>
-                <b>Explore the Future of Trading</b>
+        <div className="col-12 col-md-6  aboutus2ndcontentAfter">
+        <h1 style={{ color: "#222222" }}>
+                <b>Welcome to Athena Technology</b>
               </h1>
-
-              <p>
-                Join our CEO, Edward HyungJin Jung, as he shares the
-                transformative journey from Wall Street to the digital
-                forefront. Learn how Athena&apos;s dedication to innovation and
-                reliability is shaping the trading world.
-              </p>
-
-              <p className="ReadCeobtn" onClick={handleReadMore2}>
-                {/* <b>
-                  <u>{isExpanded2 ? 'Read Less' : "Read the CEO's Letter"}</u>{' '}
-                </b>{' '} */}
-              </p>
-              <img
-                style={{ width: '92%' }}
-                src="/images/CEO.jpeg"
-                alt="CEO image"
-              ></img>
-
-            </div>
-          </div>
-          <div className="col-12 col-md-6  aboutus2ndcontentAfter">
             <p>
-              Dear Valued Partners,
+             <b> Dear Partner and ShareHolder </b>
             </p>
             <p>
               At Athena Technology, we harness a blend of diverse talents and
@@ -119,21 +94,38 @@ function About() {
               trading. Together, we can redefine what it means to trade
               efficiently and effectively in the digital age.
             </p>
-            <p>Best regards,</p>
-            <br />
-            <p>Edward HyungJin Jung</p>
-            <p>Founder & CEO, Athena Technology</p>
+            <p>Best regards,<br/><b>Edward HyungJin Jung</b><br/>Founder & CEO, Athena Technology</p>
           </div>
+          {/* <div className={`col-12 col-md-6 ${isExpanded2 ? 'col-md-6' : ''} `}> */}
+               <div className="col-12 col-md-6 d-flex align-items-center AboutUsC2Img">
+            <div className="AboutUsbox" />
+            <div className="aboutus2ndcontent">
+            
+
+              {/* <p className="ReadCeobtn" onClick={handleReadMore2}>
+                <b>
+                  <u>{isExpanded2 ? 'Read Less' : "Read the CEO's Letter"}</u>{' '}
+                </b>{' '}
+              </p> */}
+              <img
+                style={{ width: '100%' }}
+                src="/images/CEO.jpeg"
+                alt="CEO image"
+              ></img>
+
+            </div>
+          </div>
+         
           <div className="col-12 col-lg-6 pe-0 pe-lg-4 mt-4">
-            <h5 className='fw-bold' style={{ color: "#979797" }}>
+            <h5 className='fw-bold' style={{ color: "#163081" }}>
               CEO Profile Overview:
             </h5>
             <p>
               Edward HyungJin Jung, an NYU alum, transitioned from Wall Street to pioneering AI in trading with his creation of a "black box" system. This innovation led him to found Athena Technology in 2019, where he combines deep industry knowledge with advanced technology to enhance digital trading platforms.
             </p>
           </div>
-          <div className="col-12 col-lg-6 mt-4">
-            <h5 style={{ color: "#979797" }}>
+          <div className="col-12 col-lg-6 mt-4 AboutUsC2Img">
+            <h5 style={{ color: "#163081" }}>
               <b>Educational & Career Milestones:</b>
             </h5>
             <p>1999: Stockbroker at Merrill Lynch.<br />
