@@ -76,7 +76,9 @@ ul li {
 }
    
 }
-
+.gap-7 {
+    gap: 4rem !important; /* 64 pixels */
+  }
 
 /* Large devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {}
@@ -85,4 +87,6 @@ ul li {
 @media (min-width: 992px) and (max-width: 1199.98px) {}
 
 /* Extra extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+   
+}

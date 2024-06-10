@@ -2,7 +2,13 @@ import { useState, useEffect } from 'react';
 import "./Nav.css";
 import { Button } from '@mui/material';
 import Sidebar from '../SideBar/SIdebar';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
+const navItems = [
+    { path: '/hosting-service', label: 'Hosting' },
+    { path: '/trading-platform', label: 'Trading' },
+    { path: '/payment-solution', label: 'Payment' },
+    { path: '/aggregated-liquidity', label: 'Liquidity' },
+];
 
 const Nav = () => {
     const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -42,9 +48,22 @@ const Nav = () => {
                                     <img src='Assets/Images/Logo/fathena.png' alt="logo" />
                                 </Link>
                             </div>
-                            <Button variant='text' className="menu" onClick={toggleSidebar}>
-                                <img src='Assets/Images/mennu.png' alt="menu" />
-                            </Button>
+                            <div className="d-flex align-items-center gap-7 ">
+                                <div className="d-none d-lg-block">
+                                    <ul className='p-0 m-0 d-flex align-items-center gap-7 '>
+                                        {navItems.map((item, index) => (
+                                            <li key={index}>
+                                                <NavLink className='nav-link fs-5' to={item.path}>
+                                                    {item.label}
+                                                </NavLink>
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </div>
+                                <Button variant='text' className="menu" onClick={toggleSidebar}>
+                                    <img src='Assets/Images/mennu.png' alt="menu" />
+                                </Button>
+                            </div>
                         </div>
                     </div>
                 </nav>

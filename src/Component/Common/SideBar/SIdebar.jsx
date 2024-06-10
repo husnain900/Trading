@@ -49,7 +49,7 @@ const Sidebar = ({ isOpen, onClose }) => {
 
                                     )
                                 ))}
-                                <div className="d-flex gap-5 mt-5">
+                                <div className="d-flex gap-2 gap-lg-5 mt-4">
                                     <NavLink onClick={onClose} className='nav-link' to="/contact-us">
                                         <Button className="text-white fw-bold fs-5" >
                                             Contact Us

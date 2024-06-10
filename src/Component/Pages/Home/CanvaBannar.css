@@ -24,12 +24,8 @@
   flex-direction: column;
   justify-content: center;
   padding: 20px;
-}
-
-#canvabanner_text {
-
-  padding-right: 75px;
-
+  width: 500px;
+  margin: 0 auto;
 }
 
 #canvabanner_text>h2 {
@@ -42,15 +38,37 @@
   font-size: 24px;
 
 }
+
 #canvabanner_text p {
   color: #FFCD29;
   font-size: 18px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
+  .canvabanner-container {
+    padding: 10px;
+    width: 100%;
+  }
+}
 
-  #canvabanner_text {
-    padding-right: 50px;
+@media (max-width: 592px) {
+  .canvabanner-container {
+    padding: 10px;
+    width: 100%;
+    margin: 0 auto;
   }
 
+  #canvabanner_text>h2 {
+    font-size: 32px;
+    color: #0D99FF;
+  }
+
+  #canvabanner_text>h5 {
+    padding: 18px 0;
+    font-size: 20px;
+  }
+
+  #canvabanner_text p {
+    font-size: 16px;
+  }
 }

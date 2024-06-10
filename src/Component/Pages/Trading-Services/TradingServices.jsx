@@ -26,7 +26,9 @@ const TradingServices = () => {
         imageSrc="Assets/Images/banner1.png"
         listItems={listItems}
         scrollImageSrc="Assets/Images/scroll.png"
-        backgroundImage="Assets/Images/Background/TradingPlatform-Main.png"
+        backgroundImage="../../../../public/Assets/Images/Background/image_2024_06_10T11_43_51_524Z.png"
+        reverseOrder={true} // reversed order
+
       />
       <MetaTraders />
       <GrideTrading />

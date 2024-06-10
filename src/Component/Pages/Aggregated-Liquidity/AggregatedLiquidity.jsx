@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet";
-import BlueBannar from "../../Common/BlueBannar/BlueBannar";
+import BlueBannar from "../../Common/BlueBannar/blueBannarCenter";
 import MajorCards from "./MajorCards";
 import Liquidity from "./Liquidity";
 import Gateway from "./Gateway";

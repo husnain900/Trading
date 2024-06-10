@@ -39,11 +39,16 @@ header {
     z-index: 1000;
     padding: 16px;
 }
+
 .scroll-container {
-    max-height: 95vh; /* Adjust as needed for your layout */
-    overflow-y: auto; /* Enable vertical scrolling */
-    padding-right: 1rem; /* Optional: Add padding to avoid scrollbar overlap */
-  }
+    max-height: 95vh;
+    /* Adjust as needed for your layout */
+    overflow-y: auto;
+    /* Enable vertical scrolling */
+    padding-right: 1rem;
+    /* Optional: Add padding to avoid scrollbar overlap */
+}
+
 .sidebar.open {
     right: 0;
 }
@@ -66,8 +71,14 @@ header {
     text-decoration: none !important;
     font-weight: 700;
 }
-
+/* .nav-link:hover {
+    color: #163182 !important;
+} */
 @media (max-width: 575.98px) {
+    .scroll-container {
+        padding-right: 0;
+    }
+
     header {
         height: 80px;
     }

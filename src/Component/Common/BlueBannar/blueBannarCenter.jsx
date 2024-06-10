@@ -6,9 +6,11 @@ const BlueBannar = ({ title, listItems, scrollImageSrc, backgroundImage, reverse
       className="blue-bannar"
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
-      <div className="container">
+      <div className="container text-start text-lg-center">
         <div className={`row my-4 align-items-center ${reverseOrder ? 'flex-row-reverse' : ''}`}>
-          <div className="col-12 col-md-6">
+        <div className="col-12 col-md-2 d-none d-lg-block">
+        </div>
+          <div className="col-12 col-md-8">
             <h1>{title}</h1>
             <ul className="bannar-list mt-5 mt-lg-0 p-0">
               {listItems.map((item, index) => (
@@ -18,8 +20,7 @@ const BlueBannar = ({ title, listItems, scrollImageSrc, backgroundImage, reverse
               ))}
             </ul>
           </div>
-          <div className="col-12 col-md-6">
-            {/* Place for additional content, image, or any other element */}
+          <div className="col-12 col-md-2 d-none d-lg-block">
           </div>
         </div>
         <div className="text-center">
