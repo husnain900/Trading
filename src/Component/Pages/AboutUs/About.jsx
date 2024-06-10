@@ -4,15 +4,15 @@ import AboutUsSection from './AboutUsSection';
 
 function About() {
   const [isExpanded, setIsExpanded] = useState(false);
-  const [isExpanded2, setIsExpanded2] = useState(false);
+  // const [isExpanded2, setIsExpanded2] = useState(false);
   const [isExpanded3, setIsExpanded3] = useState(false);
 
   const handleReadMore = () => {
     setIsExpanded(!isExpanded);
   };
-  const handleReadMore2 = () => {
-    setIsExpanded2(!isExpanded2);
-  };
+  // const handleReadMore2 = () => {
+  //   setIsExpanded2(!isExpanded2);
+  // };
   const handleReadMore3 = () => {
     setIsExpanded3(!isExpanded3);
   };
@@ -108,8 +108,8 @@ function About() {
                 </b>{' '}
               </p> */}
               <img
-                style={{ width: '100%' }}
-                src="/images/CEO.jpeg"
+                style={{ width: '96%' }}
+                src="/images/CEO.png"
                 alt="CEO image"
               ></img>
 
@@ -117,15 +117,15 @@ function About() {
           </div>
          
           <div className="col-12 col-lg-6 pe-0 pe-lg-4 mt-4">
-            <h5 className='fw-bold' style={{ color: "#163081" }}>
+            <h5 className='fw-bold' style={{ color: "#2ba6ff" }}>
               CEO Profile Overview:
             </h5>
             <p>
               Edward HyungJin Jung, an NYU alum, transitioned from Wall Street to pioneering AI in trading with his creation of a "black box" system. This innovation led him to found Athena Technology in 2019, where he combines deep industry knowledge with advanced technology to enhance digital trading platforms.
             </p>
           </div>
-          <div className="col-12 col-lg-6 mt-4 AboutUsC2Img">
-            <h5 style={{ color: "#163081" }}>
+          <div className="col-12 col-lg-6 mt-4  AboutUsC2Img2 ">
+            <h5 style={{ color: "#2ba6ff" }}>
               <b>Educational & Career Milestones:</b>
             </h5>
             <p>1999: Stockbroker at Merrill Lynch.<br />
@@ -138,13 +138,13 @@ function About() {
       </div>
 
       {/* 3rd Section */}
-      <div className="AboutUsImg2 mb-5">
-        <div className="container">
+      <div className="AboutUsImg2 ">
+        <div className="container ">
           <div className="row aboutus2ndcont">
             <div className=
               {`col-12 col-md-6 ${isExpanded3 ? 'col-md-6' : ''} `}>
               <div className="AboutUsbox" />
-              <div className="col-12 col-md-6 aboutus3rdcontent" >
+              <div className="col-12 col-md-6 aboutus3rdcontent " >
                 <h1 ><b>Our Dynamic Team</b></h1>
 
                 <h5>
@@ -167,12 +167,12 @@ function About() {
                   <b>Diversity in Expertise</b>
                 </h5>
                 <p>
-                  <b>• Global Talent Pool:</b> Our team members hail from all
+                  • Global Talent Pool: Our team members hail from all
                   corners of the globe, bringing a wealth of diverse perspectives
                   and ideas.
                 </p>
                 <p>
-                  <b>• Multidisciplinary Professionals:</b> From seasoned
+                   • Multidisciplinary Professionals: From seasoned
                   developers to creative marketers, our team comprises experts
                   across various fields, all united by a common goal.
                 </p>
@@ -180,12 +180,12 @@ function About() {
                   <b>Leadership and Vision</b>
                 </h5>
                 <p>
-                  <b>• Experienced Leadership:</b> Guided by a leadership team
+                   • Experienced Leadership: Guided by a leadership team
                   with years of industry experience, we navigate the complexities
                   of the fintech world with confidence and foresight.
                 </p>
                 <p>
-                  <b>• Collaborative Environment:</b> Our leaders are approachable
+                   • Collaborative Environment: Our leaders are approachable
                   and collaborative, fostering a culture of open communication and
                   shared vision.{' '}
                 </p>
@@ -193,11 +193,11 @@ function About() {
                   <b>Innovation and Creativity</b>
                 </h5>
                 <p>
-                  <b>• Creative Freedom:</b>We encourage our team members to think
+                   • Creative Freedom: We encourage our team members to think
                   creatively, explore new ideas, and challenge the status quo.
                 </p>
                 <p>
-                  <b>• Problem Solvers:</b> Innovation isn’t just about
+                   • Problem Solvers: Innovation isn’t just about
                   technology; it’s about finding solutions to complex challenges.
                   Our team excels in this arena.
                 </p>
@@ -205,12 +205,12 @@ function About() {
                   <b>Growth and Development</b>
                 </h5>
                 <p>
-                  <b>• Learning Culture:</b> We invest in the continuous
+                   • Learning Culture: We invest in the continuous
                   development of our team, offering training and opportunities to
                   advance their skills.
                 </p>
                 <p>
-                  <b>• Career Advancement:</b> At Athena, career progression is
+                   • Career Advancement: At Athena, career progression is
                   not just a possibility; it’s a priority. We support our team
                   members in their professional journeys.
                 </p>
@@ -218,12 +218,12 @@ function About() {
                   <b>Team Spirit</b>
                 </h5>
                 <p>
-                  <b>• Collaborative Projects: </b> Working on projects
+                   • Collaborative Projects:  Working on projects
                   collaboratively, we leverage each other’s strengths and learn
                   from different viewpoints.
                 </p>
                 <p>
-                  <b>• Team Building:</b> Regular team-building activities and
+                • Team Building: Regular team-building activities and
                   social events foster a sense of camaraderie and unity.
                 </p>
               </div>
@@ -232,17 +232,25 @@ function About() {
         </div></div>
 
       {/* 4th Section */}
-      <div className="container pt-5">
+      <div className="container Section4AboutUs">
         <div className="row">
-          <div className="col-12 col-md-6 AboutUsSecttion4Content">
+         
+          <div className='col-12 col-md-6 d-flex justify-content-center align-items-center'> <img
+            // style={{ width: '80%', }}
+            className='about4Img'
+            src="/images/aboutus4.png"
+            alt="Team image"
+          ></img></div>
+           <div className="col-12 col-md-6 AboutUsSecttion4Content">
             <h1>Trading, Transformed</h1>
             <h3>Swift, Smart, Superior with Athena.</h3>
+            <br/>
             <p>
               <b>Mission:</b> To redefine the trading experience by offering a
               next-generation platform that’s not just swift and user-friendly,
               but also enhanced with the intelligence of AI, ensuring optimized
               trading outcomes.
-            </p>
+            </p><br/>
             <p>
               <b>Vision:</b> We envision a world where trading systems are not
               only reliable but also continuously advancing with technology. Our
@@ -251,17 +259,17 @@ function About() {
             </p>
 
           </div>
-          <div className='col-12 col-md-6 d-flex justify-content-center align-items-center'> <img
-            style={{ width: '80%' }}
-            src="/images/aboutus4.png"
-            alt="Team image"
-          ></img></div>
         </div>
       </div>
       {/* 5th Section Last */}
 
 
       <AboutUsSection />
+
+
+
+
+
     </>
   );
 }
