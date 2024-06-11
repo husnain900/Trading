@@ -17,8 +17,16 @@ const ItWorks = () => {
                         <h4 className="bluetitle text-black position-absolute position-adjust">Client opens a trading account.</h4>
                     </div>
                 </div>
-                <div className="col-12 col-md-6"></div>
-                <div className="col-12 col-md-6"></div>
+                <div className="col-12 col-md-6 d-none d-lg-block">
+                    <div className="d-flex align-items-center  h-100">
+                        <img src="Assets/Images/arrow-2.png" alt="" />
+                    </div>
+                </div>
+                <div className="col-12 col-md-6 d-none d-lg-block">
+                    <div className="d-flex align-items-center  h-100 justify-content-end">
+                        <img src="Assets/Images/arrow-3.png" alt="" />
+                    </div>
+                </div>
                 <div className="col-12 col-md-6">
                     <div className="position-relative">
                         <img className="w-100 h-auto" src="Assets/Images/14.png" alt="" />
@@ -31,7 +39,11 @@ const ItWorks = () => {
                         <h4 className="bluetitle text-black position-absolute position-adjust">Client sends cryptocurrency to the wallet.</h4>
                     </div>
                 </div>
-                <div className="col-12 col-md-6"></div>
+                <div className="col-12 col-md-6 d-none d-lg-block">
+                    <div className="d-flex align-items-center  h-100">
+                        <img src="Assets/Images/arrow-2.png" alt="" />
+                    </div>
+                </div>
                 <div className="col-12 col-md-6"></div>
                 <div className="col-12 col-md-6">
                     <div className="position-relative">
@@ -40,7 +52,7 @@ const ItWorks = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 

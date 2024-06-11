@@ -3,7 +3,8 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: white; /* Assuming the text should be white on a dark background */
+    color: white;
+    /* Assuming the text should be white on a dark background */
 }
 
 .blue-bannar h1 {
@@ -44,6 +45,7 @@
     .blue-bannar {
         padding: 50px 0;
     }
+
     .blue-bannar h1 {
         font-size: 34px;
         letter-spacing: 0;
@@ -66,11 +68,18 @@
         line-height: 22px;
     }
 }
-@media (min-width: 576px) and (max-width: 973.98px) { 
+
+@media (min-width: 576px) and (max-width: 973.98px) {
     .blue-bannar li {
         font-size: 34px;
         line-height: 36px;
         letter-spacing: -1px;
         gap: 6px;
+    }
+}
+
+@media (min-width: 1566px) {
+    .blue-banner-c-w {
+        width: 600px;
     }
 }
