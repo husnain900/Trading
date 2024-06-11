@@ -17,7 +17,7 @@ const sections = [
   {
     title: 'Diversity and Inclusion',
     items: [
-       ' A Melting Pot of Talents: Athena is proud of its diverse workforce. We bring together people from various backgrounds, each adding unique value to our collective goals.',
+      ' A Melting Pot of Talents: Athena is proud of its diverse workforce. We bring together people from various backgrounds, each adding unique value to our collective goals.',
       ' Inclusivity: We are committed to creating an inclusive environment where everyone feels respected, regardless of their background or identity'
     ]
   },
@@ -44,7 +44,7 @@ const carouselData = [
 
   },
   {
-    src: "Assets/Images/carousel/logo  ok.jpg",
+    src: "Assets/Images/carousel/Untitled design.png",
 
   },
 
