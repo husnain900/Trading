@@ -12,7 +12,7 @@ function CanvaBannar() {
   return (
     <div className="container-fluid canvabanner-container">
       <div className="row">
-        <div className="col-12 col-lg-8 media-wrapper">
+        <div className="col-12 col-lg-8 media-wrapper p-0">
           <img
             src="/images/empowering future of trading.png"
             alt="Overlay"
