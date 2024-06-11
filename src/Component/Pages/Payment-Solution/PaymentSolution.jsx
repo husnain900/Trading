@@ -21,7 +21,7 @@ const PaymentSolution = () => {
                     fathena</title>
             </Helmet>
             <BlueBannar
-             title={["Seamless Payment Solutions ", <br />, "by Athena"]}
+             title={["Seamless Payment ", <br />, " Solutions by Athena"]}
                 imageSrc="Assets/Images/payment-banner.png"
                 listItems={listItems}
                 scrollImageSrc="Assets/Images/scroll.png"
