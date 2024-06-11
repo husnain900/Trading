@@ -21,15 +21,16 @@ const TradingServices = () => {
           fathena
         </title>
       </Helmet>
-      <BlueBannar
-        title={["Empower Your Trade, ", <br />, "Expand Your Horizons"]}
-        imageSrc="Assets/Images/banner1.png"
-        listItems={listItems}
-        scrollImageSrc="Assets/Images/scroll.png"
-        backgroundImage="../../../../public/Assets/Images/Background/image_2024_06_10T11_43_51_524Z.png"
-        reverseOrder={true} // reversed order
-
-      />
+      <div className="left-content">
+        <BlueBannar
+          title={["Empower Your Trade, ", <br />, "Expand Your Horizons"]}
+          imageSrc="Assets/Images/banner1.png"
+          listItems={listItems}
+          scrollImageSrc="Assets/Images/scroll.png"
+          backgroundImage="../../../../public/Assets/Images/Background/image_2024_06_10T11_43_51_524Z.png"
+          reverseOrder={true} // reversed order
+        />
+      </div>
       <MetaTraders />
       <GrideTrading />
       <MobileSection />

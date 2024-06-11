@@ -74,7 +74,7 @@ const GrideTrading = () => {
             <div className="row">
                 {cardData.map((card, cardIndex) => (
                     <div className="col-12 col-md-6" key={cardIndex}>
-                        <div className={`card-trading mt-5 mt-lg-0 ${[1, 3, 5].includes(cardIndex) ? 'ms-0 ms-lg-auto' : ''}`}>
+                        <div className={`card-trading my-5 py-0 py-lg-4  ${[1, 3, 5].includes(cardIndex) ? 'ms-0 ms-lg-auto' : ''}`}>
                             <img src={card.image} alt={card.title} />
                             <h3 style={{ fontSize: isMobile ? '28px' : '35px', padding: '0' }} className="section-title text-start">{card.title}</h3>
                             <div className="check-p py-4">

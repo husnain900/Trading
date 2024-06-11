@@ -20,7 +20,7 @@ const OurData = () => {
         <div className="">
             <div className="container">
                 <div className="row my-5">
-                    <div className="col-12 col-md-7">
+                    <div className="col-12 col-md-10 col-lg-7">
                         <h1
                             className="section-title text-larger"
                             style={{

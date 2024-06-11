@@ -25,8 +25,8 @@ const cardData = [
 const MetaTraderAPI = () => {
 
   return (
-    <div className="container">
-      <div className="row">
+    <div className="container py-2 py-lg-5 my-5">
+      <div className="row ">
         <div className="col-12 col-md-10 col-lg-6">
           <h1 className="section-title text-start text-larger" >
             MetaTrader API

@@ -2,7 +2,7 @@ import ButtonC from "../../Ui-Component/Button"
 
 function MobileSection() {
     return (
-        <div style={{ background: "#0E1B36" }} className="MobileSection py-5 px-2 px-lg-5">
+        <div style={{ background: "#0E1B36" }} className="MobileSection py-5 px-2 px-lg-5 my-2 my-lg-5">
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-12 col-md-4">

@@ -4,12 +4,11 @@
     height: 100%;
     font-size: 20px;
 }
-.HostingMapimages{
-    margin-left: 10%;
-}
-.HostingpageP{
+
+.HostingpageP {
     font-size: 21px;
 }
+
 .hosting-bg-1 {
     background-image: url(../../../../public/Assets/Images/Background/Background2.jpg);
     background-repeat: no-repeat;
@@ -30,4 +29,9 @@
     .box-blue {
         padding: 24px;
     }
+}
+@media (min-width: 1200px) {
+    .HostingMapimages {
+        padding: 0 140px !important;
+    }  
 }

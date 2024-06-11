@@ -71,9 +71,9 @@ header {
     text-decoration: none !important;
     font-weight: 700;
 }
-/* .nav-link:hover {
-    color: #163182 !important;
-} */
+.nav-link:hover {
+    color: #F9CE08 !important;
+}
 @media (max-width: 575.98px) {
     .scroll-container {
         padding-right: 0;

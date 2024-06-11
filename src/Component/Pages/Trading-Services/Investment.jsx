@@ -3,7 +3,7 @@ function Investment() {
 
     return (
         <div className="container">
-            <div className="row my-5">
+            <div className="row my-5 py-2 py-lg-5">
                 <div className="col-12 col-md-10 col-lg-6">
                     <h1 className="section-title text-start text-larger" >
                         Investment Management Tools

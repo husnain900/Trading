@@ -3,7 +3,7 @@ const Equinix4 = () => {
     return (
         <div className="container">
             <div className="Equinix-content">
-                <div className="col-12 col-md-7 mb-5">
+                <div className="col-12 col-lg-7 col-md-10 mb-5">
                     <h3 style={{
                         textAlign: 'left'
                     }} className="section-title">AWS Cloud Data Centers

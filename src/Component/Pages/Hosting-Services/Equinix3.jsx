@@ -18,7 +18,7 @@ const Equinix3 = () => {
     return (
         <div className="container">
             <div className="Equinix-content">
-                <div className="col-12 col-md-7">
+                <div className="col-12 col-md-10 col-lg-7">
                     <h3 style={{
                         textAlign: 'left'
                     }} className="section-title">Equinix Singapore Data Centers</h3>
