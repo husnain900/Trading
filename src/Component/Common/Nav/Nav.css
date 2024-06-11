@@ -74,6 +74,9 @@ header {
 .nav-link:hover {
     color: #F9CE08 !important;
 }
+.nav-link.active {
+    color: #F9CE08 !important;
+}
 @media (max-width: 575.98px) {
     .scroll-container {
         padding-right: 0;
