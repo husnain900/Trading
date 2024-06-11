@@ -18,6 +18,7 @@ import Privacypolicy from './Component/Pages/Terms&Conditions/Privacypolicy/Priv
 import About from './Component/Pages/AboutUs/About';
 import ContactUs from './Component/Pages/Contact-Us/ContactUs';
 import ScrollToTop from './Component/Pages/Home/ScrollToTop ';
+import DownloadPage from './Component/Pages/DownloadPage/DownloadPage';
 
 
 
@@ -41,6 +42,7 @@ function App() {
         <Route path="/privacy-policy" element={<Privacypolicy />} />
         <Route path="/about-us" element={<About />} />
         <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/mt4manager" element={<DownloadPage />} />
 
       </Routes>
       <Footer />
