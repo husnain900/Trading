@@ -28,6 +28,11 @@
 }
 
 @media (max-width: 575.98px) {
+    .footer {
+        margin-top: 60px;
+        padding-top: 35px;
+    }
+
     .footer-logo img {
         max-width: 200px;
     }

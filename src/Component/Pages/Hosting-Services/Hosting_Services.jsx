@@ -28,19 +28,19 @@ const Hosting_Services = () => {
                 scrollImageSrc="Assets/Images/scroll.png"
                 backgroundImage="Assets/Images/Background/HostingService-Main-min.jpg"
             />
-            <div style={{
-                margin: '100px 0 0 0'
-            }}>  <OurData /></div>
+            <div className="BrandSPaceHomePage">
+                <OurData />
+            </div>
             <Equinix />
             <div className="hosting-bg-2">
-                <div style={{
-                    margin: '100px 0'
-                }}>   <Equinix2 /></div>
+                <div className="BrandSPaceHomePage">
+                    <Equinix2 />
+                </div>
                 <Equinix3 />
             </div>
-            <div style={{
-                margin: '100px 0 0 0'
-            }}>  <Equinix4 /></div>
+            <div className="BrandSPaceHomePage">
+                <Equinix4 />
+            </div>
         </div>
     )
 }
