@@ -196,10 +196,25 @@ width: -webkit-fill-available;
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.BrandIdentityStrategyInnerS2C8 {
+/* .BrandIdentityStrategyInnerS2C8 {
 
   height: 200px; 
-      }
+      } */
+
+      .BrandIdentityStrategyInnerS2C4 {
+   
+        height: auto;
+        margin-top: 0px;
+    }
+    .BrandIdentityStrategyInnerS2C8 {
+      height: auto;
+  }
+  .strategyimagec8> img {
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+ 
+
     }
 
   
