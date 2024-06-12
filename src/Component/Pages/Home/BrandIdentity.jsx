@@ -188,7 +188,7 @@ function BrandIdentity() {
                                 <div className="check-p ">
                                     {items4.map((item, index) => (
                                         <p
-                                            className="align-items-center text-center text-lg-end text-black d-flex gap-2"
+                                            className="align-items-center text-black d-flex gap-2"
                                             key={index}
                                         >
                                             <IoCheckmarkCircle

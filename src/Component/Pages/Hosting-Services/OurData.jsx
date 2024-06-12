@@ -36,8 +36,8 @@ const OurData = () => {
                     </div>
                 </div>
                 <BlueBox certifications={certifications} dataCenterFacts={dataCenterFacts} />
-                <p className="section-text2 HostingpageP">Connection to Europe’s extensive financial service market through the Slough campus (LD4, LD5, LD6, LD7, LD10, LD13x data centers) Highly secure and hosts Europe’s largest multilateral trading facility, BATS Chi-X, and FX trading system ICAP’s EBS.
-                </p>
+                <p className="section-text2 HostingpageP">Connection to Europe’s extensive financial service market through the Slough campus (LD4, LD5, LD6, LD7, LD10, LD13x data centers) Highly secure and hosts Europe’s largest multilateral trading facility, BATS Chi-X, and FX trading system ICAP’s EBS.</p>
+                <img className="HostingMapimages w-100 h-auto px-0 px-lg-5 mt-5" src="Assets/Images/map1.png" alt="" />
             </div>
         </div>
 

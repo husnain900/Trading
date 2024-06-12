@@ -4,8 +4,8 @@ const Seamless = () => {
     return (
         <div>
             <div className="container">
-                <div className="row my-5 seamles-sec">
-                    <div className="col-12 col-md-10 col-lg-8">
+                <div className="row my-5 seamles-sec pt-1 pt-lg-5">
+                    <div className="col-12 col-md-10 col-lg-8 pb-5 mb-0 mb-lg-5">
                         <h1 className="section-title text-start p-0 text-larger">
                             Seamless Payment Solutions by Athena
 
@@ -29,7 +29,7 @@ const Seamless = () => {
                             </h3>
                         </div>
                     </div>
-                    <div className="col-12 ">
+                    <div className="col-12">
                         <div className="card rounded-0 border-0 mx-auto">
                             <img src="Assets/Images/payment3.png" alt="" />
                             <h3 className='section-title'>

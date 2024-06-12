@@ -21,9 +21,9 @@ const Sidebar = ({ isOpen, onClose }) => {
     return (
         <div className={`sidebar ${isOpen ? 'open' : ''}`}>
             <div className="row">
-                <div className="col-12 col-lg-6">
+                <div className="col-12 col-md-6">
                 </div>
-                <div className="col-12 col-lg-6">
+                <div className="col-12 col-md-6">
                     <div className="scroll-container">
                             <div className="text-end">
                                 <Button className="close-btn" onClick={onClose}><FaTimesCircle size={30} className='text-white' /></Button>

@@ -11,7 +11,7 @@ const ItWorks = () => {
                 </div>
             </div>
             <div className="row mt-2 mb-5">
-                <div className="col-12 col-md-6">
+                <div className="col-12 col-md-6 mb-lg-0 mb-5">
                     <div className="position-relative">
                         <img className="w-100 h-auto" src="Assets/Images/13.png" alt="" />
                         <h4 className="bluetitle text-black position-absolute position-adjust">Client opens a trading account.</h4>
@@ -27,13 +27,13 @@ const ItWorks = () => {
                         <img src="Assets/Images/arrow-3.png" alt="" />
                     </div>
                 </div>
-                <div className="col-12 col-md-6">
+                <div className="col-12 col-md-6 mb-lg-0 mb-5">
                     <div className="position-relative">
                         <img className="w-100 h-auto" src="Assets/Images/14.png" alt="" />
                         <h4 className="bluetitle text-black position-absolute position-adjust">Athena creates a wallet for each trading account.</h4>
                     </div>
                 </div>
-                <div className="col-12 col-md-6">
+                <div className="col-12 col-md-6 mb-lg-0 mb-5">
                     <div className="position-relative">
                         <img className="w-100 h-auto" src="Assets/Images/15.png" alt="" />
                         <h4 className="bluetitle text-black position-absolute position-adjust">Client sends cryptocurrency to the wallet.</h4>
@@ -44,8 +44,8 @@ const ItWorks = () => {
                         <img src="Assets/Images/arrow-2.png" alt="" />
                     </div>
                 </div>
-                <div className="col-12 col-md-6"></div>
-                <div className="col-12 col-md-6">
+                <div className="col-12 col-md-6 mb-lg-0 mb-5 d-none d-lg-block"></div>
+                <div className="col-12 col-md-6 mb-lg-0 mb-5">
                     <div className="position-relative">
                         <img className="w-100 h-auto" src="Assets/Images/16.png" alt="" />
                         <h4 className="bluetitle text-black position-absolute position-adjust">Athena credits the amount to the corresponding trading account.</h4>

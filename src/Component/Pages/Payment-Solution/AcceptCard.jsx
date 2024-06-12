@@ -9,7 +9,7 @@ const paymentMethods = [
 
 const AcceptCard = () => {
   return (
-    <div className="container mb-5">
+    <div className="container mb-5 mt-2 mt-lg-5 py-1 py-lg-5">
       <h3 className="section-title text-start">You can accept</h3>
       <div className="row px-4 px-lg-5">
         {paymentMethods.map((paymentMethod, index) => (

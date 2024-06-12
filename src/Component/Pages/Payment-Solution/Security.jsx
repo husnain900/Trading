@@ -6,7 +6,7 @@ const partners = [
 
 const Security = () => {
     return (
-        <div className="container my-5 py-5">
+        <div className="container my-5 py-1 py-md-5">
             <div className="row">
                 <h3 className="section-title text-start">Security is our priority</h3>
                 <h4>Our cryptocurrency trading partners.</h4>

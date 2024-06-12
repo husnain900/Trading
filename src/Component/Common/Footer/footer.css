@@ -53,4 +53,8 @@
     .footer-logo img {
         max-width: 250px;
     }
+    .footer {
+        margin-top: 40px;
+        padding-top: 65px;
+    }
 }

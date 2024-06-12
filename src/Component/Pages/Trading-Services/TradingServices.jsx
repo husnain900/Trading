@@ -38,7 +38,6 @@ const TradingServices = () => {
       <Analysis />
       <MetaTraderAPI />
       <TradingForm />
-
     </div>
 
   )

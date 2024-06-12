@@ -22,7 +22,6 @@ const Equinix = () => {
     return (
         <div className="hosting-bg-1">
             <div className="container ">
-                <img className="HostingMapimages w-100 h-auto px-0 px-lg-5 mt-3 mb-5" src="Assets/Images/map1.png" alt="" />
                 <div className="Equinix-content mt-5">
                     <div className="col-12 col-md-10 col-lg-7 mt-5">
                         <h3 style={{

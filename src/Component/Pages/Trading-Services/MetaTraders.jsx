@@ -6,7 +6,7 @@ function MetaTraders() {
 
     return (
         <div className="container">
-            <div className="MetaTraders-content mt-5">
+            <div className="MetaTraders-content mt-5 pt-lg-5 pt-1">
                 <div className="row">
                     <div className="col-12 col-lg-10">
                         <h1 style={{ color: "#444444" }} className="section-title text-start" >

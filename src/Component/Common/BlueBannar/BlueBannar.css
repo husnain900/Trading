@@ -76,6 +76,10 @@
         letter-spacing: -1px;
         gap: 6px;
     }
+
+    .blue-bannar {
+        padding: 50px 35px;
+    }
 }
 
 @media (min-width: 1266px) {

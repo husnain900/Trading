@@ -22,9 +22,10 @@ a {
     font-weight: 500;
     border-radius: 30px !important;
 }
-.BrandSPaceHomePage{
+
+.BrandSPaceHomePage {
     padding: 60px 0;
-  }
+}
 
 .section-title {
     font-size: 45px;
@@ -38,47 +39,55 @@ a {
     line-height: 24px;
     color: #b7c0d5;
     text-align: center;
-    
-  padding: 0 15%;
+
+    padding: 0 15%;
 }
 
 .section-text2 {
     color: #444;
     font-size: 18px;
     line-height: 24px;
-   
+
 
 }
+
 .text-larger {
     font-size: 65px;
 }
+
 ul li {
     list-style: none;
 
 }
 
-@media (max-width: 575.98px) {   
-.text-larger {
-    font-size: 34px;
-}
-.section-text {
-    padding: 0;
-  }
-  .BrandSPaceHomePage{
-    padding: 30px 0;
-  }
+@media (max-width: 575.98px) {
+    .text-larger {
+        font-size: 34px;
+    }
+
+    .section-text {
+        padding: 0;
+    }
+
+    .BrandSPaceHomePage {
+        padding: 30px 0;
+    }
 }
 
 /* Medium devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {   
-.text-larger {
-    font-size: 52px;
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .text-larger {
+        font-size: 52px;
+    }
+    .box-blue {
+        padding: 22px !important;
+    }
 }
-   
-}
+
 .gap-7 {
-    gap: 4rem !important; /* 64 pixels */
-  }
+    gap: 4rem !important;
+    /* 64 pixels */
+}
 
 /* Large devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {}
@@ -87,6 +96,4 @@ ul li {
 @media (min-width: 992px) and (max-width: 1199.98px) {}
 
 /* Extra extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-   
-}
+@media (min-width: 1200px) {}
