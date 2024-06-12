@@ -39,7 +39,7 @@ const Nav = () => {
 
     return (
         <div>
-            <header className='mb-3'>
+            <header>
                 <nav className={`navbar ${sticky ? 'sticky' : ''}`}>
                     <div className="container">
                         <div className="d-flex align-items-center justify-content-between w-100">
