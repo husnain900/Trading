@@ -3,7 +3,7 @@ function DigitalMarketingSection4() {
   return (
     <div className="container">
     <div className="row d-flex justify-content-around " >
-<div className="   col-xl-6 col-md-7 col-12  BRandIdentityBrandStrategy">
+<div className="   col-xl-6 col-md-7 col-12  BRandIdentityBrandStrategy ">
         <h2>Search Engine Marketing</h2>
 <h3>With the immeasurable amount of information out there online, it is crucial that potential customers are able to quickly find your business in the continuously growing competitive market.</h3>
     </div>

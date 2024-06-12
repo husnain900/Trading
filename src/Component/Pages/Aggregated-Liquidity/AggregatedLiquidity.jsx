@@ -8,7 +8,7 @@ import Infrastructure from "./Infrastructure";
 
 const AggregatedLiquidity = () => {
     const listItems = [
-     "Customized Liquidity Pools | Competitive Quote Aggregation | Multi-Tiered Bid/Offer System | Liquidity Management |Enhancing Transaction Efficiency"
+     "Customized Liquidity Pools | Competitive Quote Aggregation | Multi-Tiered Bid/Offer System | Liquidity Management | Enhancing Transaction Efficiency"
 
     ];
     return (

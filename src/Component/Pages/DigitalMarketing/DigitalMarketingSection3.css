@@ -52,7 +52,7 @@ color: white;
 @media (max-width: 768px) {
     .DigitalmarketingSection3text>h2{
         font-size: 46px;
-        padding-top: 300px;
+        padding-top: 0px;
     }
         .DigitalmarketingSection3text>h3{
             font-size: 28px;
@@ -77,10 +77,27 @@ color: white;
     .DigitalmarketingSection3text {
         padding-top: 350px;
     }
+    .digitalmarketingSection3img >img {
+   
+        margin-top: 220px;
+    }
+    .digitalmarketingsection3s2c1 {
+        margin-top: -565px;
+    }
+}
     @media (max-width: 576px) {
 
         .DigitalmarketingSection3text>h2 {
             padding-top: 70px;
         }
+        .digitalmarketingSection3img >img {
+            margin-top: 30px;
+        }
+        .digitalmarketingsection3s2c1 {
+            margin-top: 0px;
+            margin-bottom: 60px;
+        }
+        .DigitalMArketingS5Search{
+            margin-top: -150px;
+        }
     }
-}

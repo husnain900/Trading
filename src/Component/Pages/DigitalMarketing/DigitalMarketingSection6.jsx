@@ -3,7 +3,7 @@ function DigitalMarketingSection6() {
   return (
     <div className="container ">
     <div className="row d-flex justify-content-around  " >
-<div className="   col-xl-6 col-md-7 col-12  BRandIdentityBrandStrategy">
+<div className="   col-xl-6 col-md-7 col-12  BRandIdentityBrandStrategy DigitalMArketingS5Search">
         <h2>Social Media Marketing</h2>
 <h3>With the ever-growing amount of social media users, more and more businesses are using social media marketing to connect to consumers.</h3>
     </div>
