@@ -200,6 +200,12 @@
 @media (max-width: 576px) {
   .StrategyBrandConvey {
     height: auto;
+    flex-direction: column;
+  }
+  .StrategyBrandConvey img{
+   width: 124px;
+   height: auto;
+   padding-top: 10px;
   }
 
   .strategyimage>img {
@@ -212,6 +218,7 @@
     margin-left: 0px;
     margin-left: 0px;
     padding: 20px;
+    flex-direction: column;
   }
 
   .BrandIdentityStrategyInnerS2C8>p {
@@ -226,6 +233,7 @@
     padding-top: 20px;
     padding-bottom: 20px;
   }
+
 
   /* .BrandIdentityStrategyInnerS2C8 {
 
