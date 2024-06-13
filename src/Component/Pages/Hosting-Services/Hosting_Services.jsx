@@ -21,7 +21,7 @@ const Hosting_Services = () => {
             </Helmet>
             <div className="hosting-banner">
                 <BlueBannar
-                    title={["Athena Hosting", <br />, "Secure, Reliable, Always On"]}
+                    title={[<b>Athena Hosting</b>, <br />, "Secure, Reliable, Always On"]}
                     imageSrc="Assets/Images/host-banner.png"
                     listItems={listItems}
                     backgroundImage="Assets/Images/Background/HostingService-Main-min.jpg"

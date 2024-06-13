@@ -22,7 +22,7 @@ const AggregatedLiquidity = () => {
                 </title>
             </Helmet>
             <BlueBannar
-                title={["Precision Liquidity, ", <br />, "Optimized Outcomes"]}
+                title={[<b>Precision Liquidity,</b>, <br />, "Optimized Outcomes"]}
                 imageSrc="Assets/Images/aggregated.png"
                 listItems={listItems}
                 backgroundImage="Assets/Images/Background/AggregatedLiquidity-Main-min.jpg"

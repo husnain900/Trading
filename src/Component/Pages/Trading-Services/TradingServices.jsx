@@ -23,10 +23,10 @@ const TradingServices = () => {
       </Helmet>
       <div className="left-content">
         <BlueBannar
-          title={["Empower Your Trade, ", <br />, "Expand Your Horizons"]}
+          title={[<b>Empower Your Trade,</b>, <br />, "Expand Your Horizons"]}
           imageSrc="Assets/Images/banner1.png"
           listItems={listItems}
-          
+
           backgroundImage="Assets/Images/Background/image_2024_06_10T11_43_51_524Z.png"
           reverseOrder={true} // reversed order
         />

@@ -22,7 +22,7 @@ const PaymentSolution = () => {
             </Helmet>
             <div className="payment-bannar">
                 <BlueBannar
-                    title={["Seamless Payment ", <br />, "Solutions by Athena"]}
+                    title={[<b>Seamless Payment</b>, <br />, "Solutions by Athena"]}
                     imageSrc="Assets/Images/payment-banner.png"
                     listItems={listItems}
                     backgroundImage="Assets/Images/Background/PaymentSolution-Main-min.jpg"
