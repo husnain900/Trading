@@ -105,7 +105,8 @@ const ContactUs = () => {
             </Snackbar>
             <div className="row my-5 ">
                 <div className="col-12 col-md-6 pe-lg-5">
-                    <div className="">
+                    <div className="d-flex flex-column justify-content-between h-100">
+                        <div>
                         <h3 style={{ color: "#444444" }} className="bluetitle text-start">
                             Contact Us
                         </h3>
@@ -116,7 +117,7 @@ const ContactUs = () => {
                             <li><h6 className="fw-bold"> Athena Technology Limited (UK)</h6></li>
                             {contactInfo.map((item) => (
                                 <li className="py-0" key={item.label}>
-                                    <p style={{ color: "#444444" }}>
+                                    <p className="m-0" style={{ color: "#444444" }}>
                                         {"  "} {item.label}
                                         {item.label === 'Email:' && (
                                             <a href={`mailto:${item.content}`}>{"  "} {item.content}</a>
@@ -131,7 +132,10 @@ const ContactUs = () => {
                                 </li>
                             ))}
                         </ul>
+                        </div>
+                        <div>
                         <img className="w-100 h-auto" src="Assets/Images/Conact-Us-Page-image-1.png" alt="" />
+                    </div>
                     </div>
                 </div>
                 <div className="col-12 col-md-6 ps-lg-5">
