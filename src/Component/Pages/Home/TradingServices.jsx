@@ -3,7 +3,7 @@ import ButtonC from "../../Ui-Component/Button"
 const TradingServices = () => {
     return (
         <div className="container">
-            <div className="trading-services-content mb-5 text-center py-5">
+            <div className="trading-services-content mb-5 text-center py-lg-5 py-4">
                 <h2 className="section-title ">Trading Platform
                 </h2>
                 <img className="w-100 h-auto py-3 py-lg-5" src="Assets/Images/Home/3.png" alt="" />

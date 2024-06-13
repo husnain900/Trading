@@ -1,5 +1,5 @@
 .blue-bannar {
-    padding: 100px;
+    padding: 120px 60px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -19,8 +19,9 @@
 
 .blue-bannar li {
     color: #fff;
-    font-size: 28px;
+    font-size: 32px;
     /* font-weight: 700; */
+    word-spacing: 5px;
     line-height: 40px;
     padding: 15px 0;
     letter-spacing: 0px;
@@ -85,11 +86,20 @@
 @media (min-width: 1266px) {
     .left-content .blue-banner-c-w {
         margin-left: auto !important;
+        width: 422px;
+    }
+
+    .payment-bannar .blue-banner-c-w {
+        width: 530px;
+    }
+
+    .hosting-banner .blue-banner-c-w {
+        width: 700px;
     }
 }
 
-@media (min-width: 1566px) {
+/* @media (min-width: 1566px) {
     .blue-banner-c-w {
         width: 600px;
     }
-}
+} */

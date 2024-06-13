@@ -3,7 +3,7 @@ import ButtonC from "../../Ui-Component/Button"
 const HostingServices = () => {
     return (
         <div className="container">
-            <div className="hosting-services-content mb-5 text-center py-5">
+            <div className="hosting-services-content mb-5 text-center py-lg-5 py-2 ">
                 <h2 className="titleline">Trading Capabilities</h2>
                 <h3 className="section-title">
                     Hosting service

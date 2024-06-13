@@ -19,15 +19,14 @@ const Hosting_Services = () => {
                     fathena
                 </title>
             </Helmet>
-            <BlueBannar
-                title={["Athena Hosting:", <br />, "Secure, Reliable, Always On"]}
-
-                imageSrc="Assets/Images/host-banner.png"
-                listItems={listItems}
-                paragraphText="Athena server hosting service helps brokers to expand their operations without the logistical headaches of managing their own infrastructure ensuring both primary and backup sites are well equipped with a stable connection with low latency trade execution."
-                scrollImageSrc="Assets/Images/scroll.png"
-                backgroundImage="Assets/Images/Background/HostingService-Main-min.jpg"
-            />
+            <div className="hosting-banner">
+                <BlueBannar
+                    title={["Athena Hosting", <br />, "Secure, Reliable, Always On"]}
+                    imageSrc="Assets/Images/host-banner.png"
+                    listItems={listItems}
+                    backgroundImage="Assets/Images/Background/HostingService-Main-min.jpg"
+                />
+            </div>
             <div className="BrandSPaceHomePage">
                 <OurData />
             </div>
