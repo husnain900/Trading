@@ -14,8 +14,14 @@ function DigitalMarketingSection2() {
       <div className="row Digitalmarketingsection2image ">
         <div className="col-12 BrandIdentitys3_image">
           <img src="/images/digitalmarketing2.png" alt="images"></img>
+          <div className="d-block d-md-none">
+            <p className="section-text2 text-black">Our specialized maintenance team ensures everything is running smoothly, so you can focus on what is important to you. For any technical issue that may arise, we are here to help in a timely and effective manner.</p>
+            <p className="py-4 section-text2 text-black">Athena offers various different website monitoring plans that will monitor your site 24/7. Other services, such as virus and malware scans, hacker prevention systems, scheduled backups, and overall site management are provided.</p>
+            <p className="section-text2 text-black">To ensure all consumers are able to experience your site seamlessly and as it should be, our web hosting service makes site speed and performance its number one priority. In other words, you can rest stress-free knowing your site will be functioning at its best.</p>
+          </div>
         </div>
       </div>
+      
 
     </div>
   )
