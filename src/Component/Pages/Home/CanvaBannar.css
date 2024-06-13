@@ -1,9 +1,7 @@
 .canvabanner-container {
   background-color: black;
   color: white;
-  margin-left: -65px;
-  z-index: 1;
-  width: 470px;
+
 }
 
 .media-wrapper {
@@ -26,20 +24,21 @@
 }
 
 #canvabanner_text>h5 {
-  padding: 30px 80px;
+  padding: 35px 80px;
   font-size: 24px;
 
 }
 
 #canvabanner_text p {
   color: #FFCD29;
-  font-size: 18px;
+  font-size: 20px;
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
   .canvabanner-container {
-    padding: 10px;
-    width: 100%;
+    margin-left: -65px;
+    z-index: 1;
+    width: 480px;
   }
 }
 
