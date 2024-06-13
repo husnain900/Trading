@@ -14,6 +14,11 @@ function DigitalMarketingSection5() {
     <div className="row Digitalmarketingsection2image ">
         <div className="col-12 BrandIdentitys3_image Digitalmarketingsection4images ">
             <img src="/images/digitalmarketing3.png" alt="images"></img>
+            <div className="d-block d-md-none">
+            <p className="section-text2 text-black">Therefore, we can match the most relevant keywords and content to your brand to ensure your site is optimized among search results.</p>
+            <p className="py-4 section-text2 text-black">Athena uses a constantly-running system to track how users utilize and interact with search engines online.</p>
+            <p className="section-text2 text-black">This means your company is easily visible to the public, and potential customers are directly sent to your site rather than your competitors.</p>
+          </div>
         </div>
     </div>
 
