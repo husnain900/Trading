@@ -45,7 +45,7 @@ function WebDevelopmentSection3() {
           </p>
         </div>
       </div>
-      <div className="col-12 col-md-6  ">
+      <div className="col-12 col-md-6 Webdevsection3circle ">
         <div className="brandidentitys4inner1 brandidentitylastc4">
           <h2>5. Rigorous testing </h2>
           <p>

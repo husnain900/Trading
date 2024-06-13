@@ -32,6 +32,7 @@ color: white;
     font-size: 20px;
     color: white;
 }
+
 @media (max-width: 992px) {
 
     .digitalmarketingSection3img >img{
@@ -48,6 +49,16 @@ color: white;
         padding: 30px  20px;
         font-size: 16px;
     }
+    .DigitalmarketingSection3text>h2 {
+        padding-top: 300px;
+    }
+    .DigitalmarketingSection3text>h3 {
+        font-size: 24px;
+        padding-bottom: 50px;
+    }
+    .digitalmarketingsection3s2c1 {
+        margin-top: 0px;
+    }
 }
 @media (max-width: 768px) {
     .DigitalmarketingSection3text>h2{
@@ -56,7 +67,7 @@ color: white;
     }
         .DigitalmarketingSection3text>h3{
             font-size: 28px;
-            padding-bottom: 70px;
+            padding-bottom: 40px;
         }
     
 
@@ -77,27 +88,24 @@ color: white;
     .DigitalmarketingSection3text {
         padding-top: 350px;
     }
+ 
     .digitalmarketingSection3img >img {
+        margin-top: 30px;
+    }
+    .DigitalMArketingS5Search{
+        margin-top: -50px;
+    }
    
-        margin-top: 220px;
-    }
-    .digitalmarketingsection3s2c1 {
-        margin-top: -565px;
-    }
 }
     @media (max-width: 576px) {
 
         .DigitalmarketingSection3text>h2 {
             padding-top: 70px;
         }
-        .digitalmarketingSection3img >img {
-            margin-top: 30px;
-        }
+       
         .digitalmarketingsection3s2c1 {
             margin-top: 0px;
             margin-bottom: 60px;
         }
-        .DigitalMArketingS5Search{
-            margin-top: -150px;
-        }
+       
     }

@@ -3,7 +3,7 @@ function DigitalMarketingSection2() {
   return (
     <div className="container">
     <div className="row d-flex justify-content-around " >
-<div className="   col-xl-6 col-md-7 col-12  BRandIdentityBrandStrategy">
+<div className="   col-xl-6 col-md-9 col-lg-7 col-12  BRandIdentityBrandStrategy">
         <h2>Content Marketing</h2>
 <h3>Content marketing is the distribution of relevant information about your company to the appropriate audience.</h3>
     </div>

@@ -26,13 +26,14 @@
 @media (max-width: 768px) {
     .webmaintenanceSection3img>img{
 
-        margin-top: 20px;
+        margin-top: 0px;
         margin-bottom: 20px;
+    }
+    .Webmaintainencecontainer1st {
+        padding-bottom: 50px;
     }
 }
     @media (max-width: 576px) {
-        .Webmaintainencecontainer1st {
-            padding-bottom: 50px;
-        }
+       
       
     }

@@ -10,11 +10,17 @@
 }
 @media (max-width: 768px) {
     .Digitalmarketingsection4images>img{
-     
+        margin-bottom: 0px;
         margin-top: 20px;
         
     }
     .digitalmarketingsection4textimg>p {
         padding-top: 50px;
+    }
+    
+}
+@media (min-width: 576px) and (max-width: 768px) {
+    .DigitalMarketingS4Search {
+        margin-top: 70px;
     }
 }

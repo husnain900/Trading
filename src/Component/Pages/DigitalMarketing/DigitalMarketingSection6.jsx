@@ -11,8 +11,8 @@ function DigitalMarketingSection6() {
     
     </div>
 
-    <div className="row Digitalmarketingsection2image ">
-        <div className="col-12 BrandIdentitys3_image">
+    <div className="row Digitalmarketingsection2image  ">
+        <div className="col-12 BrandIdentitys3_image Digitalmarketingsection4images">
             <img src="/images/digitalmarketing4.png" alt="images"></img>
         </div>
     </div>
