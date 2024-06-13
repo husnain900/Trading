@@ -1,10 +1,10 @@
 import "./WebDesignSection3.css";
 function WebDesignSection3() {
   return (
-    <div className='BrandIdentitySectionBgimg'>
+    <div className='BrandIdentitySectionBgimg WebDesignerSection'>
     <div className="container Webdesignsectioncontainer1st">
         <div className="row d-flex justify-content-center flex-column align-content-around ">
-    <div className="   col-xl-6 col-md-7 col-12  webDesignSection3text ">
+    <div className="   col-xl-6 col-md-9 col-lg-7 col-12  webDesignSection3text ">
             <h2>Creative Direction</h2>
 <h3>At Athena, we don’t want your design to just be good. We want to create a design that is memorable, defines your brand, and impresses the customer.</h3>
         </div>
@@ -24,12 +24,12 @@ function WebDesignSection3() {
     </div>
 
 
-    <div className=" col-12 col-md-4 webdesignSection3c2 d-flex align-items-center">
+    <div className=" col-12 col-md-5 col-lg-4 webdesignSection3c2 d-flex align-items-center">
      
      <h3>Our team of creative directors will transform your brand’s design into something that conveys trust and legitimacy to all audiences. After years of experience and innovation, you can rest assured knowing our design process is tailored to you and will exceed expectations.</h3>
      
          </div>
-    <div className=' col-12 col-md-8  webdesignSection3img'>
+    <div className=' col-12 col-md-7 col-lg-8  webdesignSection3img'>
         <img src='/images/right-img.png'></img>
     </div>
 

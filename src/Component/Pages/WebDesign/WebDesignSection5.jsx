@@ -3,7 +3,7 @@ function WebDesignSection5() {
   return (
     <div className="container">
     <div className="row d-flex justify-content-around ">
-      <div className=" col-12 col-md-8 col-lg-6  BRandIdentitys4">
+      <div className=" col-12 col-md-8 col-lg-6  BRandIdentitys4 WebDesgins4">
         <h2> Our Process </h2>
         <h3>
           Create the right image for your clients not just in any industry

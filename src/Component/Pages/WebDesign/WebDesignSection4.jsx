@@ -1,5 +1,5 @@
 
-
+import "./WebDesignSection4.css";
 function WebDesignSection4() {
   return (
     <div className="container">
@@ -11,7 +11,7 @@ function WebDesignSection4() {
     
     
     <div className="row" >
-        <div className="col-12 BrandIdentitys3_image">
+        <div className="col-12 BrandIdentitys3_image webdesignsection4image">
             <img src="/images/webstock.png" alt="images"></img>
         </div>
     </div>

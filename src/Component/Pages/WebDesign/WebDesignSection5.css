@@ -5,7 +5,11 @@
     background-size: 740px auto;
     background-position: center; 
   }
-
+  @media (max-width: 992px) {
+    .WebDesgins4>h2{
+margin-top: 50px !important;
+    }
+  }
   @media (max-width: 768px) {
     .WebDesignSection5bg {
       background-image: none;

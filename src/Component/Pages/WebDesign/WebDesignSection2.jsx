@@ -28,8 +28,8 @@ function WebDesignSection2() {
     </div>
 
     <div className="container">
-        <div className="row d-flex justify-content-around  " style={{marginTop:'90px'}} >
-<div className="   col-xl-6 col-md-8 col-12  BRandIdentityBrandStrategy">
+        <div className="row d-flex justify-content-around  "  >
+<div className="   col-xl-6 col-md-8 col-12  BRandIdentityBrandStrategy  BRandIdentityBrandStrategy2 ">
             <h2>UX/UI Design</h2>
 <h3>In order to engage with users, your company’s website must have an immersive visual experience (UX) and a strong user interface (UI).</h3>
         </div>

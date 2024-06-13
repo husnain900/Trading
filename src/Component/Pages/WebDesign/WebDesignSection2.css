@@ -18,6 +18,9 @@ padding: 40px 10% 15px 20px;
     padding-right: 10%;
 padding-left: 20px;
 }
+.BRandIdentityBrandStrategy2{
+    margin-top: 200px;
+}
 @media  (max-width: 1100px) {
     .Webdesignmemorable >h2{
     line-height: 40px;
@@ -33,6 +36,9 @@ padding-left: 20px;
     padding: 0px 3% 5px 10px;
     font-size: 28px;
     }
+    .BRandIdentityBrandStrategy2{
+        margin-top: 150px;
+    }
     .Webdesignmemorable >p{
         font-size: 17px;
         padding-right: 3%;
@@ -40,6 +46,9 @@ padding-left: 20px;
     }
 }
 @media  (max-width: 768px) {
+    .BRandIdentityBrandStrategy2{
+        margin-top: 60px;
+    }
     .Webdesignmemorable >h2{
         margin-top: 20px;
         font-size: 35px;
