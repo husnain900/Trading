@@ -11,7 +11,7 @@ const BlueBannar = ({ title, listItems, scrollImageSrc, backgroundImage, reverse
           <div className="col-12 col-lg-6">
             <div className="blue-banner-c-w">
               <h1>{title}</h1>
-              <ul className="bannar-list mt-5 mt-lg-0 p-0">
+              <ul className="bannar-list mt-2 mt-lg-0 p-0">
                 {listItems.map((item, index) => (
                   <li key={index}>
                     {item}
@@ -20,7 +20,7 @@ const BlueBannar = ({ title, listItems, scrollImageSrc, backgroundImage, reverse
               </ul>
             </div>
           </div>
-          <div className="col-12 col-md-6">
+          <div className="col-12 col-md-2">
             {/* Place for additional content, image, or any other element */}
           </div>
         </div>

@@ -38,7 +38,7 @@ const Equinix = () => {
                     Over 150+ financial services firms and 20+ trading venues. <br />
                     Supports the storage, connectivity and compliance needs of payment services providers.
                 </p>
-                <img className="HostingMapimages w-100 h-auto px-0 px-lg-5 my-5" src="Assets/Images/map2.png" alt="" />
+                <img className="HostingMapimages w-100 h-auto px-0 px-lg-5 my-4 my-lg-5" src="Assets/Images/map2.png" alt="" />
             </div>
         </div>
     )

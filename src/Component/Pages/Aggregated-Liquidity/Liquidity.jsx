@@ -2,7 +2,7 @@
 const Liquidity = () => {
     return (
         <div className="container">
-            <div className="row my-5">
+            <div className="row my-5 pt-lg-5 pt-1">
                 <div className="col-12 col-md-10 ">
                     <h1 className="section-title text-start text-larger p-0 pb-lg-2" >
                         Liquidity Management

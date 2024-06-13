@@ -20,8 +20,8 @@ const MajorCards = () => {
 
     return (
         <div className="container">
-            <div className="row my-5">
-                <h3 className="section-title my-4 my-lg-5 ">Major liquidities providers in our ecosystem</h3>
+            <div className="row my-5 pb-1 pb-lg-5">
+                <h3 className="section-title my-4 my-lg-5 pt-1 pt-lg-5">Major liquidities providers in our ecosystem</h3>
                 {partners.map((partner) => (
                     <div
                         key={partner.alt} // Use a unique key for each item

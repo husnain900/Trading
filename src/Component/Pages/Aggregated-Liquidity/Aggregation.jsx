@@ -5,7 +5,7 @@ const Gateway = () => {
             <div className="row">
                 <div className="col-1 d-none d-md-block"></div>
                 <div className="col-12 col-md-10">
-                    <h3 className="bluetitle text-black text-center fw-bold my-4 my-lg-5 px-0 px-lg-5">
+                    <h3 className="bluetitle text-black text-center fw-bold my-4 my-lg-5 liquidity-title">
                         Benefits of Athena liquidity aggregation
                     </h3>
                     <p className="d-block d-lg-none section-text2 text-center my-4">Aggregate as many liquidity providers as you need for the best pricing</p>

@@ -31,7 +31,7 @@ const Equinix2 = () => {
                 </div>
                 <BlueBox certifications={certifications} dataCenterFacts={dataCenterFacts} />
                 <p className="section-text2 HostingpageP">Equinix Financial Exchange with low latency connectivity to a large ecosystem of financial firms including BATS, CBOE, ICAP, Knight Capital, ISE and BOX. </p>
-                <img className="HostingMapimages w-100 h-auto px-2 px-lg-5 my-5" src="Assets/Images/map3.png" alt="" />
+                <img className="HostingMapimages w-100 h-auto px-2 px-lg-5 my-4 my-lg-5" src="Assets/Images/map3.png" alt="" />
             </div>
         </div>
     )

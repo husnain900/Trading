@@ -5,10 +5,11 @@ import Liquidity from "./Liquidity";
 import Gateway from "./Gateway";
 import Aggregation from "./Aggregation";
 import Infrastructure from "./Infrastructure";
+import "./AggregatedLiquidity.css";
 
 const AggregatedLiquidity = () => {
     const listItems = [
-     "Customized Liquidity Pools | Competitive Quote Aggregation | Multi-Tiered Bid/Offer System | Liquidity Management | Enhancing Transaction Efficiency"
+        "Customized Liquidity Pools | Competitive Quote Aggregation | Multi-Tiered Bid/Offer System | Liquidity Management | Enhancing Transaction Efficiency"
 
     ];
     return (
@@ -21,7 +22,7 @@ const AggregatedLiquidity = () => {
                 </title>
             </Helmet>
             <BlueBannar
-                 title={["Precision Liquidity, ", <br />, "Optimized Outcomes at Athena"]}
+                title={["Precision Liquidity, ", <br />, "Optimized Outcomes at Athena"]}
                 imageSrc="Assets/Images/aggregated.png"
                 listItems={listItems}
                 scrollImageSrc="Assets/Images/scroll.png"

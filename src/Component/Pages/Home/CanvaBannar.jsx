@@ -29,7 +29,7 @@ function CanvaBannar() {
             Your browser does not support the video tag.
           </video>
         </div>
-        <div className="col-12 col-lg-4" id=''>
+        <div className="col-12 col-lg-4 p-lg-0" id=''>
           <div className="canvabanner-container text-center h-100" id='canvabanner_text'>
             <h2>Simplifying Your Path</h2>
             <h5>Complete IT Solutions for Trading and Brokerage Firms</h5>

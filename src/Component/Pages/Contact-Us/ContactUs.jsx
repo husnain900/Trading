@@ -104,7 +104,7 @@ const ContactUs = () => {
                 </Alert>
             </Snackbar>
             <div className="row my-5 ">
-                <div className="col-12 col-md-6 pe-0 pe-lg-5">
+                <div className="col-12 col-md-6 pe-lg-5">
                     <div className="">
                         <h3 style={{ color: "#444444" }} className="bluetitle text-start">
                             Contact Us
@@ -117,7 +117,7 @@ const ContactUs = () => {
                             {contactInfo.map((item) => (
                                 <li className="py-0" key={item.label}>
                                     <p style={{ color: "#444444" }}>
-                                    {"  "} {item.label}
+                                        {"  "} {item.label}
                                         {item.label === 'Email:' && (
                                             <a href={`mailto:${item.content}`}>{"  "} {item.content}</a>
                                         )}
@@ -134,7 +134,7 @@ const ContactUs = () => {
                         <img className="w-100 h-auto" src="Assets/Images/Conact-Us-Page-image-1.png" alt="" />
                     </div>
                 </div>
-                <div className="col-12 col-md-6 ps-0 ps-lg-5">
+                <div className="col-12 col-md-6 ps-lg-5">
                     <form className="form-section" onSubmit={handleSubmit}>
                         <div className="row">
                             <label className="fw-medium fs-5 pb-2" htmlFor="">Name</label>
@@ -148,6 +148,7 @@ const ContactUs = () => {
                                     name="firstName"
                                     value={formData.firstName}
                                     onChange={handleChange}
+                                    className="bg-white"
                                 />
                                 <label className="pt-1" htmlFor="">First</label>
                             </div>
@@ -161,6 +162,8 @@ const ContactUs = () => {
                                     name="lastName"
                                     value={formData.lastName}
                                     onChange={handleChange}
+                                    className="bg-white"
+
                                 />
                                 <label className="pt-1" htmlFor="">Last</label>
                             </div>
@@ -174,6 +177,8 @@ const ContactUs = () => {
                                         value={formData.timeZone}
                                         onChange={handleChange}
                                         label="Time Zone"
+                                        className="bg-white"
+
                                     >
                                         {timeZones.map((zone, index) => (
                                             <MenuItem key={index} value={zone.value}>
@@ -194,6 +199,8 @@ const ContactUs = () => {
                                         value={formData.time}
                                         onChange={handleChange}
                                         label="Preferred Contact Time"
+                                        className="bg-white"
+
                                     >
                                         {contactTimes.map((time, index) => (
                                             <MenuItem key={index} value={time}>
@@ -215,6 +222,8 @@ const ContactUs = () => {
                                     name="inquiries"
                                     value={formData.inquiries}
                                     onChange={handleChange}
+                                    className="bg-white"
+
                                 />
                             </div>
                         </div>
