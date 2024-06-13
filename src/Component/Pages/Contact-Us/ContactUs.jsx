@@ -116,8 +116,8 @@ const ContactUs = () => {
                         <ul className="p-0 mt-5">
                             <li><h6 className="fw-bold"> Athena Technology Limited (UK)</h6></li>
                             {contactInfo.map((item) => (
-                                <li className="py-0" key={item.label}>
-                                    <p className="m-0" style={{ color: "#444444" }}>
+                                <li className="" key={item.label}>
+                                    <p className="mt-2 mb-0" style={{ color: "#444444" }}>
                                         {"  "} {item.label}
                                         {item.label === 'Email:' && (
                                             <a href={`mailto:${item.content}`}>{"  "} {item.content}</a>

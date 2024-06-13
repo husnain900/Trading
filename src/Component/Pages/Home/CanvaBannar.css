@@ -19,13 +19,13 @@
 }
 
 #canvabanner_text>h2 {
-  font-size: 38px;
+  font-size: 40px;
   color: #0D99FF;
 }
 
 #canvabanner_text>h5 {
-  padding: 35px 80px;
-  font-size: 24px;
+  padding: 35px 90px;
+  font-size: 26px;
 
 }
 
@@ -38,7 +38,11 @@
   .canvabanner-container {
     margin-left: -65px;
     z-index: 1;
-    width: 480px;
+    width: 510px;
+  }
+
+  #canvabanner_text p {
+    word-spacing: 4px;
   }
 }
 
@@ -61,16 +65,5 @@
 
   #canvabanner_text p {
     font-size: 16px;
-  }
-}
-
-@media (min-width: 1566px) {
-  .canvabanner-container {
-    width: 500px;
-  }
-
-  #canvabanner_text>h5 {
-    padding: 30px 80px;
-
   }
 }
