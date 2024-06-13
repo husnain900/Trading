@@ -37,7 +37,17 @@ function WebDesignSection2() {
         
         <div className="row" >
             <div className="col-12 webdesigns2_image">
+           
+            <div className="d-block d-md-none">
+          
+            <p className="py-4 section-text2 text-black">UX design collects and analyzes a massive amount of data to target the customer’s wants and enhance their experience.</p>
+            <p className="section-text2 text-black">On the other side, UI design involves the website’s visual presence – the look, feel, and operation experience.</p>
+          </div>
                 <img src="/images/webuiesign.png" alt="images"></img>
+                <div className="d-block d-md-none">
+            <p className="section-text2 text-black">Together, UX and UI create a product that is tailored to your customer while communicating your brand’s image, purpose, strengths, in an aesthetically pleasing way. This online, integrated experience we create will connect your company to the people who matter the most.  </p><br/><br/>
+           
+          </div>
             </div>
         </div>
         </div>
