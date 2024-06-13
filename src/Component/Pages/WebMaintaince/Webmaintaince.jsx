@@ -6,12 +6,10 @@ import WebmaintainceSection4 from "./WebmaintainceSection4"
 function Webmaintaince() {
   return (
     <div>
-        <WebmaintainceBanner/>
-        <WebmaintainceSection2/>
-        <WebmaintainceSection3/>
-        <WebmaintainceSection4/>
-        
-
+      <WebmaintainceBanner />
+      <WebmaintainceSection2 />
+      <WebmaintainceSection3 />
+      <WebmaintainceSection4 />
     </div>
   )
 }
