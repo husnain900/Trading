@@ -10,42 +10,43 @@ function WebmaintainceSection3() {
                     </div>
                 </div>
 
-                <div className="row  digitalmarketingsection3s2c1 " >
-
-                    <div className=" col-12  col-xl-4 col-md-5 digitalmarketingsection3sc1 d-flex align-items-center">
-
-                        <h3 >Multiple web servers across different data centers.</h3>
-
-                    </div>
-                    <div className="col-xl-4 col-md-3 col-12"></div>
-                    <div className=" col-12 col-md-4 ">
-                        <div className="digitalmarketingsection3sc1 webmaintaincesectioncol d-flex align-items-center w-100">
-                            <h3 >CPU utilization support for high traffics .</h3>
+                <div className="d-none d-lg-block">
+                    <div className="row  digitalmarketingsection3s2c1 " >
+                        <div className=" col-12  col-xl-4 col-md-5 digitalmarketingsection3sc1 d-flex align-items-center">
+                            <h3 >Multiple web servers across different data centers.</h3>
                         </div>
-
-
+                        <div className="col-xl-4 col-md-3 col-12"></div>
+                        <div className=" col-12 col-md-4 ">
+                            <div className="digitalmarketingsection3sc1 webmaintaincesectioncol d-flex align-items-center w-100">
+                                <h3 >CPU utilization support for high traffics .</h3>
+                            </div>
+                        </div>
                     </div>
-
-
-
                 </div>
 
                 <div className="row d-flex justify-content-center">
                     <div className=' col-12  col-md-12  webmaintenanceSection3img ' style={{ zIndex: "1" }}>
                         <img src='/images/webhosting.png'></img>
-                    </div></div>
-                <div className="row">
-
-                    <div className=" col-12 col-md-7 giditalmarketingsection3col d-flex align-items-center w-100">
-
-                        <h3>Load balancing and autoscaling resources.</h3>
-
                     </div>
-
                 </div>
-
-
-
+                <div className="d-block d-lg-none">
+                    <div className="row  digitalmarketingsection3s2c1 " >
+                        <div className=" col-12  col-xl-4 col-md-5 digitalmarketingsection3sc1 d-flex align-items-center">
+                            <h3 >Multiple web servers across different data centers.</h3>
+                        </div>
+                        <div className="col-xl-4 col-md-3 col-12"></div>
+                        <div className=" col-12 col-md-4 my-4 ">
+                            <div className="digitalmarketingsection3sc1 webmaintaincesectioncol d-flex align-items-center w-100">
+                                <h3 >CPU utilization support for high traffics .</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className=" col-12 col-md-7 giditalmarketingsection3col d-flex align-items-center w-100">
+                        <h3>Load balancing and autoscaling resources.</h3>
+                    </div>
+                </div>
             </div>
         </div>
     )
