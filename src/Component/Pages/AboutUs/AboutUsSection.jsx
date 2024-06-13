@@ -94,16 +94,18 @@ function AboutUsSection() {
           </div>
         </div>
         <div className="col-12 col-lg-6">
-          {sections.map((section, index) => (
-            <div key={index}>
-              <h5 className='fw-bold SectionTitleLastAbout4'>{section.title}</h5>
-              <ul className='custom-list AboutSectionListp'>
-                {section.items.map((item, itemIndex) => (
-                  <li key={itemIndex}><b>•</b>{item}</li>
-                ))}
-              </ul>
-            </div>
-          ))}
+        {sections.map((section, index) => (
+  <div key={index}>
+    <h5 className='fw-bold SectionTitleLastAbout4'>{section.title}</h5>
+    <ol className='custom-list AboutSectionListp'>
+      {section.items.map((item, itemIndex) => (
+        <li key={itemIndex}>{item}</li>
+      ))}
+    </ol>
+  </div>
+))}
+
+
         </div>
       </div>
     </div>
