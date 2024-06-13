@@ -20,9 +20,17 @@ function DigitalMarketingSection5() {
             <p className="section-text2 text-black">This means your company is easily visible to the public, and potential customers are directly sent to your site rather than your competitors.</p>
           </div>
         </div>
-    </div>
 
-</div>
+
+      </div>
+
+      <div className="row Digitalmarketingsection2image ">
+        <div className="col-12 BrandIdentitys3_image Digitalmarketingsection4images ">
+          <img src="/images/digitalmarketing3.png" alt="images"></img>
+        </div>
+      </div>
+
+    </div>
   )
 }
 
