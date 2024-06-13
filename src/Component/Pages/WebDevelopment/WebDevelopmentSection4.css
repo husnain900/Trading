@@ -35,8 +35,14 @@ color: white;
         width: 100%;
         margin-top: -220px;
     }
+    .WebdesignS4Mobile{
+        margin-top: -150px;
+    }
 
     @media (max-width: 992px) {
+        .WebdesignS4Mobile{
+            margin-top: 0px;
+        }
 
         .webdevelopmentsection4textc1 >h3 , .webdevelopmentsection4textc2>h3{
             background-color: #0E1B36;
@@ -69,6 +75,9 @@ color: white;
             }
     }
     @media (max-width: 768px) {
+        .WebdesignS4Mobile{
+            margin-top: 300px;
+        }
         .webdevelopmentsection4textc1 >h3 {
             margin: 0 0px 0 0px;
             }
@@ -103,4 +112,8 @@ color: white;
                 .webDevelopmentSection4text {
                     padding-top: 350px;
                 }
+                    .WebdesignS4Mobile{
+                        margin-top: 60px;
+                    }
+                
     }
