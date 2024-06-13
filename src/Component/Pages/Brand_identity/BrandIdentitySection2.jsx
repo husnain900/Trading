@@ -14,8 +14,16 @@ function BrandIdentitySection2() {
         </div>
 
         <div className="row" >
-            <div className="col-12 BrandIdentitys3_image">
-                <img src="/images/brandidentitys3.png" alt="images"></img>
+            <div className="col-12 BrandIdentitys3_image ">
+                <img className="BrandImagedisplayno" src="/images/brandidentitys3.png" alt="images"></img>
+                <div className="BrandImagedisplaysmallscreen">
+                <img  src="/images/Brand1.png" alt="images"></img>
+                <img  src="/images/Brand2.png" alt="images"></img>
+                <img  src="/images/Brand3.png" alt="images"></img>
+                <img  src="/images/Brand4.png" alt="images"></img>
+                <img  src="/images/Brand5.png" alt="images"></img>
+                <img  src="/images/Brand6.png" alt="images"></img>
+                </div>
             </div>
         </div>
 
