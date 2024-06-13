@@ -16,7 +16,7 @@ To set your business apart from the crowd, Athena analyzes the trends of competi
     
     </div>
 
-    <div className="row Digitalmarketingsection2image ">
+    <div className="row Digitalmarketingsection2image  DigitalmarketingSectionimagetop">
         <div className="col-12 Digitalmarketingsection4images">
             <img src="/images/search-engine.png" alt="images"></img>
         </div>

@@ -3,10 +3,16 @@
     padding-top: 100px;
 
 }
+.DigitalmarketingSectionimagetop{
+    margin-top: -250px;
+}
 .Digitalmarketingsection4images>img{
     width: 100%;
-    margin-top: -200px;
-    margin-bottom: 70px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.DigitalmarketingSectionimagetop{
+    margin-top: 20px;
 }
 @media (max-width: 768px) {
     .Digitalmarketingsection4images>img{

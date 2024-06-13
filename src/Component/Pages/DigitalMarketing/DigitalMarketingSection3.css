@@ -13,8 +13,9 @@
     width: 100%;
     margin-top: -100px;
     margin-bottom: -270px;
-   
+ 
 }
+
 .giditalmarketingsection3col>h3{
     background-color: #0E1B36;
 padding:70px  50px;
@@ -25,6 +26,9 @@ color: white;
     margin-top: -500px;
     display: flex;
     align-items: end;
+}
+.digitalamrketingSection3dublicate{
+    margin-top: 0px;
 }
 .digitalmarketingsection3sc1>h3{
     background-color: #0E1B36;
