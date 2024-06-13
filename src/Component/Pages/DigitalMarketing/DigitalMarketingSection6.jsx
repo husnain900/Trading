@@ -14,10 +14,9 @@ function DigitalMarketingSection6() {
       <div className="row Digitalmarketingsection2image  ">
         <div className="col-12 BrandIdentitys3_image Digitalmarketingsection4images">
           <img src="/images/digitalmarketing4.png" alt="images"></img>
-          <div className="d-block d-md-none">
+          <div className="d-block d-md-none mt-4">
             <p className="section-text2 text-black">Social media marketing is a powerful tool to appeal to targeted audiences through the use of strategic campaigns.</p>
             <p className="py-4 section-text2 text-black">Some examples include micro/macro influencer involvement, large-scale advertisement implementation, community group cultivation, and social listening. The end result is an increase in brand awareness, a broader customer base, and higher rates of customer conversion.</p>
-
           </div>
         </div>
       </div>
