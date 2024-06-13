@@ -1,220 +1,251 @@
-.BrandIdentitySectionBgimg{
+.BrandIdentitySectionBgimg {
   background-image: url('/images/bgs3.jpg');
-  background-size: cover; 
-  background-position: center; 
-  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   width: 100%;
 }
 
 
 
-.BRandIdentityStrategy > h2 {
-    font-size: 35px;
-    font-weight: 700;
-    padding: 20px 30px 0px 30px;
-  }
-  .BRandIdentityStrategy > h3 {
-    font-size: 35px;
-    font-weight: 500;
-    padding: 0 30px;
-    color: #5584ff;
-  }
-  .StrategyBrandConvey {
-    margin-top: 100px;
-    background-image: url('/images/bg1.PNG');
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 330px; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 25px 50px;
+.BRandIdentityStrategy>h2 {
+  font-size: 35px;
+  font-weight: 700;
+  padding: 20px 30px 0px 30px;
 }
-.StrategyBrandConvey>p{
-font-size: 20px;
-color: white;
-padding: 20px 0 0 20px;
+
+.BRandIdentityStrategy>h3 {
+  font-size: 35px;
+  font-weight: 500;
+  padding: 0 30px;
+  color: #5584ff;
+}
+
+.StrategyBrandConvey {
+  margin-top: 100px;
+  background-image: url('/images/bg1.PNG');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 330px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 50px;
+}
+
+.StrategyBrandConvey>p {
+  font-size: 20px;
+  color: white;
+  padding: 20px 0 0 20px;
 }
 
 .BrandIdentityStrategyInnerS2C4 {
-  padding:70px 50px;
+  padding: 70px 50px;
 
   background-image: url('/images/bg2.png');
-  background-size: cover; 
-  background-position: center; 
-  background-repeat: no-repeat; 
-  width: 100%; 
-  height: 460px; 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 460px;
   margin-top: -130px;
 }
 
-.BrandIdentityStrategyInnerS2C4>p{
+.BrandIdentityStrategyInnerS2C4>p {
   font-size: 20px;
   color: white;
   padding-top: 20px;
+}
+
+.BrandIdentityStrategyInnerS2C8 {
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 50px;
+  background-image: url('/images/bg3.PNG');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 330px;
+}
+
+.BrandIdentityStrategyInnerS2C8>p {
+  font-size: 20px;
+  color: white;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.strategyimagec8>img {
+  margin-left: -200px;
+  width: -webkit-fill-available;
+}
+
+.BRandIdentityStrategy_ROwS2 {
+  padding-top: 150px;
+}
+
+.strategys3c2 {
+  margin-top: 40px;
+}
+
+@media (max-width: 1100px) {
+  .strategyimage>img {
+    width: 100%;
   }
+
+  .BRandIdentityStrategy>h3 {
+    font-size: 28px;
+  }
+
+  .StrategyBrandConvey {
+    height: 290px;
+  }
+
+  .BRandIdentityStrategy>h2 {
+    font-size: 35px;
+    padding: 20px 10px 0px 10px;
+  }
+
+  .BRandIdentityStrategy>h3 {
+    font-size: 28px;
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 992px) {
+
+
+  .StrategyBrandConvey {
+    margin-top: 20px;
+    height: 200px;
+    padding: 10px;
+  }
+
+  .BRandIdentityStrategy>h2 {
+    font-size: 32px;
+    padding: 20px 10px 0px 10px;
+  }
+
+  .BRandIdentityStrategy>h3 {
+    font-size: 24px;
+    padding: 0 10px;
+  }
+
+  .StrategyBrandConvey>img {
+    width: 70px;
+  }
+
+  .StrategyBrandConvey>p,
+  .BrandIdentityStrategyInnerS2C4>p {
+    font-size: 16px;
+  }
+
+  .BrandIdentityStrategyInnerS2C4 {
+    padding: 20px;
+    height: 360px;
+    margin-top: 240px;
+  }
+
   .BrandIdentityStrategyInnerS2C8 {
-    margin-left: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 25px 50px;
-    background-image: url('/images/bg3.PNG');
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    width: 100%; 
-    height: 330px; 
+    height: 230px;
   }
-  .BrandIdentityStrategyInnerS2C8 >p{
-    font-size: 20px;
+
+  .BrandIdentityStrategyInnerS2C8>p {
+    font-size: 16px;
     color: white;
     padding-top: 20px;
     padding-left: 20px;
   }
- .strategyimagec8> img{
-margin-left: -200px;
-width: -webkit-fill-available;
- }
 
-  .BRandIdentityStrategy_ROwS2{
-   padding-top: 150px;
+  .BRandIdentityStrategy_ROwS2 {
+    padding-top: 100px;
   }
-  .strategys3c2{
-    margin-top: 40px;
-  }
-  @media  (max-width: 1100px) {
-    .strategyimage> img{
-      width: 100%;
-       }
-       .BRandIdentityStrategy > h3 {
-        font-size: 28px;
-      }
-      .StrategyBrandConvey {
-        height: 290px; 
-    }
-    .BRandIdentityStrategy > h2 {
-      font-size: 35px;
-      padding: 20px 10px 0px 10px;
-    }
-    .BRandIdentityStrategy > h3 {
-      font-size: 28px;
-      padding: 0 10px;
-    }
+}
+
+@media (max-width: 768px) {
+  .StrategyBrandConvey {
+    height: 100%;
   }
 
-  @media  (max-width: 992px) {
-   
-     
-      .StrategyBrandConvey {
-        margin-top: 20px;
-        height: 200px; 
-        padding: 10px;
-    }
-    .BRandIdentityStrategy > h2 {
-      font-size: 32px;
-      padding: 20px 10px 0px 10px;
-    }
-    .BRandIdentityStrategy > h3 {
-      font-size: 24px;
-      padding: 0 10px;
-    }
-    .StrategyBrandConvey>img {
-   width: 70px ;
-  }
-  .StrategyBrandConvey>p , .BrandIdentityStrategyInnerS2C4>p{
-    font-size: 16px;
-    }
-
-    .BrandIdentityStrategyInnerS2C4 {
-      padding:20px;
-      height: 360px; 
-      margin-top: -130px;
-    }
-    .BrandIdentityStrategyInnerS2C8 {
-      height: 230px; 
-    }
-    .BrandIdentityStrategyInnerS2C8 >p{
-      font-size: 16px;
-      color: white;
-      padding-top: 20px;
-      padding-left: 20px;
-    }
-    .BRandIdentityStrategy_ROwS2 {
-      padding-top: 100px;
-  }
-  }
-  @media  (max-width: 768px) {
-    .StrategyBrandConvey {
-     height: 100%;
-  }
-  .strategyimage> img {
+  .strategyimage>img {
     margin-top: 250px;
   }
-    .StrategyBrandConvey>p , .BrandIdentityStrategyInnerS2C4>p {
-      font-size: 22px;
-      padding: 20px;
-    }
-      .StrategyBrandConvey>img {
-        width: 200px;
-    }
-    .BrandIdentityStrategyInnerS2C8 {
-      height: 230px;
-      margin-top: 50px;
-      margin-left: 0px;
+
+  .StrategyBrandConvey>p,
+  .BrandIdentityStrategyInnerS2C4>p {
+    font-size: 22px;
+    padding: 20px;
   }
-  .strategyimagec8> img {
+
+  .StrategyBrandConvey>img {
+    width: 200px;
+  }
+
+  .BrandIdentityStrategyInnerS2C8 {
+    height: 230px;
+    margin-top: 50px;
+    margin-left: 0px;
+  }
+
+  .strategyimagec8>img {
     margin-left: 0px;
     margin-top: 200px;
-}
-      }
-
-      @media  (max-width: 576px) {
-        .StrategyBrandConvey {
-          height: auto;
-      }
-    
-    .strategyimage> img {
-      margin-top: 20px;
   }
+}
+
+@media (max-width: 576px) {
+  .StrategyBrandConvey {
+    height: auto;
+  }
+
+  .strategyimage>img {
+    margin-top: 20px;
+  }
+
   .BrandIdentityStrategyInnerS2C8 {
     height: 180px;
     margin-top: 40px;
     margin-left: 0px;
     margin-left: 0px;
     padding: 20px;
-}
+  }
 
-.BrandIdentityStrategyInnerS2C8 >p {
-  font-size: 18px;
-  padding-left: 10px;
-}
-.StrategyBrandConvey>p, .BrandIdentityStrategyInnerS2C4>p {
-  font-size: 18px;
-  padding-left: 10px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-/* .BrandIdentityStrategyInnerS2C8 {
+  .BrandIdentityStrategyInnerS2C8>p {
+    font-size: 18px;
+    padding-left: 10px;
+  }
+
+  .StrategyBrandConvey>p,
+  .BrandIdentityStrategyInnerS2C4>p {
+    font-size: 18px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  /* .BrandIdentityStrategyInnerS2C8 {
 
   height: 200px; 
       } */
 
-      .BrandIdentityStrategyInnerS2C4 {
-   
-        height: auto;
-        margin-top: 0px;
-    }
-    .BrandIdentityStrategyInnerS2C8 {
-      height: auto;
+  .BrandIdentityStrategyInnerS2C4 {
+
+    height: auto;
+    margin-top: 0px;
   }
-  .strategyimagec8> img {
+
+  .BrandIdentityStrategyInnerS2C8 {
+    height: auto;
+  }
+
+  .strategyimagec8>img {
     margin-left: 0px;
     margin-top: 50px;
   }
- 
 
-    }
 
-  
+}

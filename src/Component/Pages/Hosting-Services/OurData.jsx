@@ -20,9 +20,9 @@ const OurData = () => {
         <div className="">
             <div className="container">
                 <div className="row my-5">
-                    <div className="col-12 col-md-10 col-lg-7">
+                    <div className="col-12 col-md-10 col-lg-6">
                         <h1
-                            className="section-title text-larger"
+                            className="section-title text-larger pb-1 pb-lg-4"
                             style={{
                                 color: '#0e1b36',
                                 textAlign: 'left'

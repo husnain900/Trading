@@ -34,4 +34,7 @@
     .HostingMapimages {
         padding: 0 140px !important;
     }  
+    .hosting-page .section-title {
+        font-size: 37px;
+    }
 }

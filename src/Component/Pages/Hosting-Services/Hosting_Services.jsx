@@ -11,7 +11,7 @@ const Hosting_Services = () => {
         '100% Uptime SLA | 99.9999% Data Center Uptime Free DDoS Protection Optimized for Brokers'
     ];
     return (
-        <div>
+        <div className="hosting-page">
             <Helmet>
                 <title>
                     Hosting Service - fathena

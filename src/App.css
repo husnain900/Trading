@@ -39,7 +39,6 @@ a {
     line-height: 24px;
     color: #b7c0d5;
     text-align: center;
-
     padding: 0 15%;
 }
 
@@ -52,7 +51,7 @@ a {
 }
 
 .text-larger {
-    font-size: 65px;
+    font-size: 65px !important;
 }
 
 ul li {
@@ -62,7 +61,7 @@ ul li {
 
 @media (max-width: 575.98px) {
     .text-larger {
-        font-size: 34px;
+        font-size: 34px !important;
     }
 
     .section-text {
@@ -79,6 +78,7 @@ ul li {
     .text-larger {
         font-size: 52px;
     }
+
     .box-blue {
         padding: 22px !important;
     }

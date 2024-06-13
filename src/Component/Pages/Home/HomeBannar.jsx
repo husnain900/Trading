@@ -6,7 +6,7 @@ const HomeBannar = () => {
 
     return (
         <div className="container">
-            <div className="row align-items-center   " style={{margin:'100px 0'}}>
+            <div className="row align-items-center BrandSPaceHomePage my-5 ">
                 <div className="col-12 col-md-6">
                     <img style={{ filter: 'grayscale(100%)' }} className="w-100 h-auto" src="Assets/Images/about.png" alt="" />
                 </div>

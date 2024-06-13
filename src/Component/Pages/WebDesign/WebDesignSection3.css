@@ -1,42 +1,49 @@
-.Webdesignsectioncontainer1st{
+.Webdesignsectioncontainer1st {
     padding-bottom: 400px;
 }
+
 .webDesignSection3text {
     padding-top: 500px;
 }
-.webDesignSection3text >h2{
+
+.webDesignSection3text>h2 {
     font-size: 65px;
     font-weight: 700;
     text-align: center;
-    padding:  0 50px;
+    padding: 0 50px;
 }
-.webDesignSection3text >h3{
+
+.webDesignSection3text>h3 {
     font-size: 35px;
     color: white;
     text-align: center;
     padding-bottom: 100px;
 }
-.webdesignSection3img>img{
-width: 100%;
-margin: 50px 0;
+
+.webdesignSection3img>img {
+    width: 100%;
+    margin: 50px 0;
 }
-.webdesignSection3c2>h3{
+
+.webdesignSection3c2>h3 {
     font-size: 20px;
     color: white;
 }
+
 @media (max-width: 992px) {
-    .webDesignSection3text >h2{
-        padding:  0px;
+    .webDesignSection3text>h2 {
+        padding: 0px;
     }
-  
-    .webdesignSection3img>img{
+
+    .webdesignSection3img>img {
         margin: 10px 0;
-        }
-        .WebDesignerSection {
-            margin-top: -400px;
-            margin-bottom: -400px;
-            padding-bottom: 150px;
-        }
+    }
+
+    .WebDesignerSection {
+        margin-top: -400px;
+        margin-bottom: -400px;
+        padding-bottom: 150px;
+    }
 }
 
 
@@ -46,19 +53,43 @@ margin: 50px 0;
         margin-bottom: -170px;
         padding-bottom: 150px;
     }
+
     .webDesignSection3text {
         padding-top: 0px;
     }
-    .webDesignSection3text >h2{
+
+    .webDesignSection3text>h2 {
 
         font-size: 36px;
     }
-    .webDesignSection3text >h3 {
+
+    .webDesignSection3text>h3 {
         font-size: 22px;
         color: black;
         padding-bottom: 70px;
     }
+
     .Webdesignsectioncontainer1st {
         padding-bottom: 0px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 867.98px) {
+    .Webdesignsectioncontainer1st {
+        padding-bottom: 400px !important;
+    }
+
+    .webdesignSection3c2>h3 {
+        color: black !important;
+    }
+
+    .webDesignSection3text>h3 {
+        color: black !important;
+
+    }
+
+    .WebdesignS4Mobile {
+        margin-top: 0px !important;
     }
 }
