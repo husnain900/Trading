@@ -1,7 +1,9 @@
 .canvabanner-container {
   background-color: black;
   color: white;
-  padding: 20px;
+  margin-left: -65px;
+  z-index: 1;
+  width: 470px;
 }
 
 .media-wrapper {
@@ -18,19 +20,13 @@
   display: none;
 }
 
-.canvabanner-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 #canvabanner_text>h2 {
   font-size: 38px;
   color: #0D99FF;
 }
 
 #canvabanner_text>h5 {
-  padding: 30px 30px;
+  padding: 30px 80px;
   font-size: 24px;
 
 }
@@ -73,8 +69,9 @@
   .canvabanner-container {
     width: 500px;
   }
+
   #canvabanner_text>h5 {
     padding: 30px 80px;
-  
+
   }
 }
