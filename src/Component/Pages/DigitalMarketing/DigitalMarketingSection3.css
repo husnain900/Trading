@@ -78,12 +78,14 @@ color: white;
        
     }
     .digitalmarketingsection3sc1>h3 {
-        padding: 30px  20px;
-        font-size: 16px;
+        padding: 30px 20px;
+        font-size: 20px;
+        width: 100%;
     }
     .giditalmarketingsection3col>h3 {
-        padding: 30px  20px;
-        font-size: 16px;
+        padding: 30px 20px;
+        font-size: 20px; 
+        width: 100%;
     }
     .DigitalmarketingSection3text {
         padding-top: 350px;
