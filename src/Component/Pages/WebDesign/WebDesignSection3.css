@@ -76,8 +76,12 @@
 }
 
 @media (min-width: 576px) and (max-width: 867.98px) {
+
     .Webdesignsectioncontainer1st {
         padding-bottom: 400px !important;
+    }
+    .Webdesignsectioncontainer1st{
+padding-bottom: 50px !important;
     }
 
     .webdesignSection3c2>h3 {

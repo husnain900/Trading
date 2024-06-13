@@ -2,7 +2,7 @@ import "./DigitalMarketingSection3.css";
 function DigitalMarketingSection3() {
     return (
         <div className='BrandIdentitySectionBgimg  webdevelopmentbgection4'>
-            <div className="container Webdesignsectioncontainer1st DigitalMarketingContainer">
+            <div className="container Webdesignsectioncontainer1st  DigitalMarketingContainer">
                 <div className="row d-flex justify-content-center flex-column align-content-around ">
                     <div className="   col-xl-6 col-md-9 col-lg-7 col-12   DigitalmarketingSection3text ">
                         <h2>Email Marketing</h2>
