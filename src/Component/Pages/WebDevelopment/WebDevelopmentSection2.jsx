@@ -1,4 +1,4 @@
-
+import "./WebDevelopmentSection2.css"
 function WebDevelopmentSection2() {
   return (
     <div className="container">
@@ -12,7 +12,7 @@ function WebDevelopmentSection2() {
     </div>
 
     <div className="row" >
-        <div className="col-12 BrandIdentitys3_image">
+        <div className="col-12 BrandIdentitys3_image webdevs2img">
             <img src="/images/webdevelopmentprocess.png" alt="images"></img>
         </div>
     </div>

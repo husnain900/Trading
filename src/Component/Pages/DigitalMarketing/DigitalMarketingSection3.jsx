@@ -4,7 +4,7 @@ function DigitalMarketingSection3() {
     <div className='BrandIdentitySectionBgimg  webdevelopmentbgection4'>
     <div className="container Webdesignsectioncontainer1st">
         <div className="row d-flex justify-content-center flex-column align-content-around ">
-    <div className="   col-xl-6 col-md-7 col-12   DigitalmarketingSection3text ">
+    <div className="   col-xl-6 col-md-9 col-lg-7 col-12   DigitalmarketingSection3text ">
             <h2>Email Marketing</h2>
 <h3>Email marketing is one of the most consistent and personal ways to connect with existing customers and keep them engaged with your brand.</h3>
         </div>

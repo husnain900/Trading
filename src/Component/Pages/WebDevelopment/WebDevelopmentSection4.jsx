@@ -2,7 +2,7 @@ import "./WebDevelopmentSection4.css";
 function WebDevelopmentSection4() {
   return (
     <div className='BrandIdentitySectionBgimg  webdevelopmentbgection4'>
-    <div className="container Webdesignsectioncontainer1st">
+    <div className="container Webdesignsectioncontainer1st WebDevSectioncontainer4">
         <div className="row d-flex justify-content-center flex-column align-content-around ">
     <div className="   col-xl-6 col-md-7 col-12  webDevelopmentSection4text ">
             <h2>Application Development</h2>

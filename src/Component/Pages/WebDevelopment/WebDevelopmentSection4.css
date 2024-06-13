@@ -50,9 +50,22 @@ color: white;
             .webdevelopmentsection4textc2>h3{
                 margin: 100px 0px 0 80px;  
             }
-            .webdevelopmentSection4img >img{
-               
+            .webdevelopmentSection4img >img{  
                 margin-top: -150px;
+            }
+            .webDevelopmentSection4text >h2{
+                padding:  0px;
+            }
+            .webDevelopmentSection4text {
+                padding-top: 500px;
+            }
+            .webDevelopmentSection4text >h3{
+             
+               padding: 0px ;
+                
+            }
+            .WebDevSectioncontainer4{
+                padding-bottom: 300px;
             }
     }
     @media (max-width: 768px) {
@@ -68,9 +81,26 @@ color: white;
             }
             .webDevelopmentSection4text >h2{
                 font-size: 40px;
+                
             }
             .webDevelopmentSection4text >h3{
                 font-size: 24px;
+               padding: 0px 30px 20px 30px;
                 
             }
+            .webDevelopmentSection4text {
+                padding-top: 500px;
+            }
+            .Webdesignsectioncontainer1st {
+                padding-bottom: 0px;
+            }
+            .WebDevSectioncontainer4{
+                padding-bottom: 30px;
+            }
+            
+        }
+            @media (max-width: 576px) {
+                .webDevelopmentSection4text {
+                    padding-top: 350px;
+                }
     }
