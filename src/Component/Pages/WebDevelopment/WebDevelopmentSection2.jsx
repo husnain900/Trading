@@ -14,6 +14,11 @@ function WebDevelopmentSection2() {
     <div className="row" >
         <div className="col-12 BrandIdentitys3_image webdevs2img">
             <img src="/images/webdevelopmentprocess.png" alt="images"></img>
+            <div className="d-block d-md-none">
+            <p className="section-text2 text-black">From the very instant customers see your website, they are forming thoughts and opinions about your brand.</p>
+            <p className="py-4 section-text2 text-black">That is why you need a professional and experienced site developer build your website into an informative, eye-catching, and seamless experience.</p>
+          
+          </div>
         </div>
     </div>
 
