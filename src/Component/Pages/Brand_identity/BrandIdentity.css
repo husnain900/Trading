@@ -39,9 +39,11 @@
   line-height: 24px;
   text-align: left;
 }
+
 .p-12 {
   padding: 0 12px;
 }
+
 @media (min-width: 992px) and (max-width: 1100px) {
   .Brand_Heading {
     font-size: 100px;
@@ -104,7 +106,7 @@
   .BrandIdentity_P {
     padding-top: 0px;
     padding-bottom: 150px;
- 
+
   }
 
   .BrandIdentity_P>p {
@@ -113,9 +115,20 @@
     padding-right: 50px;
 
   }
+
+
 }
 
 @media (max-width: 576px) {
+  .check-p p {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .check-p svg {
+    width: 22px;
+  }
+
   .Brand_Heading {
     font-size: 50px;
     padding-top: 70px;
@@ -142,8 +155,13 @@
     font-size: 16px;
     margin-bottom: 8px;
     color: black;
+    line-height: 20px;
     padding-right: 30px;
     z-index: 1;
+  }
+
+  .BrandIdentity_P svg {
+    width: 20px;
   }
 
   .sm-bg {
@@ -154,8 +172,9 @@
     z-index: 1;
     padding-bottom: 22px !important;
   }
+
   .BrandIdentity_P svg {
     color: #5584FF !important;
   }
-  
+
 }

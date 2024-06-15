@@ -19,7 +19,17 @@ function MetaTraders() {
                         </p>
                     </div>
                     <div className="col-12">
+                        <div className="d-block d-md-none mt-4">
+                            <p className="section-text2 text-black">Built-in social trading functions</p>
+                            <p className="py-4 section-text2 text-black">Multi-language options in over 20 languages</p>
+                            <p className="section-text2 text-black">Over 50 market analysis indicators</p>
+                        </div>
                         <img className="w-100 h-auto" src="Assets/Images/2nd.png" alt="" />
+                        <div className="d-block d-md-none">
+                            <p className="section-text2 text-black">Mobile, web and desktop versions</p>
+                            <p className="py-4 section-text2 text-black">Multi-currency account including cryptocurrencies</p>
+                            <p className="section-text2 text-black">Create your own trading robot</p>
+                        </div>
                     </div>
                 </div>
             </div>

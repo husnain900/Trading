@@ -17,7 +17,6 @@ function ButtonC({ text, to, onClick, icon, type = "button", ...props }) {
     };
 
     return (
-        <div className="">
             <Button
                 className="fathena-btn mt-3 mt-lg-4"
                 variant="contained"
@@ -30,7 +29,6 @@ function ButtonC({ text, to, onClick, icon, type = "button", ...props }) {
             >
                 {text}
             </Button>
-        </div>
     );
 }
 

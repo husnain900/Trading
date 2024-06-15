@@ -57,7 +57,6 @@ function DigitalMarketingSection7() {
           </div>
         </div>
       </div>
-
     </div>
   )
 }

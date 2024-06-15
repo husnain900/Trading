@@ -77,11 +77,16 @@ const GrideTrading = () => {
                         <div className={`card-trading my-5 py-0 py-lg-4  ${[1, 3, 5].includes(cardIndex) ? 'ms-0 ms-lg-auto' : ''}`}>
                             <img src={card.image} alt={card.title} />
                             <h3 style={{ fontSize: isMobile ? '28px' : '35px', padding: '0' }} className="section-title text-start">{card.title}</h3>
-                            <div className="check-p py-4">
+                            <div className="check-p  py-4">
                                 {card.items.map((item, itemIndex) => (
-                                    <p className="align-items-center  text-black d-flex gap-2" key={itemIndex}>
-                                        <IoCheckmarkCircle style={{ color: "#5584FF" }} size={22} /> {item}
-                                    </p>
+                                    <div className="d-flex gap-2 align-items-center py-1" key={itemIndex}>
+                                        <div className="check-t">
+                                            <IoCheckmarkCircle style={{ color: "#5584FF" }} size={20} />
+                                        </div>
+                                        <p className="text-black mb-0">
+                                            {item}
+                                        </p>
+                                    </div>
                                 ))}
                             </div>
                         </div>

@@ -49,6 +49,12 @@
         width: 80px;
     }
 
+    .check-svg svg {
+        width: 30px !important;
+    }
+    .MobileSection .MuiButton-root {
+       width: 200px !important;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 973.98px) {

@@ -61,13 +61,13 @@ function BrandIdentity() {
                             <div className="check-p">
                                 {items.map((item, index) => (
                                     <p
-                                        className="align-items-center text-black d-flex gap-2"
+                                        className="align-items-center text-black d-flex gap-1 gap-lg-2"
                                         key={index}
                                     >
                                         <IoCheckmarkCircle
                                             className="mb-1"
                                             style={{ color: "#5584FF" }}
-                                            size={18}
+                                            size={20}
                                         />{" "}
                                         {item}
                                     </p>
@@ -108,12 +108,12 @@ function BrandIdentity() {
                                 <div className="check-p ">
                                     {items2.map((item, index) => (
                                         <p
-                                            className="align-items-center  text-black d-flex gap-2"
+                                            className="align-items-center  text-black d-flex gap-1 gap-lg-2"
                                             key={index}
                                         >
                                             <IoCheckmarkCircle
                                                 style={{ color: "#5584FF" }}
-                                                size={18}
+                                                size={20}
                                             />{" "}
                                             {item}
                                         </p>
@@ -144,10 +144,10 @@ function BrandIdentity() {
                             <div className="check-p">
                                 {items3.map((item, index) => (
                                     <p
-                                        className="align-items-center text-black d-flex gap-2 "
+                                        className="align-items-center text-black d-flex gap-1 gap-lg-2 "
                                         key={index}
                                     >
-                                        <IoCheckmarkCircle style={{ color: "#5584FF" }} size={18} />{" "}
+                                        <IoCheckmarkCircle style={{ color: "#5584FF" }} size={20} />{" "}
                                         {item}
                                     </p>
                                 ))}
@@ -188,12 +188,12 @@ function BrandIdentity() {
                                 <div className="check-p ">
                                     {items4.map((item, index) => (
                                         <p
-                                            className="align-items-center text-black d-flex gap-2"
+                                            className="align-items-center text-black d-flex gap-1 gap-lg-2"
                                             key={index}
                                         >
                                             <IoCheckmarkCircle
                                                 style={{ color: "#5584FF" }}
-                                                size={18}
+                                                size={20}
                                             />{" "}
                                             {item}
                                         </p>
@@ -223,10 +223,10 @@ function BrandIdentity() {
                         <div className="check-p">
                             {items5.map((item, index) => (
                                 <p
-                                    className="align-items-center text-black d-flex gap-2"
+                                    className="align-items-center text-black d-flex gap-1 gap-lg-2"
                                     key={index}
                                 >
-                                    <IoCheckmarkCircle style={{ color: "#5584FF" }} size={18} />{" "}
+                                    <IoCheckmarkCircle style={{ color: "#5584FF" }} size={20} />{" "}
                                     {item}
                                 </p>
                             ))}
